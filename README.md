@@ -81,3 +81,26 @@ Schachregeln: chess.js. 3D: Three.js. Schriften: DM Sans und Playfair Display ü
 Weitere Prüfungen: `npm run test:server` prüft den optionalen Modellproxy gegen einen lokalen Mock. `npm run test:browser` setzt einen laufenden Vorschau-Server und installiertes Playwright-Chromium voraus (`npx playwright install chromium`); über `TEST_URL` lässt sich die Zieladresse ändern. Die Browserprüfung durchläuft alle vier Partien, Zeitschichten, Vergleich, Dialog, Reset und eine mobile Ansicht.
 
 `npm run test:journey` durchläuft die geführte Partie einschliesslich Informationssperre, Julies Entscheidung, Sitzungswiederaufnahme, Textprüfung, Export und Archivwechsel. Die reinen Zustandstests in `npm test` prüfen die Handlungsbedingungen auch unabhängig vom Browser.
+
+## Multiplayer für 2–5 Personen
+
+Auf der Website **Multiplayer · 2–5** öffnen, ein Pseudonym wählen und einen Raum erstellen. Den Einladungslink oder den zwölfstelligen Raumcode teilen. Alle spielen auf einem eigenen Gerät oder in einem getrennten Tab. Die Raumleitung startet, sobald alle 2–5 Personen im Warteraum sind; danach ist der Eintritt gesperrt.
+
+Das Brett und die Szene sind gemeinsam. Die angezeigte Person führt die Handlung aus. Bei Beck werden Baronin, Sophie, Carl, Julie und Rink auf die Plätze verteilt; bei weniger als fünf Personen übernimmt eine Person mehrere Rollen. Im ersten Schachspiel und im chinesischen Zimmer wechselt das Handlungsrecht nach einem Zug. Alle schreiben eigene begründete Urteile. Erst nach Abgabe aller Urteile wird der Vergleich sichtbar; abgegebene Urteile bleiben unverändert. Nach dem Gespräch klicken alle **Ich bin bereit** und die Raumleitung **Gemeinsam weiter**. Die Installation vergibt keine Punkte für philosophische Positionen.
+
+Ein Neuladen desselben Tabs stellt den Zugang wieder her. Nach einer Minute ohne Verbindung kann eine andere Person die Raumleitung übernehmen; getrennte Personen können entfernt werden, solange mindestens zwei im laufenden Raum bleiben. Das Verlassen löscht den persönlichen Zugang auf diesem Gerät. Ein Raum läuft nach 24 Stunden ab oder wird von der Raumleitung für alle geschlossen. Eigene Zugspuren lassen sich jederzeit, die gemeinsame Zugspur am Ende herunterladen.
+
+### Raumserver
+
+Die Oberfläche bleibt auf GitHub Pages. `multiplayer/worker.js` verwaltet Räume mit Cloudflare Durable Objects und SQLite. Spielzüge werden serverseitig gegen `src/journey-state.js` geprüft. Raumzugänge verwenden zufällige Tokens; der Server speichert nur deren Hashes. Einladungslinks enthalten ausschliesslich den Raumcode. Entwürfe bleiben im Browser; Pseudonyme und abgegebene Urteile werden bis zur Raumlöschung gespeichert. Die Raumdaten werden nicht an Sprachmodelle gesendet. Freigegebene Urteile sind für Mitglieder desselben Raums sichtbar. Der optionale Modellabruf übermittelt wie bisher nur den ausdrücklich angezeigten Textauftrag.
+
+```sh
+npm ci
+npm run multiplayer:dev
+# In einem zweiten Terminal:
+VITE_MULTIPLAYER_API=http://127.0.0.1:8788 npm run dev
+```
+
+`wrangler.jsonc` enthält Raum-Binding, SQLite-Migration und eine Begrenzung für neue Raum-/Beitrittsanfragen. Für ein eigenes Deployment `npx wrangler login`, dann `npm run multiplayer:deploy`; die öffentliche API-Adresse beim Frontend-Build über `VITE_MULTIPLAYER_API` setzen und die erlaubten Ursprünge im Worker anpassen. Keine Zugangsdaten gehören ins Frontend oder Git. Das Frontend-Deployment veröffentlicht den Worker nicht mit: Bei Serveränderungen zuerst den Worker separat deployen.
+
+Prüfung: `npm test` enthält vollständige Zwei- und Fünfpersonen-Durchläufe. Bei laufendem lokalem Worker und Vite prüfen `npm run test:multiplayer:api` und `npm run test:multiplayer:browser` echte Raumzugriffe und fünf getrennte Browser-Sitzungen. Die Browserprüfung leitet die voreingestellte öffentliche API für den Test auf Port 8788 um. Mit `LIVE=1 TEST_URL=https://patrickfischerksa.github.io/die-schachmaschine/ npm run test:multiplayer:browser` wird die veröffentlichte Installation getestet.

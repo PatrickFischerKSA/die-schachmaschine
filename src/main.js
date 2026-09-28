@@ -1,3 +1,4 @@
+import {createMultiplayer} from './multiplayer.js';
 import './style.css';
 import {createJourney} from './journey.js';
 import {beckEvidence,balkenRoutines} from './beck.js';
@@ -57,3 +58,5 @@ journey=createJourney({scene,drawBoard:renderBoard,chime,isLive:()=>live,onArchi
 if(new URLSearchParams(location.search).get('mode')==='archive')journey.pause();else journey.start();
 // Static GitHub Pages has no API; avoid a failing request there.
 if(!location.hostname.endsWith('github.io'))fetch('/api/status').then(r=>r.ok?r.json():null).then(s=>{live=!!s?.live;journey.refreshCapabilities();if(!journey.isActive()&&era===3)controls();}).catch(()=>{});
+
+createMultiplayer(journey);
