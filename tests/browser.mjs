@@ -4,7 +4,7 @@ const browser=await chromium.launch({headless:true,args:['--enable-webgl','--use
 try {
  const page=await browser.newPage({viewport:{width:1440,height:960}}),errors=[];
  page.on('pageerror',e=>errors.push(e.message));
- await page.goto(process.env.TEST_URL||'http://127.0.0.1:5173');
+ const url=new URL(process.env.TEST_URL||'http://127.0.0.1:5173');url.searchParams.set('mode','archive');await page.goto(url.href);
  await page.locator('canvas').waitFor();await page.waitForTimeout(500);
  await page.screenshot({path:'/tmp/schach-desktop.png',fullPage:true});
  await page.locator('.accessible summary').click();
