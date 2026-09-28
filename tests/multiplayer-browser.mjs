@@ -6,7 +6,8 @@ try{
  await pages[0].getByRole('button',{name:'Neuen Raum erstellen',exact:true}).click();await pages[0].locator('.multiplayer-panel h2').waitFor();console.log('Room created');const code=(await pages[0].locator('.multiplayer-panel h2').textContent()).split(' ')[1];
  for(let i=1;i<5;i++){await pages[i].getByLabel('Raumcode',{exact:true}).fill(code);await pages[i].getByRole('button',{name:'Raum beitreten',exact:true}).click();await pages[i].locator('.multiplayer-panel h2').waitFor();console.log('Joined',i+1);}
  await pages[0].getByText('Warteraum · 5 / 5 Personen',{exact:true}).waitFor();await pages[0].getByRole('button',{name:'Partie mit allen starten'}).click();
- const move=p=>p.getByRole('button',{name:/^Zug ausführen:/}).click();await move(pages[0]);await move(pages[1]);
+ for(const p of pages)await p.locator('#scene-controls .consequence').first().waitFor();console.log('Shared start confirmed');
+ const move=p=>p.getByRole('button',{name:/^Zug ausführen:/}).click();await move(pages[0]);await move(pages[1]);console.log("Moves sent");
  for(const p of pages){await p.getByRole('button',{name:'Ich bin bereit',exact:true}).click();await p.getByRole('button',{name:'Bereit ✓ · zurücknehmen',exact:true}).waitFor();}
  await pages[0].locator('#journey-next').click();
  // A local draft survives another person's submission and polling.
@@ -15,5 +16,5 @@ try{
  for(const p of pages)await p.getByText('Unsere Urteile · Unterschiede besprechen',{exact:true}).waitFor();
  assert.equal(await pages[0].locator('.multiplayer-panel article').count(),5);await pages[2].reload();await pages[2].getByRole('button',{name:'Urteil abgegeben',exact:true}).waitFor();assert.equal(await pages[2].locator('.multiplayer-panel article').count(),5);
  await pages[0].setViewportSize({width:390,height:844});assert.ok(await pages[0].evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await pages[0].screenshot({path:'/tmp/multiplayer-mobile.png',fullPage:true});
- pages[0].on('dialog',d=>d.accept());await pages[0].getByRole('button',{name:'Raum für alle schliessen',exact:true}).click();await pages[0].locator('.multiplayer-panel').waitFor({state:'hidden'});assert.deepEqual(errors,[]);console.log('PASS: five separate browser sessions, invitation, rotating moves, shared readiness, independent hidden votes, preserved drafts, reveal, reconnect, mobile and room deletion.');
+ pages[0].on('dialog',d=>d.accept());await pages[0].getByRole('button',{name:'Raum für alle schliessen',exact:true}).click();await pages[0].locator('.multiplayer-panel').waitFor({state:'hidden'});await pages[0].evaluate(()=>sessionStorage.setItem('schachmaschine-room-v1',JSON.stringify({code:'FFFFFFFFFFFF',token:'0'.repeat(48)})));await pages[0].reload();await pages[0].getByText(/Deine Eingaben bleiben erhalten/).waitFor();await pages[0].getByRole('button',{name:'Gespeicherten Raumzugang vergessen'}).click();assert.equal(await pages[0].locator('main').evaluate(n=>n.inert),false);assert.deepEqual(errors,[]);console.log('PASS: five separate browser sessions, invitation, rotating moves, shared readiness, independent hidden votes, preserved drafts, reveal, reconnect, mobile and room deletion.');
 }finally{await browser.close();}
