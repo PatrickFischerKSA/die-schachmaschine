@@ -112,3 +112,9 @@ Die Urteilsfragen verwenden freie Texte anstelle vorgegebener Antwortpositionen,
 **Zug zurück** nimmt den letzten Spielschritt oder Szenenwechsel zurück. Im Schach werden der eigene Zug und die Automatenantwort gemeinsam zurückgenommen. Im Einzelspiel bleibt die Rücknahmespur beim Neuladen desselben Tabs erhalten. Texteingaben werden nicht Zeichen für Zeichen zurückgenommen. **Reset · Neu beginnen** startet die geführte Partie nach Bestätigung neu.
 
 Im Multiplayer kann die Raumleitung die letzte Aktion (einschliesslich einer Urteilsabgabe) zurücknehmen oder die gesamte Partie zurücksetzen. Raumcode und Teilnehmende bleiben beim Reset erhalten. Bereits gelesene Urteile können durch eine Rücknahme nicht wieder unbekannt werden. Nach Rücknahmen und Resets werden Bereitschaft und lokale Antwortentwürfe verworfen; verspätete Anfragen zum alten Durchlauf werden abgewiesen. Die gemeinsame Rücknahmespur ist auf höchstens 80 Schritte und 512 KiB begrenzt.
+
+### Text und Spielzusammenhang
+
+Alle 20 Stationen enthalten eine sichtbare Einführung in Situation, Textbezug und Aufgabe. Der Auftakt erklärt Becks Lustspiel und die konkurrierenden Heiratspläne. Bei der Schmuckszene werden Julies Ablehnung und der Befehl der Baronin direkt gegenübergestellt. Der Übergang zu Searle und KI ist als heutiger Vergleich gekennzeichnet.
+
+**Stück lesen** öffnet eine Figurenübersicht sowie elf zusammenhängende Auftritte aus dem bereitgestellten Transkript. **Auftritt im Zusammenhang lesen** springt von der aktuellen Spielszene zum passenden Text. Der vollständige Text ist ebenfalls verlinkt. Historische Schreibweisen und Übertragungsfehler werden nicht stillschweigend korrigiert. `src/reading-scenes.json` enthält unveränderte Passagen; der Quellen-Test prüft sie gegen das vollständige Transkript. Das Lesefenster ist auch im Archiv und für beobachtende Multiplayer-Mitglieder zugänglich.

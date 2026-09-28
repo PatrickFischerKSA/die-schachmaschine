@@ -10,3 +10,5 @@ test('Every displayed Beck quotation is present in the supplied transcript',()=>
   assert.ok(normalize(transcript).includes(normalize(evidence.quote||evidence.output)),evidence.location+': '+(evidence.quote||evidence.output));
  }
 });
+
+test('Reading scenes preserve contiguous passages of the supplied transcript',()=>{const scenes=JSON.parse(readFileSync(new URL('../src/reading-scenes.json',import.meta.url),'utf8'));assert.equal(scenes.length,11);for(const scene of scenes)assert.ok(transcript.includes(scene.text),scene.title);});

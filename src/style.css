@@ -23,3 +23,14 @@
 @media(max-width:600px){.multiplayer-panel{padding:1rem;margin:0 .5rem 1rem}.mode-buttons{flex-wrap:wrap}}
 .guided #archive-undo {display:none}
 #archive-reflection {display:block;width:100%;min-height:110px;margin-top:12px;padding:12px;background:#141a15;color:inherit;border:1px solid #777;font:inherit}
+.reading-context {border-top:1px solid #625c46;border-bottom:1px solid #625c46;padding:1rem 0;margin:0 0 1.5rem}
+.reading-context .eyebrow {line-height:1.5;margin-bottom:.8rem}
+.reading-context blockquote {margin:1rem 0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--accent);font-family:Georgia,serif;font-size:1.15rem;line-height:1.6}
+.reading-bridge {color:#d6d4c5}
+.reading-dialog {width:min(880px,94vw);max-height:88vh;overflow:auto;box-sizing:border-box}
+.reading-dialog select {display:block;width:100%;margin:.6rem 0 1.4rem;padding:.8rem;background:#171b18;color:#eee9d8;border:1px solid #8c805c;font:inherit}
+.play-text {max-width:66ch;margin:1.5rem auto 2rem;font:1.1rem/1.85 Georgia,serif;overflow-wrap:anywhere}
+.play-text p {white-space:pre-wrap;margin:.8rem 0}
+.reading-dialog label {display:block;margin-top:1rem}
+@media(max-width:600px){.reading-dialog{padding:1.1rem}.play-text{font-size:1rem}.mode-bar{flex-wrap:wrap}}
+.reading-context > p:not(.eyebrow):not(.source-note) {line-height:1.7}
