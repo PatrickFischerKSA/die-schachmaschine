@@ -1,0 +1,43 @@
+import {chromium} from '@playwright/test';
+import assert from 'node:assert/strict';
+const browser=await chromium.launch({headless:true,args:['--enable-webgl','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+try {
+ const page=await browser.newPage({viewport:{width:1440,height:960}}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(process.env.TEST_URL||'http://127.0.0.1:5173');
+ await page.locator('canvas').waitFor();await page.waitForTimeout(500);
+ await page.screenshot({path:'/tmp/schach-desktop.png',fullPage:true});
+ await page.locator('.accessible summary').click();
+ const square=async sq=>page.locator(`#keyboard-board button[aria-label^="${sq} "]`).click();
+ await square('e2');await square('e4');await square('g1');await square('f3');
+ assert.match(await page.locator('#question').innerText(),/Wer hat diesen Zug/);
+ await page.getByRole('button',{name:'Mensch',exact:true}).click();await page.locator('#open').click();
+ assert.match(await page.locator('#reveal').innerText(),/historischen Automaten/);
+ await page.locator('#timeline button').nth(1).click();
+ await page.getByRole('button',{name:'Baron Rink spielt beide Seiten',exact:true}).click();
+ await page.getByRole('button',{name:'Baron Rink spielt beide Seiten',exact:true}).click();
+ await page.getByRole('button',{name:'Die Maschine sind Sie',exact:true}).click();
+ assert.match(await page.locator('#status').innerText(),/die Maschine sind Sie/);
+ await page.getByRole('button',{name:'Carl übernimmt die Regie',exact:true}).click();
+ await page.getByRole('button',{name:'Balkens Routine auslösen',exact:true}).click();
+ assert.match(await page.locator('#status').innerText(),/INPUT/);
+ await page.locator('#timeline button').nth(2).click();
+ for(const [symbol,to] of [['山','c6'],['木','f5'],['月','e6']]){await page.getByRole('button',{name:`Figur ${symbol} aufnehmen`,exact:true}).click();await square(to);}
+ await page.getByRole('button',{name:'Ich habe nur die Regel befolgt',exact:true}).click();
+ assert.equal(await page.locator('.answers button[aria-pressed=true]').count(),1);
+ await page.locator('#timeline button').nth(3).click();
+ await page.locator('#prompt').fill('Verstehst du mich?');await page.getByRole('button',{name:'Fragen ↗',exact:true}).click();
+ assert.match(await page.locator('#ai-answer').innerText(),/sprachlich passende/);
+ await page.locator('#open').click();assert.equal(await page.locator('.foundations button').count(),13);
+ await page.locator('#layers').click();assert.equal(await page.locator('.layer-switches input:checked').count(),4);
+ await page.locator('.layer-switches input').first().uncheck();
+ await page.locator('#compare').click();assert.equal(await page.locator('.mini-board span').count(),128);
+ await page.getByRole('button',{name:'Nächstes Zugpaar'}).click();
+ assert.equal(await page.locator('.mini-board').nth(0).innerText(),await page.locator('.mini-board').nth(1).innerText());
+ await page.locator('#timeline button').first().click();await page.locator('#reset').click();
+ await page.setViewportSize({width:390,height:844});await page.waitForTimeout(300);
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.screenshot({path:'/tmp/schach-mobile.png',fullPage:true});
+ await page.locator('#sources-button').click();assert.ok(await page.locator('#about').isVisible());await page.keyboard.press('Escape');
+ assert.deepEqual(errors,[]);console.log('PASS: 3D initialized; all four chapters, choices, cutaway, layers, comparison, reset, dialog and mobile overflow.');
+}finally{await browser.close();}
