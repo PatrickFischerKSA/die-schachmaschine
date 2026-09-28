@@ -5,7 +5,7 @@ try{
  const p=await browser.newPage({viewport:{width:1440,height:960}}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(process.env.TEST_URL||'http://127.0.0.1:5173');await p.locator('#journey-next').waitFor();await p.screenshot({path:'/tmp/journey-opening.png',fullPage:true});
  const next=()=>p.locator('#journey-next').click();
  const move=()=>p.getByRole('button',{name:/^Zug ausführen:/}).click();
- const rate=async(i=0)=>{await p.locator('.judgment-option input').nth(i).check();await p.locator('#journey-reason').fill('Ich stütze mich auf Julies eigene Entscheidung und die Grenzen des beobachteten Verhaltens.');};
+ const rate=async(i=0)=>{await p.locator('#journey-reason').fill('Ich stütze mich auf Julies eigene Entscheidung und die Grenzen des beobachteten Verhaltens.');};
  assert.equal(await p.locator('#journey-next').isDisabled(),true);await move();await move();await next();await rate();await next();
  await p.getByRole('button',{name:'Mechanik untersuchen',exact:true}).click();assert.equal(await p.locator('#journey-next').isDisabled(),true);await p.getByRole('button',{name:'Das System vollständig öffnen'}).click();await next();await rate(1);await next();
  await p.getByRole('button',{name:'Mit Schmuck überzeugen',exact:true}).click();await move();await next();assert.match(await p.locator('#scene-controls').innerText(),/Zustimmung gewinnt sie dadurch nicht/);await next();

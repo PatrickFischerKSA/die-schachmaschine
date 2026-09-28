@@ -11,7 +11,7 @@ try {
  const square=async sq=>page.locator(`#keyboard-board button[aria-label^="${sq} "]`).click();
  await square('e2');await square('e4');await square('g1');await square('f3');
  assert.match(await page.locator('#question').innerText(),/Wer hat diesen Zug/);
- await page.getByRole('button',{name:'Mensch',exact:true}).click();await page.locator('#open').click();
+ await page.locator('#archive-reflection').fill('Ein verborgener Mensch könnte den Zug gewählt haben.');await page.locator('#open').click();
  assert.match(await page.locator('#reveal').innerText(),/historischen Automaten/);
  await page.locator('#timeline button').nth(1).click();
  await page.getByRole('button',{name:'Baron Rink spielt beide Seiten',exact:true}).click();
@@ -27,8 +27,8 @@ try {
  assert.match(await page.locator('#status').innerText(),/INPUT/);
  await page.locator('#timeline button').nth(2).click();
  for(const [symbol,to] of [['山','c6'],['木','f5'],['月','e6']]){await page.getByRole('button',{name:`Figur ${symbol} aufnehmen`,exact:true}).click();await square(to);}
- await page.getByRole('button',{name:'Ich habe nur die Regel befolgt',exact:true}).click();
- assert.equal(await page.locator('.answers button[aria-pressed=true]').count(),1);
+ await page.locator('#archive-reflection').fill('Ich habe die Regel befolgt, ohne die Zeichen zu verstehen.');
+ assert.equal(await page.locator('input[type=radio]').count(),0);assert.match(await page.locator('#archive-reflection').inputValue(),/ohne die Zeichen/);
  await page.locator('#timeline button').nth(3).click();
  await page.locator('#prompt').fill('Verstehst du mich?');await page.getByRole('button',{name:'Fragen ↗',exact:true}).click();
  assert.match(await page.locator('#ai-answer').innerText(),/sprachlich passende/);

@@ -104,3 +104,11 @@ VITE_MULTIPLAYER_API=http://127.0.0.1:8788 npm run dev
 `wrangler.jsonc` enthält Raum-Binding, SQLite-Migration und eine Begrenzung für neue Raum-/Beitrittsanfragen. Für ein eigenes Deployment `npx wrangler login`, dann `npm run multiplayer:deploy`; die öffentliche API-Adresse beim Frontend-Build über `VITE_MULTIPLAYER_API` setzen und die erlaubten Ursprünge im Worker anpassen. Keine Zugangsdaten gehören ins Frontend oder Git. Das Frontend-Deployment veröffentlicht den Worker nicht mit: Bei Serveränderungen zuerst den Worker separat deployen.
 
 Prüfung: `npm test` enthält vollständige Zwei- und Fünfpersonen-Durchläufe. Bei laufendem lokalem Worker und Vite prüfen `npm run test:multiplayer:api` und `npm run test:multiplayer:browser` echte Raumzugriffe und fünf getrennte Browser-Sitzungen. Die Browserprüfung leitet die voreingestellte öffentliche API für den Test auf Port 8788 um. Mit `LIVE=1 TEST_URL=https://patrickfischerksa.github.io/die-schachmaschine/ npm run test:multiplayer:browser` wird die veröffentlichte Installation getestet.
+
+### Freie Antworten, Rücknahme und Reset
+
+Die Urteilsfragen verwenden freie Texte anstelle vorgegebener Antwortpositionen, auch im freien Archiv. Handlungsoptionen im Stück bleiben konkrete Spielaktionen. Frühere gespeicherte Auswahlantworten bleiben lesbar.
+
+**Zug zurück** nimmt den letzten Spielschritt oder Szenenwechsel zurück. Im Schach werden der eigene Zug und die Automatenantwort gemeinsam zurückgenommen. Im Einzelspiel bleibt die Rücknahmespur beim Neuladen desselben Tabs erhalten. Texteingaben werden nicht Zeichen für Zeichen zurückgenommen. **Reset · Neu beginnen** startet die geführte Partie nach Bestätigung neu.
+
+Im Multiplayer kann die Raumleitung die letzte Aktion (einschliesslich einer Urteilsabgabe) zurücknehmen oder die gesamte Partie zurücksetzen. Raumcode und Teilnehmende bleiben beim Reset erhalten. Bereits gelesene Urteile können durch eine Rücknahme nicht wieder unbekannt werden. Nach Rücknahmen und Resets werden Bereitschaft und lokale Antwortentwürfe verworfen; verspätete Anfragen zum alten Durchlauf werden abgewiesen. Die gemeinsame Rücknahmespur ist auf höchstens 80 Schritte und 512 KiB begrenzt.

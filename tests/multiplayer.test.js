@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {createRoom,updateRoom,snapshot,actor,TTL} from '../multiplayer/room.js';
 import {stages,choiceSets,ratingStages} from '../src/journey-state.js';
-const run=(r,id,event,now=100)=>updateRoom(r,id,{ready:true,...event,step:r.state.step,revision:r.revision},now);
+const run=(r,id,event,now=100)=>updateRoom(r,id,{ready:true,epoch:r.epoch||0,...event,step:r.state.step,revision:r.revision},now);
 for(const count of [2,5])test(`${count} players complete all scenes with private judgments and rotating roles`,()=>{
  const r=createRoom('0','Person 0',0);for(let i=1;i<count;i++)run(r,''+i,{type:'join',name:'Person '+i});
  if(count===5)assert.throws(()=>run(r,'extra',{type:'join',name:'Extra'}),/voll/);
@@ -27,3 +27,5 @@ for(const count of [2,5])test(`${count} players complete all scenes with private
  assert.equal(r.state.step,19);assert.equal(Object.keys(snapshot(r,'0',100).comparisons).length,8);
 });
 test('stale revisions, unknown members, expiry and host recovery',()=>{const r=createRoom('a','A',0);run(r,'b',{type:'join',name:'B'});assert.throws(()=>updateRoom(r,'a',{type:'start',revision:0},200),/geändert/);assert.throws(()=>run(r,'x',{type:'poll'}),/Zugang/);assert.throws(()=>run(r,'b',{type:'claim'},300),/verbunden/);run(r,'b',{type:'claim'},61000);assert.equal(r.host,'b');run(r,'b',{type:'remove',target:'a'},62000);assert.equal(r.members.length,1);assert.throws(()=>run(r,'b',{type:'poll'},TTL),/abgelaufen/);});
+
+test('shared undo and reset restore all records, keep seats and reject delayed submissions',()=>{const r=createRoom('a','A',0);run(r,'b',{type:'join',name:'B'});run(r,'a',{type:'start'});run(r,actor(r),{type:'move',from:'e2',to:'e4'});assert.throws(()=>run(r,'b',{type:'undo'}),/Raumleitung/);run(r,'a',{type:'undo'});assert.equal(r.state.moves.length,0);assert.equal(r.epoch,1);assert.throws(()=>run(r,'a',{type:'ready',epoch:0}),/zurückgenommen/);run(r,actor(r),{type:'move',from:'e2',to:'e4'});run(r,actor(r),{type:'move',from:'g1',to:'f3'});for(const id of ['a','b'])run(r,id,{type:'ready'});run(r,'a',{type:'next'});run(r,'a',{type:'record',reason:'Eine offene Beobachtung ohne vorgegebene Auswahl.'});run(r,'b',{type:'record',reason:'Meine ganz andere Deutung derselben Beobachtung.'});assert.equal(snapshot(r,'a',100).comparisons.first.length,2);run(r,'a',{type:'undo'});assert.equal(r.members[1].records.first,undefined);assert.equal(snapshot(r,'a',100).comparisons.first,undefined);assert.ok(r.members[0].records.first);run(r,'a',{type:'reset'});assert.equal(r.state.step,0);assert.equal(r.members.length,2);assert.ok(r.started);assert.equal(r.history.length,0);assert.ok(r.members.every(m=>!m.ready&&!Object.keys(m.records).length));});

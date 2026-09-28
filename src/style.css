@@ -21,3 +21,5 @@
 #multiplayer-lobby input {display:block;width:100%;margin-top:.5rem;padding:.7rem;background:#141a15;color:inherit;border:1px solid #777;}
 #multiplayer-lobby button {margin:.3rem;}
 @media(max-width:600px){.multiplayer-panel{padding:1rem;margin:0 .5rem 1rem}.mode-buttons{flex-wrap:wrap}}
+.guided #archive-undo {display:none}
+#archive-reflection {display:block;width:100%;min-height:110px;margin-top:12px;padding:12px;background:#141a15;color:inherit;border:1px solid #777;font:inherit}
