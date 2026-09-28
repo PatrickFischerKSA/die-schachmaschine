@@ -16,9 +16,13 @@ try {
  await page.locator('#timeline button').nth(1).click();
  await page.getByRole('button',{name:'Baron Rink spielt beide Seiten',exact:true}).click();
  await page.getByRole('button',{name:'Baron Rink spielt beide Seiten',exact:true}).click();
+ assert.match(await page.locator('#reveal').innerText(),/vor jedem Zug ins Buch/);
  await page.getByRole('button',{name:'Die Maschine sind Sie',exact:true}).click();
  assert.match(await page.locator('#status').innerText(),/die Maschine sind Sie/);
  await page.getByRole('button',{name:'Carl übernimmt die Regie',exact:true}).click();
+ assert.match(await page.locator('#reveal').innerText(),/III. Aufzug, 8. Auftritt/);
+ await page.getByRole('button',{name:'Alle Figuren auf das Brett',exact:true}).click();
+ assert.match(await page.locator('#reveal').innerText(),/ihre Königinn ist zwar fort/);
  await page.getByRole('button',{name:'Balkens Routine auslösen',exact:true}).click();
  assert.match(await page.locator('#status').innerText(),/INPUT/);
  await page.locator('#timeline button').nth(2).click();

@@ -16,7 +16,7 @@ Die Konsole nennt die lokale Adresse. Mit `npm run build` entsteht `dist/`; `npm
 ## Die Partien
 
 - **1770 · Kempelen:** Zwei legale eigene Züge; ein einfacher Algorithmus antwortet. Danach stoppt die Partie. Vermutung formulieren, Brett öffnen, schematischen verborgenen Spieler entdecken. Die Software inszeniert die historische Täuschung und behauptet nicht, ein Mensch spiele live.
-- **1798 · Beck:** Rink wechselt zwischen beiden Seiten. Balken wird zur Maschinenfigur. Carl verschiebt ihn; Balkens vier Routinen wiederholen sich. Alle sieben Figuren sind auswählbar und auf freie Felder beweglich. Figurenbeziehungen werden als interpretative Antriebe sichtbar.
+- **1798 · Beck:** Rink zieht nach einem Buch für beide Seiten. Balken wird zur Maschinenfigur; Sophie deckt den Plan auf und Carl übernimmt den ersten Kasten. Carls Schachmetaphern und Balkens vier Routinen sind mit konkreten Fundstellen versehen. Alle sieben Figuren sind auswählbar und auf freie Felder beweglich. Figurenbeziehungen werden als interpretative Antriebe sichtbar.
 - **1980 · Searle:** Drei erfundene Zeichenregeln selbst ausführen. Anschliessend frei reflektieren, ohne Richtig/Falsch-Wertung. Syntax und Semantik lassen sich als Begriffe bewegen; die Syntaxfigur folgt dabei einer Turmregel. Argument und Gegenpositionen werden getrennt erläutert.
 - **2026 · KI:** Eine Frage eingeben. Standardmässig ausdrücklich gekennzeichnete, vorformulierte Demoantworten; optional echtes Modell über einen serverseitigen Anschluss. Unter dem Brett werden 13 Voraussetzungen moderner KI erkundbar.
 - **Zeitschichten:** Vier räumlich gestaffelte Raster einzeln ein-/ausblenden.
@@ -41,7 +41,7 @@ Unter **Settings → Pages → Source: GitHub Actions** aktivieren. Anschliessen
 
 ## Quellenstatus
 
-Siehe [docs/QUELLEN.md](docs/QUELLEN.md). Der vollständige Beck-Primärtext lag bei der Erstellung nicht vor. Zitate und Figurenkonstellationen stammen aus der bereitgestellten Projektskizze und sind in der Anwendung entsprechend gekennzeichnet. Eine textkritisch geprüfte Beck-Fassung bleibt offen. Die Vorlage bricht in Abschnitt 23 ab; es wurden keine angeblichen Fortsetzungen erfunden.
+Siehe [docs/QUELLEN.md](docs/QUELLEN.md). Becks Szenen, Zitate und Figurenkonstellationen sind mit dem nachgereichten Transkript abgeglichen. Zitatkarten nennen Sprecher, Aufzug und Auftritt und trennen Text von Interpretation. Die unveränderte Textextraktion liegt in `public/sources/beck-1798-transkript.txt`. Das Transkript enthält Übertragungsfehler; ein zusätzlicher Abgleich mit dem historischen Druck steht aus. Die Vorlage bricht in Abschnitt 23 ab; es wurden keine angeblichen Fortsetzungen erfunden.
 
 Die 3D-Objekte sind schematische Inszenierungen, keine historischen Rekonstruktionen. Der historische Ausdruck „Schachtürke“ bezeichnet Kempelens orientalisierend gestalteten Automaten. Er wird hier als historischer Objektname verwendet.
 
@@ -50,6 +50,7 @@ Die 3D-Objekte sind schematische Inszenierungen, keine historischen Rekonstrukti
 - `src/scene.js`: Three.js-Brett, Figuren, Mechanik, Zeitschichten, Kamera und Picking
 - `src/main.js`: Szenenführung, Interaktionen, Reflexion und zugängliches HTML-Brett
 - `src/content.js`: Inhalte, Figuren, Zeichenregeln
+- `src/beck.js`: belegte Zitate, Fundstellen und Interpretationshinweise
 - `src/logic.js`: Schachregeln und Zuordnungen
 - `server.mjs`: optionaler lokaler Modellproxy und statischer Server
 - `tests/`: Logik- und Browserprüfungen
