@@ -2,7 +2,7 @@ import {chromium} from '@playwright/test';
 import assert from 'node:assert/strict';
 const browser=await chromium.launch({headless:true,args:['--enable-webgl','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
 try{
- const p=await browser.newPage({viewport:{width:1440,height:960}}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(process.env.TEST_URL||'http://127.0.0.1:5173');await p.locator('#journey-next').waitFor();await p.screenshot({path:'/tmp/journey-opening.png',fullPage:true});
+ const p=await browser.newPage({viewport:{width:1440,height:960}}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto((process.env.TEST_URL||'http://127.0.0.1:5173')+'?mode=guided');await p.locator('#journey-next').waitFor();await p.screenshot({path:'/tmp/journey-opening.png',fullPage:true});
  const next=()=>p.locator('#journey-next').click();
  const move=()=>p.getByRole('button',{name:/^Zug ausführen:/}).click();
  const rate=async(i=0)=>{await p.locator('#journey-reason').fill('Ich stütze mich auf Julies eigene Entscheidung und die Grenzen des beobachteten Verhaltens.');};

@@ -13,9 +13,19 @@ npm run dev
 
 Die Konsole nennt die lokale Adresse. Mit `npm run build` entsteht `dist/`; `npm run preview` zeigt den Produktionsbuild. `npm test` prüft Schachlogik, Regelzuordnungen und Brettkoordinaten.
 
-## Geführte Partie – die neue Hauptansicht
+## Das ganze Stück – die Hauptansicht
 
-Die Installation öffnet als zusammenhängende Partie mit 20 Szenen für die Sekundarstufe II. Richtzeit: 30–40 Minuten inklusive Quellenlektüre und Gespräch, kein Zeitlimit. Das vollständige [Szenendrehbuch](docs/SZENENDREHBUCH.md) beschreibt Handlungen, Folgen, Quellen und die Unterscheidung von Textbefund und Spielvariante.
+Die Installation beginnt mit der vollständigen Bühnenlektüre von Becks Lustspiel: vier Aufzüge, 44 Auftritte und 79 aufeinanderfolgende Textstrecken mit rund 20.400 Wörtern. Titel, Personenverzeichnis, sämtliche Dialoge, Regieanweisungen und Schluss bleiben unverändert enthalten. Plane mehrere Sitzungen ein.
+
+Eine markierte Figur wird ans Lesepult D4 geholt und eröffnet die nächste Textstrecke. Sprecher und Regieanweisungen sind im Text hervorgehoben. Nach jedem Aufzug setzt ihr eine Figur auf ein freies Feld und begründet diesen Regiezug mit einer eigenen Beobachtung am Text. Keine Multiple-Choice-Fragen. Die Brettpositionen sind eine heutige Interpretation, keine zusätzlichen Anweisungen des Dramas.
+
+Allein speichert die Anwendung den Lesestand dauerhaft auf diesem Gerät; über **Leseprotokoll / Speichern** lässt sich der Stand als JSON exportieren und auf einem anderen Gerät laden. Im Multiplayer für 2–5 Personen werden die Rollen verteilt. Alle lesen denselben Text und bestätigen das Weiterlesen; erst dann kann die Raumleitung fortfahren. Lektüreräume bestehen sieben Tage. Gespeicherte Raumzugänge können über **Multiplayer** auf demselben Gerät wieder geöffnet und dort auch entfernt werden. Die Lesebestätigung dokumentiert den bestätigten Fortschritt, nicht überprüftes Verständnis.
+
+`npm run build:play` erzeugt `src/play-pages.json` aus dem unveränderten Transkript. Ein automatischer Test prüft die vollständige, zeichengetreue Rekonstruktion der Quelle. `npm run test:play` prüft alle 79 Strecken im Browser; `npm run test:play:multiplayer` prüft Rollenwechsel, gemeinsamen Text, Lesebestätigungen, Wiederaufnahme, Undo und Reset (lokale Server erforderlich).
+
+## Themenpartie – die ergänzende geführte Partie
+
+Die zusätzliche Themenpartie bietet 20 Szenen für die Sekundarstufe II. Richtzeit: 30–40 Minuten inklusive Quellenlektüre und Gespräch, kein Zeitlimit. Das vollständige [Szenendrehbuch](docs/SZENENDREHBUCH.md) beschreibt Handlungen, Folgen, Quellen und die Unterscheidung von Textbefund und Spielvariante.
 
 1. **Kempelen:** spielen, erstes Urteil begründen, einen Untersuchungsweg wählen, das System öffnen und erneut urteilen.
 2. **Beck:** als Baronin einen Plan ausführen und Widerstand erleben; als Sophie Information weitergeben oder zurückhalten; Carls Handlungsmöglichkeiten hängen davon ab. Ohne Julies eigene Entscheidung ist die Verbindung mit Wendheim gesperrt. Anschliessend die eigene Variante mit Becks Handlung vergleichen und Rinks Buchvorgaben selbst ausführen.
@@ -88,7 +98,7 @@ Auf der Website **Multiplayer · 2–5** öffnen, ein Pseudonym wählen und eine
 
 Das Brett und die Szene sind gemeinsam. Die angezeigte Person führt die Handlung aus. Bei Beck werden Baronin, Sophie, Carl, Julie und Rink auf die Plätze verteilt; bei weniger als fünf Personen übernimmt eine Person mehrere Rollen. Im ersten Schachspiel und im chinesischen Zimmer wechselt das Handlungsrecht nach einem Zug. Alle schreiben eigene begründete Urteile. Erst nach Abgabe aller Urteile wird der Vergleich sichtbar; abgegebene Urteile bleiben unverändert. Nach dem Gespräch klicken alle **Ich bin bereit** und die Raumleitung **Gemeinsam weiter**. Die Installation vergibt keine Punkte für philosophische Positionen.
 
-Ein Neuladen desselben Tabs stellt den Zugang wieder her. Nach einer Minute ohne Verbindung kann eine andere Person die Raumleitung übernehmen; getrennte Personen können entfernt werden, solange mindestens zwei im laufenden Raum bleiben. Das Verlassen löscht den persönlichen Zugang auf diesem Gerät. Ein Raum läuft nach 24 Stunden ab oder wird von der Raumleitung für alle geschlossen. Eigene Zugspuren lassen sich jederzeit, die gemeinsame Zugspur am Ende herunterladen.
+Ein Neuladen desselben Tabs stellt den Zugang wieder her. Nach einer Minute ohne Verbindung kann eine andere Person die Raumleitung übernehmen; getrennte Personen können entfernt werden, solange mindestens zwei im laufenden Raum bleiben. Das Verlassen löscht den persönlichen Zugang auf diesem Gerät. Ein Themenraum läuft nach 24 Stunden ab, ein vollständiger Lektüreraum nach sieben Tagen oder wird von der Raumleitung für alle geschlossen. Eigene Zugspuren lassen sich jederzeit, die gemeinsame Zugspur am Ende herunterladen.
 
 ### Raumserver
 
@@ -117,4 +127,4 @@ Im Multiplayer kann die Raumleitung die letzte Aktion (einschliesslich einer Urt
 
 Alle 20 Stationen enthalten eine sichtbare Einführung in Situation, Textbezug und Aufgabe. Der Auftakt erklärt Becks Lustspiel und die konkurrierenden Heiratspläne. Bei der Schmuckszene werden Julies Ablehnung und der Befehl der Baronin direkt gegenübergestellt. Der Übergang zu Searle und KI ist als heutiger Vergleich gekennzeichnet.
 
-**Stück lesen** öffnet eine Figurenübersicht sowie elf zusammenhängende Auftritte aus dem bereitgestellten Transkript. **Auftritt im Zusammenhang lesen** springt von der aktuellen Spielszene zum passenden Text. Der vollständige Text ist ebenfalls verlinkt. Historische Schreibweisen und Übertragungsfehler werden nicht stillschweigend korrigiert. `src/reading-scenes.json` enthält unveränderte Passagen; der Quellen-Test prüft sie gegen das vollständige Transkript. Das Lesefenster ist auch im Archiv und für beobachtende Multiplayer-Mitglieder zugänglich.
+In der Themenpartie öffnet **Stück lesen** eine Figurenübersicht sowie elf zusammenhängende Auftritte aus dem bereitgestellten Transkript. **Auftritt im Zusammenhang lesen** springt von der aktuellen Spielszene zum passenden Text. Der vollständige Text ist ebenfalls verlinkt. Historische Schreibweisen und Übertragungsfehler werden nicht stillschweigend korrigiert. `src/reading-scenes.json` enthält unveränderte Passagen; der Quellen-Test prüft sie gegen das vollständige Transkript. Das Lesefenster ist auch im Archiv und für beobachtende Multiplayer-Mitglieder zugänglich.

@@ -34,3 +34,12 @@
 .reading-dialog label {display:block;margin-top:1rem}
 @media(max-width:600px){.reading-dialog{padding:1.1rem}.play-text{font-size:1rem}.mode-bar{flex-wrap:wrap}}
 .reading-context > p:not(.eyebrow):not(.source-note) {line-height:1.7}
+.staged-transcript {white-space:pre-wrap;overflow-wrap:anywhere;font:1.12rem/1.85 Georgia,serif;border-top:1px solid #706346;border-bottom:1px solid #706346;padding:1.2rem 0;margin:1rem 0 1.5rem;color:#f3eee0}
+.stage-speaker {display:block;margin-top:.7rem;color:var(--accent,#c6a778);font:600 .95rem/1.6 system-ui,sans-serif}
+.stage-direction {color:#bbbba9}
+.play-journal {white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.7}
+#play-reason {width:100%;padding:1rem;background:#161b15;color:inherit;font:inherit;line-height:1.6;border:1px solid #75684c}
+.whole-play .mode-buttons {flex-wrap:wrap}
+.whole-play .move-instruction label {display:block;margin:.5rem 0}
+.whole-play .move-instruction select,.whole-play .move-instruction input {max-width:100%;padding:.6rem;margin:.3rem;background:#171b18;color:#eee9d8;border:1px solid #8c805c;font:inherit}
+.role-cast {margin:1rem 0}

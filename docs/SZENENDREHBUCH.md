@@ -1,5 +1,16 @@
 # Die Schachmaschine – Szenendrehbuch der geführten Partie
 
+## Vollständige Bühnenlektüre (neue Hauptansicht)
+
+Vor der ergänzenden Themenpartie steht nun die vollständige Lektüre: vier Aufzüge mit 10, 10, 11 und 13 Auftritten, aufgeteilt in 79 Textstrecken ohne Auslassung. Die folgenden 20 Themenszenen bleiben als eigener Modus verfügbar.
+
+Jede Textstrecke wird durch eine Rollenfigur am Lesepult D4 eröffnet. Der Originaltext erscheint mit hervorgehobenen Sprecherwechseln und Regieanweisungen. Solo wird nach der Lektüre weitergegangen; bei 2–5 Personen bestätigen alle das Weiterlesen. Rollen sind auf die Gruppe verteilt. Die Anwendung kann tatsächliches Lesen und Verstehen nicht kontrollieren.
+
+Nach jedem Aufzug folgt eine Regiepause: eine Figur frei auf dem Brett positionieren, die Deutung mit einer Stelle aus dem gerade gelesenen Aufzug begründen und offene Fragen festhalten. Es gibt weder MC-Fragen noch eine vorgeschriebene Interpretation. Vier Beobachtungen bilden das abschliessende Leseprotokoll und die Grundlage für die Themenpartie.
+
+Solo ist der Stand dauerhaft gespeichert und als Datei übertragbar. Gemeinsame Lektüreräume bleiben sieben Tage bestehen und lassen sich über gespeicherte Zugänge wiederaufnehmen. Undo und Reset sind in beiden Formen vorhanden.
+
+
 ## Ziel und Rahmen
 
 Zielgruppe: Sekundarstufe II. Richtzeit: 30–40 Minuten einschliesslich Textlektüre, Begründungen und Gespräch zu zweit. Die Zeit wird nicht erzwungen. Voraussetzung ist keine Kenntnis der Schachregeln: erlaubte Ziele und ein ausführbarer Beispielzug sind verfügbar.

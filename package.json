@@ -15,7 +15,10 @@
     "multiplayer:dev": "wrangler dev --ip 127.0.0.1 --port 8788",
     "multiplayer:deploy": "wrangler deploy",
     "test:multiplayer:api": "node tests/multiplayer-api.mjs",
-    "test:multiplayer:browser": "node tests/multiplayer-browser.mjs"
+    "test:multiplayer:browser": "node tests/multiplayer-browser.mjs",
+    "build:play": "node scripts/build-play.mjs",
+    "test:play": "node tests/play-browser.mjs",
+    "test:play:multiplayer": "node tests/play-multiplayer-browser.mjs"
   },
   "dependencies": {
     "chess.js": "1.4.0",
