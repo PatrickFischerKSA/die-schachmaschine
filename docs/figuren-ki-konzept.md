@@ -1,4 +1,6 @@
-# Figuren beim Entscheiden beobachten – Vorschlag für eine spätere Ausbaustufe
+# Figuren beim Entscheiden beobachten – Umsetzung und weitere Ausbaustufe
+
+Umgesetzt ist inzwischen ein lokaler Versuch zu IV/2 mit drei Figuren, schrittweisen Zustandsänderungen, Gegenproben, zwei Modellbrettern, einem Blindvergleich zwischen festen Regeln und Zielbewertungen sowie Protokollexport. Die nachstehenden Sprachmodell- und weiteren Szenenideen bleiben nächste Ausbaustufen.
 
 Die aktuelle Erweiterung bindet weder LM Studio noch ein anderes Sprachmodell an. Das Denklabor sammelt überprüfbare Interpretationen als Grundlage. Figurenmodelle wären bewusst konstruierte Lesarten, keine Entdeckung des wirklichen Innenlebens der Figuren.
 
