@@ -162,14 +162,32 @@ Das Labor verbindet den historischen Automaten (1770), Beck (1798), Turings Imit
 
 Zusätzliche Prüfung: `node tests/strategy-browser.mjs` überprüft Mausrad- und Reglerzoom über Perspektivwechsel, neue Grenzen, Figurenstudien, Notizpersistenz und Mobilansicht. `npm test` prüft unter anderem Quellenanker und Lesestandsgrenzen.
 
-## Ausführbare Entscheidungssimulation (IV/2)
+## Ausführbare Entscheidungssimulation für das Ensemble
 
-Im Denklabor öffnet **Entscheidungssimulation · Carl und die Träger** ab der geöffneten Textstrecke IV/2 einen lokalen Versuch. Zwei eigenständige Modellbretter, aktuelle Originalbezüge und Ablaufprotokolle zeigen Kooperation, Druck und Gegenwehr. Die Simulation verändert weder den Originaltext noch den gemeinsamen Multiplayer-Lesestand.
+**Innenperspektiven · Denkmodelle → Entscheidungssimulation · Figuren und Gegenproben** erschliesst 13 Studien mit 15 einzeln auswählbaren Figuren. Die erste Auswahl folgt nach Möglichkeit der im Denklabor gewählten Perspektive. Jede Studie wird erst nach Öffnen ihrer letzten benötigten Textstrecke verfügbar. Unbekannte Informationen und ungelesene Studien werden nicht vorweggenommen; der Originaltext und der gemeinsame Multiplayer-Lesestand bleiben unverändert.
 
-Ein Versuch enthält bis zu 32 echte Verarbeitungsschritte: wahrnehmen, Annahmen aktualisieren, Alternativen prüfen, handeln. Zustände werden unveränderlich protokolliert; Zahlung ändert niemals automatisch Identitätswissen. Ein Schritt, Zurück, vollständiger Durchlauf und Neustart sind möglich. Im Vergleich mit der Ausgangslage kann genau eine Bedingung geändert werden: fehlendes Identitätssignal, Geldablehnung des ersten Trägers, kein Geldangebot oder ausbleibende Gegendrohung. Nähe auf den Modellbrettern bezeichnet zugesagte Kooperation, gerichtete rote Linien Druck/Gegenwehr; diese Anordnung ist eine Modellkonvention, keine historische Bühnenposition.
+| Studie | Stelle | Gegenprobe |
+| --- | --- | --- |
+| Marie: Sachwissen unter einem Auftrag | I/1 | Die Baronin akzeptiert die Materialgrenze |
+| Rink: Auswahl und Julies fehlende Stimme | I/1 | Vermögen ist keine notwendige Bedingung |
+| Älterer Ruf: Selbstbild und Fremdbild | I/2 | Aktuelle Beobachtung statt Idealbild |
+| Baronin und Sophie: Einfluss durch eine Mittlerin | I/4 | Julies eigene Entscheidung wird anerkannt |
+| Salden: Aufmerksamkeit und gutes Ansehen | I/6 | Carl nimmt den Einwand als Grenze an |
+| Bedienter und Sophie: Nachricht und Identität | I/9 | Unabhängige Prüfung vor dem Einlass |
+| Frey: Risiko und Mithilfe | II/3 | Mithilfe erst nach Risikoabsprache |
+| Graf: Geschenk und Zustimmung | II/4 | Die Wirkung des Geschenks ist ungesichert |
+| Julie: Entsagen ist nicht Lieben | III/3 | Die Baronin respektiert Julies Nein |
+| Sophie: Verwendung weitergegebenen Wissens | III/8 | Absprache vor der Informationsweitergabe |
+| Flucht: Material, Zeit und Oberfläche | III/10 | Mehr Zeit für das verlangte Material |
+| Wendheim: Bedingungen brüderlicher Hilfe | III/11 | Hilfe ohne erzwungene Abreise |
+| Carl und beide Träger: Kooperation ohne Vertrauen | IV/2 | Identitätssignal, Geldablehnung, Zahlung oder Gegenwehr verändern |
 
-Der Blindvergleich zeigt zunächst nur Handlungen und Ergebnisse eines festen Ablaufs und eines Modells mit expliziten Zielbewertungen. Nach eigenem begründetem Urteil werden Verfahren, Kandidatenbewertungen und tatsächliche Vorher-/Nachher-Zustände offengelegt. Es ist kein echter Mensch-Maschine-Turing-Test. Ergebnisse und Protokolle können exportiert werden; vor Offenlegung enthält der Export keine verborgene Implementierungszuordnung. Versuche bleiben bis zum Schliessen des Fensters im Speicher; zum Aufbewahren exportieren.
+Die zwölf neuen Studien enthalten je zwölf protokollierte Verarbeitungsschritte; die Transportstudie bis zu 32. Jede beteiligte Figur handelt selbst. Wahrnehmen, Annahmen ändern, Alternativen prüfen und Handeln sind getrennt. Schrittweise Ausführung, Rücknahme, Durchlauf und Neubeginn funktionieren für alle Studien. Das Zielmodell verwendet offengelegte, redaktionell gesetzte Prioritäten; das feste Verfahren hält an seinem Ablauf fest. Keines ist ein Sprachmodell oder eine psychologische Messung.
 
-Die Bewertungen und Reaktionsregeln sind ausdrücklich gesetzte Interpretationsannahmen. Alle Ereignisanker stammen aus IV/2. Die Modelle haben keinen Anspruch, die Figuren psychologisch vollständig oder historisch messbar abzubilden. `agentContext` und `validateProposal` in `src/decision-model.js` bereiten einen begrenzten Datenvertrag für spätere externe Vorschläge vor: nur wahrgenommene Belege, nur zugelassene Aktionen. Ein Sprachmodell ist weiterhin nicht verbunden.
+Zwei dreh- und zoombare Modellbretter zeigen gerichtete Informationswege, Zuschreibungen, Absichten, Druck/Grenzen und gewährten Spielraum. Pro Brett gibt es Raumansicht, Draufsicht, eigene Blicke aller Beteiligten und Zoomtasten. Blickwechsel und Verarbeitungsschritte behalten den Zoom bei. Die Kanten sind als Modellannahmen gekennzeichnet und zusätzlich ausgeschrieben. Nur in der Transportstudie bezeichnet räumliche Nähe Kooperation; die Felder behaupten keine historischen Bühnenpositionen.
 
-Tests: `npm test`, `node tests/decision-browser.mjs` (oder mit `TEST_URL` gegen die Live-Seite). Die Logiktests prüfen insbesondere die Trennung von Kooperation und Identitätswissen, wirksame Gegenproben und das Zurückweisen unzugänglicher Quellen bei externen Vorschlägen.
+Der Blindvergleich zeigt zunächst nur Handlungen und Ergebnisse. Nach eigenem begründetem Urteil werden Verfahren, Bewertungen und Vorher-/Nachher-Zustände offengelegt. Dies ist kein Mensch-Maschine-Turing-Test. Ein Export vor Offenlegung enthält keine Verfahrenszuordnung. Die freie Modellkritik bleibt je Studie bis zum Neuladen im Speicher; Versuche vor Szenenwechsel/Neubeginn/erneutem Öffnen exportieren. Kein automatischer Austausch mit Mitspielenden oder KI-Diensten.
+
+`src/decision-scenarios.js` enthält die zwölf neuen textverankerten Anordnungen. `src/ensemble-model.js` führt ihre Zustandsübergänge aus und integriert die bestehende Transportstudie aus `src/decision-model.js`. Originalbezug, Modellannahme und kontrafaktische Handlung werden getrennt angezeigt. Der vorbereitete externe Datenvertrag gibt nur den jeweiligen Figurenkontext und zugängliche Belege weiter. Insbesondere werden zurückgehaltene Zitate nicht über eine beobachtete Handlung an andere Figuren verteilt. LM Studio / RAG bleiben zurückgestellt.
+
+Tests: `npm test`, `node tests/ensemble-browser.mjs`, `node tests/decision-browser.mjs`, `node tests/strategy-browser.mjs`; Browserprüfungen benötigen Vite oder `TEST_URL`. Geprüft werden unter anderem Quellen und Freischaltung, eigenständige Handlungen sämtlicher Figuren, wirksame Gegenproben in allen neuen Studien, fehlende fremde Zustimmung, begrenzter Informationszugang, Zoom, Originalbelege, Rücknahme, Blindvergleich und Export sowie Mobilansicht.
