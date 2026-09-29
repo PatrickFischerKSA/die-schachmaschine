@@ -1,0 +1,4 @@
+import {pages,act} from '../src/play-state.js';
+import {checkpoint,latestClaims} from '../src/dramaturgy.js';
+export const claim=(stage,perspective=3,extra={})=>({type:'interpret',perspective,from:3,to:1,layer:'position',certainty:'inferred',effect:'avoid',statement:'Julie widerspricht der ihr zugedachten Position.',reason:'Diese Formulierung lese ich als Widerspruch gegen den Plan.',page:pages.findIndex(p=>p.id===stage.id),start:0,end:80,...extra});
+export function finishSoloCheckpoint(s,stage){if(!checkpoint(stage))return s;for(const viewpoint of [3,1])s=act(s,claim(stage,viewpoint)).state;if([11,13].includes(checkpoint(stage).index)){const old=latestClaims(s.interpretations).find(e=>e.page<pages.findIndex(p=>p.id===stage.id));s=act(s,claim(stage,old.perspective,{revises:old.id})).state;}return act(s,{type:'compare',reason:'Die Selbstäusserung und die fremde Erwartung stimmen hier nicht überein.'}).state;}

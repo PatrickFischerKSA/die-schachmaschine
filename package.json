@@ -18,7 +18,9 @@
     "test:multiplayer:browser": "node tests/multiplayer-browser.mjs",
     "build:play": "node scripts/build-play.mjs",
     "test:play": "node tests/play-browser.mjs",
-    "test:play:multiplayer": "node tests/play-multiplayer-browser.mjs"
+    "test:play:multiplayer": "node tests/play-multiplayer-browser.mjs",
+    "test:perspectives": "node tests/perspective-browser.mjs",
+    "test:perspectives:multiplayer": "node tests/perspective-multiplayer-browser.mjs"
   },
   "dependencies": {
     "chess.js": "1.4.0",

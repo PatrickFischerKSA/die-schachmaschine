@@ -4,9 +4,9 @@
 
 Vor der ergänzenden Themenpartie steht nun die vollständige Lektüre: vier Aufzüge mit 10, 10, 11 und 13 Auftritten, aufgeteilt in 79 Textstrecken ohne Auslassung. Die folgenden 20 Themenszenen bleiben als eigener Modus verfügbar.
 
-Jede Textstrecke wird durch eine Rollenfigur am Lesepult D4 eröffnet. Der Originaltext erscheint mit hervorgehobenen Sprecherwechseln und Regieanweisungen. Solo wird nach der Lektüre weitergegangen; bei 2–5 Personen bestätigen alle das Weiterlesen. Rollen sind auf die Gruppe verteilt. Die Anwendung kann tatsächliches Lesen und Verstehen nicht kontrollieren.
+Jede Textstrecke wird als Originaltext geöffnet; ein willkürliches Lesepult entfällt. Der Originaltext erscheint mit hervorgehobenen Sprecherwechseln und Regieanweisungen. Solo wird nach der Lektüre weitergegangen; bei 2–5 Personen bestätigen alle das Weiterlesen. Rollen sind auf die Gruppe verteilt. Die Anwendung kann tatsächliches Lesen und Verstehen nicht kontrollieren.
 
-Nach jedem Aufzug folgt eine Regiepause: eine Figur frei auf dem Brett positionieren, die Deutung mit einer Stelle aus dem gerade gelesenen Aufzug begründen und offene Fragen festhalten. Es gibt weder MC-Fragen noch eine vorgeschriebene Interpretation. Vier Beobachtungen bilden das abschliessende Leseprotokoll und die Grundlage für die Themenpartie.
+An 14 Schlüsselstellen entstehen belegte Figurenbeziehungen, die aus mehreren Perspektiven verglichen werden. Nach jedem Aufzug folgt eine Regiepause: diese Beziehungen zusammenfassen und offene Fragen festhalten. Es gibt weder MC-Fragen noch eine vorgeschriebene Interpretation. Vier Beobachtungen bilden das abschliessende Leseprotokoll und die Grundlage für die Themenpartie.
 
 Solo ist der Stand dauerhaft gespeichert und als Datei übertragbar. Gemeinsame Lektüreräume bleiben sieben Tage bestehen und lassen sich über gespeicherte Zugänge wiederaufnehmen. Undo und Reset sind in beiden Formen vorhanden.
 
@@ -57,3 +57,29 @@ Die geführte Partie öffnet standardmässig. Die bisherige Installation bleibt 
 Die Zustandslogik sperrt den Kastenwechsel ohne Information und den Partnerzug ohne Julies Zustimmung. Untersuchungen und Quellenprüfungen haben eigene Zustände. Es reicht nicht, nur «Weiter» zu drücken. Entscheidungen, Gründe, Befunde und Herkunft eines untersuchten Outputs werden im Abschluss wieder aufgegriffen. Geführte Partie, Archiv, Tastaturbrett und Export müssen auch ohne WebGL funktionieren.
 
 Ein echter Modellzugang bleibt optional und muss serverseitig konfiguriert werden. GitHub Pages kann keinen geheimen API-Schlüssel sicher verwalten. Dort ist der externe Modellauftrag mit Einfügen der Antwort der Weg für ein reales KI-Experiment. Ohne solche Antwort wird der KI-Teil ausdrücklich als Textvergleich und nicht als durchgeführtes Modell-Experiment abgeschlossen.
+
+
+## Perspektivenwerkstatt durch alle vier Aufzüge
+
+Die Figurenkonstellation ist eine belegte Interpretation und kein naturalistischer Bühnenplan. Die Textgrundlage ist jederzeit im Zusammenhang zugänglich. Ein redaktionelles Register ausgewählter Informationsereignisse unterscheidet explizit belegten Zugang und nicht gesicherten Zugang; Nutzerdeutungen sind davon getrennt und durch Urheber, Belegstatus und Quelle gekennzeichnet.
+
+| Aufzug / Auftritt | Untersuchung |
+| --- | --- |
+| I / 4 | Baronin und Sophie sprechen über Julies Liebe: fremde Zuschreibung und abwesende Stimme |
+| I / 6 | Carls öffentliches Selbstbild und sein angekündigtes Auftreten vor dem Onkel |
+| I / 10 | Verlobung, Zustimmung und fremde Deutung |
+| II / 2 | Carls Auftreten gegenüber Ruf; Mehrwissen des Publikums |
+| II / 7 | Balkens Auslegung von Rinks Gespräch |
+| II / 10 | Verkleidung, Zugang und die Folgen von Carls Hilfe |
+| III / 1 | Rinks Ausführung nach Buch und Entscheidungsmacht |
+| III / 4 | Schmuck, Befehl, Widerspruch und Julies Selbstbestimmung |
+| III / 8 | Sophies Informationsweitergabe und Carls Bedingungen |
+| III / 11 | Wendheims Abhängigkeit von seinem Bruder |
+| IV / 2 | Kasten, Identität, Drohung, Gegenwehr und Bezahlung |
+| IV / 8 | Enthüllung und verbindliche Prüfung einer früheren Lesart |
+| IV / 10 | Figurenmetapher und Julies eigene Antwort |
+| IV / 13 | Nein und Ja, Komik und Verfügung; zweite verbindliche Revision |
+
+Solo werden je Schlüsselstelle mindestens zwei Perspektiven verglichen; im Multiplayer rotiert die zugewiesene Perspektive und jede Person arbeitet zunächst unabhängig. Die ersten Beiträge werden gemeinsam sichtbar, sobald alle abgegeben haben. Die Vergleichsantwort ist frei; Widersprüche werden weder abgestimmt noch automatisch aufgelöst. Revisionen brauchen spätere Textbelege und bleiben als Kette samt früherer Fassung erhalten.
+
+Räumliche Konvention: Nähe = belegte Annäherung; Rand = belegter Entzug; eckiger Rahmen = fremder Einfluss; runder Ring = eigener Handlungsspielraum. Unterschiedliche Effekte mehrerer Urheber werden als verschiedene Lesarten erhalten, die gemeinsame Position bleibt dann neutral. Die Auswahl eines Urhebers zeigt dessen räumliche Lesart. Kamerarichtung und Figurenperspektive sind voneinander unabhängig.
