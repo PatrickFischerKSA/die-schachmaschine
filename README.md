@@ -151,3 +151,13 @@ Die Vorlesefunktion und ihre Audiodateien wurden entfernt. Unterstrichene Wörte
 Ausgewählte Stellen können aus dem Hilfefenster direkt als Textanker am Brett festgehalten werden. Originaltext und Beleg-Offsets bleiben unverändert. Unbekannte Sätze erhalten keine erfundene Gesamtübersetzung: Die Hilfe nennt ihre Grenze, erklärt bekannte Bestandteile und bietet Schritte zum Erschliessen an. Für unbekannte Einzelwörter gibt es einen externen DWDS-Link. Keine KI-Anfragen und keine Übertragung von Schülernotizen.
 
 Prüfung: `npm test`, `node tests/reading-help-browser.mjs`, `node tests/play-browser.mjs`. Browserprüfungen brauchen einen laufenden Vite-Server; `TEST_URL` kann die veröffentlichte Website wählen.
+
+## Zoom, Innenperspektiven und Denkmodelle
+
+Der Kameraabstand bleibt bei Figuren-, Beziehungs- und Blickrichtungswechseln erhalten, auch nach Mausrad-/Touch-Zoom. OrbitControls erlaubt jetzt 2,5–55 statt 10–28 Einheiten Abstand; der Regler bietet 40–840 %, dazu Plus/Minus und einen ausdrücklichen Zoom-Reset auf 100 %. Rechtsziehen beziehungsweise Zweifinger-Gesten erlauben das Verschieben. Die Ansicht „Flacher Blick“ verändert den Blickwinkel, nicht den Zoom.
+
+**Innenperspektiven · Denkmodelle** öffnet ein Denklabor mit 26 quellengenauen, nach Lesestand freigeschalteten Studien. Alle 13 Figurenperspektiven sind vertreten, Bedienter und beide Träger zusätzlich einzeln. Ziele, Mittel, Annahmen über andere, Risiken und Gegenproben bleiben als Interpretationsangebote gekennzeichnet. Belegter Informationszugang und ungesicherter Zugang sind getrennt. Private Notizen bleiben lokal, nach Raum/Spielstand/Textstrecke/Perspektive getrennt, und können als eigene JSON-Datei exportiert werden. Sie werden nicht automatisch mit den Mitspielenden oder einem KI-Dienst geteilt.
+
+Das Labor verbindet den historischen Automaten (1770), Beck (1798), Turings Imitationsspiel (1950), Searles chinesisches Zimmer (1980) und mögliche heutige Figurenmodelle. Quellen und Grenzen jedes Vergleichs stehen direkt dabei. Das chinesische Zimmer wird als Kritik an starker KI eingeordnet, nicht als technische Vorstufe. Die Turing-Werkstatt bietet ein freies Protokoll für einen durch Menschen organisierten Blindvergleich; sie behauptet keinen echten laufenden KI-Test. KI-/RAG-Anbindung ist zurückgestellt. Vorschläge: `docs/figuren-ki-konzept.md`.
+
+Zusätzliche Prüfung: `node tests/strategy-browser.mjs` überprüft Mausrad- und Reglerzoom über Perspektivwechsel, neue Grenzen, Figurenstudien, Notizpersistenz und Mobilansicht. `npm test` prüft unter anderem Quellenanker und Lesestandsgrenzen.
