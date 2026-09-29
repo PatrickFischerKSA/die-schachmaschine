@@ -14,10 +14,14 @@ try{
  // Selection offsets must still match the unmodified original after word wrappers.
  await p.locator('#staged-transcript').evaluate(article=>{const walker=document.createTreeWalker(article,NodeFilter.SHOW_TEXT);let n;while(n=walker.nextNode())if(n.textContent.includes('Frisur')){const range=document.createRange(),i=n.textContent.indexOf('Frisur');range.setStart(n,i);range.setEnd(n,i+6);const selection=getSelection();selection.removeAllRanges();selection.addRange(range);article.dispatchEvent(new MouseEvent('mouseup',{bubbles:true}));break;}});
  assert.equal(await p.locator('#text-anchor blockquote').textContent(),'Frisur');await p.locator('#explain-word').click();assert.equal(await p.locator('#word-query').inputValue(),'Frisur');await p.keyboard.press('Escape');await p.evaluate(()=>getSelection().removeAllRanges());
- await p.locator('.reading-help audio').waitFor({state:'visible'});await p.locator('.reading-help audio').evaluate(async a=>{await a.play();});await p.waitForTimeout(600);assert.equal(await p.locator('.reading-help audio').evaluate(a=>a.paused),false);
- await p.locator('#perspective-select').selectOption('1');assert.equal(await p.locator('.reading-help audio').evaluate(a=>a.paused),false);
- await p.locator('#guided-mode').click();assert.equal(await p.locator('.reading-help audio').evaluate(a=>a.paused),true);await p.locator('#play-mode').click();
- await p.locator('#play-next').click();await p.locator('#play-open').click();assert.equal(await p.locator('.reading-help audio').evaluate(a=>a.paused),true);
+ assert.equal(await p.locator('audio').count(),0);
+ await p.locator('#section-help').click();assert.match(await p.locator('#explanation-result').textContent(),/Sinngemäss heute/);assert.match(await p.locator('#explanation-result').textContent(),/verspielter fallen/);
+ await p.getByRole('button',{name:'Originalstelle festhalten',exact:true}).first().click();assert.equal(await p.locator('#text-anchor blockquote').textContent(),'Mehr Kaprize, im Fall von der Locke!');
+ await p.locator('#text-anchor').getByRole('button',{name:'Textstelle erklären',exact:true}).click();assert.match(await p.locator('#explanation-result').textContent(),/Mögliche Lesart/);await p.keyboard.press('Escape');
+ await p.locator('#perspective-select').selectOption('1');
+ await p.locator('#guided-mode').click();await p.locator('#play-mode').click();
+ await p.locator('#play-next').click();await p.locator('#play-open').click();assert.equal(await p.locator('audio').count(),0);
+ await p.locator('#section-help').click();assert.match(await p.locator('#explanation-result').textContent(),/Nachurtheil/);assert.doesNotMatch(await p.locator('#explanation-result').textContent(),/verspielter fallen/);await p.keyboard.press('Escape');
  await p.setViewportSize({width:390,height:844});assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await p.screenshot({path:'/tmp/reading-help-mobile.png'});
- await p.setViewportSize({width:1440,height:1000});await p.screenshot({path:'/tmp/reading-help-desktop.png'});assert.deepEqual(errors,[]);console.log('PASS: word lookup, keyboard, source preservation, selection offsets, real audio playback, state updates and stop on mode/page changes.');
+ await p.setViewportSize({width:1440,height:1000});await p.screenshot({path:'/tmp/reading-help-desktop.png'});assert.deepEqual(errors,[]);console.log('PASS: word lookup, keyboard, source preservation, selection offsets, contextual passages, source anchors, section isolation and absence of speech playback.');
 }finally{await browser.close();}
