@@ -83,3 +83,10 @@ Die Figurenkonstellation ist eine belegte Interpretation und kein naturalistisch
 Solo werden je Schlüsselstelle mindestens zwei Perspektiven verglichen; im Multiplayer rotiert die zugewiesene Perspektive und jede Person arbeitet zunächst unabhängig. Die ersten Beiträge werden gemeinsam sichtbar, sobald alle abgegeben haben. Die Vergleichsantwort ist frei; Widersprüche werden weder abgestimmt noch automatisch aufgelöst. Revisionen brauchen spätere Textbelege und bleiben als Kette samt früherer Fassung erhalten.
 
 Räumliche Konvention: Nähe = belegte Annäherung; Rand = belegter Entzug; eckiger Rahmen = fremder Einfluss; runder Ring = eigener Handlungsspielraum. Unterschiedliche Effekte mehrerer Urheber werden als verschiedene Lesarten erhalten, die gemeinsame Position bleibt dann neutral. Die Auswahl eines Urhebers zeigt dessen räumliche Lesart. Kamerarichtung und Figurenperspektive sind voneinander unabhängig.
+
+
+## Gleichzeitige Bühne und Lektüre
+
+Das feste Fenster hält Brett und Text gemeinsam sichtbar. Der Text scrollt innerhalb seines Bereichs; die Werkstatt öffnet sich seitlich. Eine markierte Stelle bleibt als Textanker über Perspektivwechsel und neue gemeinsame Beiträge hinweg erhalten. Lesestimme (blauer Lichtsaum) und interpretierende Fokusfigur (goldener Ring) bleiben getrennt.
+
+Die Figurenperspektive wird auch räumlich eingenommen: Fokusfigur vorn, belegte Annäherung in ihrer Nähe, Entzug am hinteren Rand, Einfluss gegenüber und eigener Spielraum seitlich. Die Platzierung ist eine explizite Lesekonvention, keine Rekonstruktion der historischen Bühne. Die Kamera kann der Figurenperspektive folgen; manuelle Ansichten lösen diese Kopplung. Unbelegte Beziehungen werden nicht aus der Kameraposition abgeleitet.

@@ -36,8 +36,18 @@ export function perspectiveComplete(state,stage,author='solo',seat=null){if(!che
 export function quote(e){return pages[e.page].text.slice(e.start,e.end);}
 export function location(e){const p=pages[e.page];return `${p.act}. Aufzug · ${p.scene}. Auftritt · Textstrecke ${p.part}/${p.parts}`;}
 // Spatial distance encodes an explicitly authored relation, never rank or moral worth.
-export function constellation(entries,perspective,roleList,at=Infinity){const current=latestClaims(entries.filter(e=>e.order<=at)).filter(e=>e.perspective===perspective);const focus=perspective||current.at(-1)?.from||3;const positions=new Map([[focus,'d4']]);const near=['c4','e4','d3','d5','c3','e5','c5','e3'];const far=['a1','h8','a8','h1','a4','h4','d8','d1'];const neutral=['b2','f2','b6','f6','b4','f4','d2','d6','c7','g3','a6','h6','f8'];const used=new Set(['d4']);for(let i=1;i<roleList.length;i++){if(i===focus)continue;const links=current.filter(e=>(e.from===focus&&e.to===i)||(e.to===focus&&e.from===i));const link=new Set(links.map(e=>e.effect)).size>1?null:links.at(-1);const pool=link?.effect==='approach'?near:link?.effect==='avoid'?far:neutral;const square=[...pool,...near,...far,...neutral].find(s=>!used.has(s));used.add(square);positions.set(i,square);}
- return {focus,positions,claims:current};}
+export function constellation(entries,perspective,roleList,at=Infinity){
+ const current=latestClaims(entries.filter(e=>e.order<=at)).filter(e=>e.perspective===perspective);
+ const focus=perspective||current.at(-1)?.from||3;
+ const origin=perspective?'d2':'d4';const positions=new Map([[focus,origin]]),statuses=new Map([[focus,'focus']]);
+ const pools={approach:['c3','e3','d3','b3','f3'],avoid:['a8','h8','a7','h7','b8','g8'],control:['d5','c5','e5','c6','e6'],release:['b4','f4','b5','f5'],neutral:['b2','f2','a4','g4','b6','f6','a6','g6','c7','e7','h3','a3','h5']};
+ const used=new Set([origin]);
+ // Place relationships before unrelated figures, so spare cast never displaces a meaningful distance.
+ const classified=[];for(let i=1;i<roleList.length;i++){if(i===focus)continue;const links=current.filter(e=>(e.from===focus&&e.to===i)||(e.to===focus&&e.from===i));const meanings=new Set(links.map(e=>e.effect));const status=meanings.size>1?'ambivalent':links.at(-1)?.effect||'unexamined';classified.push({i,status,links});}
+ classified.sort((a,b)=>(a.links.length?0:1)-(b.links.length?0:1)||a.i-b.i);
+ for(const {i,status}of classified){const pool=pools[status]||pools.neutral;const square=[...pool,...Object.values(pools).flat()].find(s=>!used.has(s));used.add(square);positions.set(i,square);statuses.set(i,status);}
+ return {focus,positions,claims:current,statuses};
+}
 
 // Textual events with narrow, explicit access scopes. Absence from a scope means
 // 'not established by this evidence', never a proof of a character's ignorance.

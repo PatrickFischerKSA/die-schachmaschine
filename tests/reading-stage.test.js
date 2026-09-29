@@ -1,0 +1,7 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {speechTurns} from '../src/reading-stage.js';
+import {pages,roles} from '../src/play-state.js';
+import {constellation} from '../src/dramaturgy.js';
+test('Speaker wrapping keeps every character and offset across all source pages',()=>{for(const p of pages){const turns=speechTurns(p.text);assert.equal(turns.map(t=>p.text.slice(t.start,t.end)).join(''),p.text);for(let i=1;i<turns.length;i++)assert.equal(turns[i].start,turns[i-1].end);}assert.equal(speechTurns('Fortsetzung. Julie. Meine Antwort.','Carl')[0].speaker,'Carl');});
+test('Perspective staging prioritizes authored relationships and preserves conflicts',()=>{const entry=(id,perspective,effect,from=3,to=1)=>({id,order:0,perspective,effect,from,to});const escape=constellation([entry(0,3,'avoid')],3,roles);assert.equal(escape.positions.get(3),'d2');assert.ok(Number(escape.positions.get(1)[1])>=7);const approach=constellation([entry(0,3,'approach')],3,roles);assert.equal(approach.positions.get(1),'c3');const baroness=constellation([entry(0,1,'control',1,3)],1,roles);assert.equal(baroness.positions.get(1),'d2');assert.equal(baroness.positions.get(3),'d5');const conflicting=constellation([entry(0,3,'approach'),entry(1,3,'avoid')],3,roles);assert.equal(conflicting.statuses.get(1),'ambivalent');assert.equal(new Set(conflicting.positions.values()).size,13);});
