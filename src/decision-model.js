@@ -1,8 +1,9 @@
+import {readingQuote} from './text-edition.js';
 import pages from './play-pages.json' with {type:'json'};
 export const simulationPage=pages.findIndex(p=>p.id==='text-4-2-0');
 export const defaults={recognize:true,counter:true,refuseMoney:false,payment:2};
 export const names={carl:'Carl',first:'Erster Träger',second:'Zweiter Träger'};
-const source=needle=>{const start=pages[simulationPage].text.indexOf(needle);if(start<0)throw Error(needle);return {page:simulationPage,start,end:start+needle.length,text:needle};};
+const source=needle=>{const start=pages[simulationPage].text.indexOf(needle);if(start<0)throw Error(needle);return {page:simulationPage,start,end:start+needle.length,text:readingQuote({page:simulationPage,start,end:start+needle.length})};};
 export const evidence={identity:source('ist das auch der Rechte?'),refusal:source('Sie sind der Unrechte;'),threat:source('zieht ein Zerzerol.'),counter:source('tragen Sie ins Wasser?'),update:source('Diesmal seyd ihr gescheuter als ich.'),payment:source('Hier habt ihr jeder einen Dus katen; wollt ihr mich tragen?'),consent:source('In Gottes Namen.')};
 const events=[
  ['identity','first','Identität prüfen'],['refusal','second','Auftrag und Person abgleichen'],['threat','carl','Druck ausüben'],['counter','first','Gegenwehr erwägen'],['update','carl','Erwartung über die Träger prüfen'],['payment','carl','Eine Zahlung anbieten'],['consent','first','Erster Träger entscheidet'],['consent','second','Zweiter Träger entscheidet']

@@ -1,3 +1,4 @@
+import {correctPassage} from './text-edition.js';
 import {createReading,addContext} from './reading.js';
 import {stages,routes,freshState,canAdvance,playPosition,act,restoreState,journalText} from './journey-state.js';
 import {characters,eras,rules} from './content.js';
@@ -15,7 +16,7 @@ const $=s=>document.querySelector(s);
 function node(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;}
 function button(parent,text,fn,cls=''){const b=node('button',text,cls);b.type='button';b.onclick=fn;parent.append(b);return b;}
 function paragraph(parent,text,cls){parent.append(node('p',text,cls));}
-function evidence(parent,...keys){for(const key of keys){const q=beckEvidence[key]||journeyQuotes[key];const details=node('details',undefined,'evidence-card');details.append(node('summary',q.speaker+' · '+q.location));details.append(node('blockquote','«'+q.quote+'»'));if(q.reading)paragraph(details,q.reading,'source-note');parent.append(details);}}
+function evidence(parent,...keys){for(const key of keys){const q=beckEvidence[key]||journeyQuotes[key];const details=node('details',undefined,'evidence-card');details.append(node('summary',q.speaker+' · '+q.location));details.append(node('blockquote','«'+correctPassage(q.quote)+'»'));if(q.reading)paragraph(details,q.reading,'source-note');parent.append(details);}}
 function remember(parent,label,record){if(!record)return;const box=node('div',undefined,'memory-card');paragraph(box,label,'eyebrow');if(record.choice)paragraph(box,record.choice);paragraph(box,record.reason,'remember-reason');parent.append(box);}
 export function createJourney({scene,drawBoard,chime,isLive,onArchive}){
  let state=freshState(),active=false,selected=null,storageWorks=true,request=null;

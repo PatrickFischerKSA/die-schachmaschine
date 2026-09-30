@@ -1,3 +1,4 @@
+import {correctPassage} from './text-edition.js';
 // Exact anchors in the supplied transcript. Paraphrases are editorial, never replacements.
 const note=(page,quote,plain,reading)=>({page,quote,plain,reading});
 export const textExplanations=[
@@ -15,7 +16,7 @@ export const textExplanations=[
  note('text-2-6-0','nimmt eine Prise de contenance.','Der Graf nimmt eine Prise Schnupftabak, um Haltung zu bewahren oder die verlegene Pause zu überbrücken.','Die Regieanweisung macht eine stumme Reaktion sichtbar. Was tut das Schweigen des Barons mit dem Grafen?'),
  note('text-2-9-0','mit verstelter Stimme','Hier bedeutet „verstellt“: absichtlich verändert, damit die eigene Identität nicht erkannt wird.','Das Publikum sieht Carl, während Ruf durch die veränderte Darstellung getäuscht werden kann. Sichtbarkeit auf der Bühne und Wissen einer Figur sind verschieden.'),
  note('text-3-1-0','nachdem er vor jedem Zug ins Buch gesehen','Der Baron schaut vor jedem Schachzug in ein Buch und führt dann den Zug aus.','Die Regieanweisung zeigt die Quelle seiner Züge. Daraus allein folgt weder, dass er die Züge versteht, noch, dass er sie nicht versteht.'),
- note('text-3-3-0','man kann wohl zum Entfas gen gezwungen werden, aber nicht zum Lieben.','Man kann mich zwingen, auf eine Verbindung zu verzichten; man kann mich aber nicht zwingen, jemanden zu lieben.','„Entfas gen“ ist im Transkript wahrscheinlich eine fehlerhafte Übertragung von „Entsagen“. Julie unterscheidet erzwungenes Verhalten von einem Gefühl, über das andere nicht verfügen.'),
+ note('text-3-3-0','man kann wohl zum Entfas gen gezwungen werden, aber nicht zum Lieben.','Man kann mich zwingen, auf eine Verbindung zu verzichten; man kann mich aber nicht zwingen, jemanden zu lieben.','Die Lesefassung stellt das beschädigte „Entfas gen“ als „Entsagen“ her. Julie unterscheidet erzwungenes Verhalten von einem Gefühl, über das andere nicht verfügen.'),
  note('text-3-4-0','Auch ohne Schminke?','Julie fragt: Gilt Ihre Vorliebe für Wahrheit auch dann, wenn nichts beschönigt wird?','Julie spricht bildlich, der Graf antwortet zunächst über wirkliche Kosmetik. Achte darauf, ob die Figuren dieselbe Bedeutung des Wortes verstehen.'),
  note('text-3-4-0','Ich könnte sie durch nichts erwiedern, also darf ich sie nicht annehmen.','Ich kann diese Aufmerksamkeit nicht mit entsprechender Zuneigung beantworten; deshalb will ich das Geschenk nicht annehmen.','„Sie“ bezieht sich hier auf die zuvor erwähnte Attention. Julie betrachtet das Geschenk als mögliche Verpflichtung, nicht als neutralen Gegenstand.'),
  note('text-3-4-1','Du behältst ihn! ich befehl es!','Du musst den Schmuck behalten, weil ich es dir befehle.','Die Wiederholung und der ausdrückliche Befehl zeigen Druck. Unterscheide das erzwungene Behalten des Schmucks von Julies Zustimmung zum Grafen.'),
@@ -30,4 +31,4 @@ export const textExplanations=[
  note('text-4-12-0','den Marder in seiner eignen\nFalle.','Jemand ist mit dem eigenen Täuschungsplan selbst in eine missliche Lage geraten.','Carl beschreibt den Grafen als gefangenes Raubtier. Diese Wortwahl rechtfertigt aus seiner Sicht das folgende Vorgehen; sie macht es nicht automatisch harmlos.'),
  note('text-4-13-0','Nicht geladen!','Carl versichert leise, dass die Pistole nicht geladen sei.','Der Text lässt danach dennoch einen Schuss folgen. Trenne diese Textspannung von Carls Absicht: Seine leise Mitteilung ist dem Grafen nicht ohne Weiteres zugänglich. Was weiss das Publikum, was die bedrohte Figur?')
 ];
-export function explanationsFor(stage){return textExplanations.filter(n=>n.page===stage?.id&&stage.text.includes(n.quote));}
+export function explanationsFor(stage){return textExplanations.filter(n=>n.page===stage?.id).map(n=>stage.edition?{...n,quote:correctPassage(n.quote)}:n).filter(n=>stage.text.includes(n.quote));}

@@ -1,3 +1,4 @@
+import {readingQuote} from './text-edition.js';
 import * as carriers from './decision-model.js';
 import {ensembleScenarios,people} from './decision-scenarios.js';
 export {people};
@@ -17,7 +18,7 @@ export const scenarioById=id=>{
 export const availableScenarios=limit=>scenarios.filter(s=>s.page<=limit);
 export const conditionsFor=s=>s.conditions||{baseline:['Textnahe Ausgangslage',{}],changed:[s.condition,{changed:true}]};
 export const namesFor=run=>Object.fromEntries(Object.keys(scenarioById(run.scenario).actors).map(id=>[id,people[id].name]));
-export function evidenceFor(run,id){return run.scenario==='carriers'?carriers.evidence[id]:scenarioById(run.scenario).events[Number(id)].source;}
+export function evidenceFor(run,id){const e=run.scenario==='carriers'?carriers.evidence[id]:scenarioById(run.scenario).events[Number(id)].source;return {...e,text:readingQuote(e)};}
 export function createRun(id,model='goals',settings={}){
   const s=scenarioById(id);
   if(!['rules','goals'].includes(model))throw Error('Unbekanntes Verfahren');

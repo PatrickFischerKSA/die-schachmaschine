@@ -1,3 +1,4 @@
+import {readingText} from '../src/text-edition.js';
 import {chromium} from '@playwright/test';
 import assert from 'node:assert/strict';
 import {stages,freshState} from '../src/play-state.js';
@@ -6,7 +7,7 @@ try{
  const p=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];p.on('pageerror',e=>errors.push(e.message));
  const step=stages.findIndex(s=>s.id==='text-1-1-0');await p.addInitScript(state=>localStorage.setItem('schachmaschine-whole-play-v1',JSON.stringify(state)),{...freshState(),step,opened:true});
  await p.goto(process.env.TEST_URL||'http://127.0.0.1:5173');await p.locator('#staged-transcript').waitFor();
- assert.equal(await p.locator('#staged-transcript').textContent(),stages[step].text);
+ assert.equal(await p.locator('#staged-transcript').textContent(),readingText(stages[step]));
  const word=p.locator('.glossary-word').filter({hasText:/^Kaprize$/}).first();await word.click();
  assert.match(await p.locator('.word-dialog').textContent(),/verspielteren Fall/);assert.equal(await p.locator('#text-anchor').isVisible(),false);
  await p.locator('#word-query').fill('unbekannteswort');await p.locator('.word-dialog').getByRole('button',{name:'Erklären',exact:true}).click();assert.match(await p.locator('.word-dialog').textContent(),/noch keine redaktionelle/);

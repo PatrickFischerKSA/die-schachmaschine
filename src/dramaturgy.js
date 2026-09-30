@@ -1,3 +1,4 @@
+import {readingQuote,readingLocation} from './text-edition.js';
 import pages from './play-pages.json' with {type:'json'};
 // Editorial questions are invitations to interpret; none supplies a model answer.
 const specs=[
@@ -33,8 +34,8 @@ export function validateClaim(input,stage,entries=[],author='solo'){
 }
 export function latestClaims(entries){const replaced=new Set(entries.map(e=>e.revises).filter(x=>x!=null));return entries.filter(e=>!replaced.has(e.id));}
 export function perspectiveComplete(state,stage,author='solo',seat=null){if(!checkpoint(stage))return true;const entries=(state.interpretations||[]).filter(e=>e.stage===stage.id&&e.author===author);const viewpoints=new Set(entries.map(e=>e.perspective));const enough=seat===null?viewpoints.size>=2:viewpoints.has(assignedPerspective(stage,seat));const comparison=state.comparisons?.[stage.id]?.[author];return enough&&(![11,13].includes(checkpoint(stage).index)||entries.some(e=>e.revises!=null))&&typeof comparison==='string'&&comparison.trim().length>=24;}
-export function quote(e){return pages[e.page].text.slice(e.start,e.end);}
-export function location(e){const p=pages[e.page];return `${p.act}. Aufzug · ${p.scene}. Auftritt · Textstrecke ${p.part}/${p.parts}`;}
+export function quote(e){return readingQuote(e);}
+export function location(e){const p=pages[e.page];return `${readingLocation(p)||`${p.act}. Aufzug · ${p.scene}. Auftritt`} · Textstrecke ${p.part}/${p.parts}`;}
 // Spatial distance encodes an explicitly authored relation, never rank or moral worth.
 export function constellation(entries,perspective,roleList,at=Infinity){
  const current=latestClaims(entries.filter(e=>e.order<=at)).filter(e=>e.perspective===perspective);

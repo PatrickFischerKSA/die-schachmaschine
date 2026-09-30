@@ -1,3 +1,5 @@
+import {correctPassage,passagePages} from './text-edition.js';
+import {editionGuide} from './edition-ui.js';
 import scenes from './reading-scenes.json' with {type:'json'};
 import {characters} from './content.js';
 const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
@@ -25,12 +27,12 @@ export const contexts={
 };
 export function createReading(){
  const dialog=node('dialog',undefined,'reading-dialog');dialog.id='reading-dialog';dialog.setAttribute('aria-label','Becks Stück lesen');document.body.append(dialog);
- const close=node('button','× Schliessen','close');close.type='button';close.onclick=()=>dialog.close();dialog.append(close,node('h2','Heinrich Beck · Die Schachmaschine'),node('p','Lustspiel in vier Aufzügen · Berlin, 1798. Arbeitsgrundlage: das bereitgestellte Transkript. Historische Schreibweisen und erkennbare Übertragungsfehler bleiben im Wortlaut erhalten. Die Erläuterungen im Spiel sind heutige Zusammenfassungen.','source-note'));
+ const close=node('button','× Schliessen','close');close.type='button';close.onclick=()=>dialog.close();dialog.append(close,node('h2','Heinrich Beck · Die Schachmaschine'),node('p','Lustspiel in vier Aufzügen · Berlin, 1798. Arbeitsgrundlage: das bereitgestellte Transkript. Die Lesefassung berichtigt offensichtliche Übertragungsfehler und bewahrt historische Schreibweisen. Kurze Zusammenfassungen erklären die Abschnitte in heutigem Deutsch; das Ausgangstranskript bleibt zugänglich.','source-note'));
  const cast=node('details');cast.append(node('summary','Wer ist wer? · Figuren und Beziehungen'));for(const c of characters)cast.append(node('h3',c.name),node('p',c.text));dialog.append(cast);
  const label=node('label','Auftritt lesen');label.htmlFor='reading-scene';const select=node('select');select.id='reading-scene';for(const s of scenes){const option=node('option',s.title);option.value=s.id;select.append(option);}dialog.append(label,select);const text=node('div',undefined,'play-text');text.tabIndex=0;dialog.append(text);
- const link=node('a','Vollständiges Transkript öffnen ↗');link.href=import.meta.env.BASE_URL+'sources/beck-1798-transkript.txt';link.target='_blank';link.rel='noopener';dialog.append(link);
- function render(){text.replaceChildren();const scene=scenes.find(s=>s.id===select.value);text.append(node('h3',scene.title));for(const line of scene.text.split('\n').filter(Boolean))text.append(node('p',line));}
+ const link=node('a','Vollständige korrigierte Lesefassung öffnen ↗');link.href=import.meta.env.BASE_URL+'sources/beck-1798-lesefassung.txt';link.target='_blank';link.rel='noopener';dialog.append(link);
+ function render(){text.replaceChildren();const scene=scenes.find(s=>s.id===select.value);text.append(node('h3',scene.title));for(const page of passagePages(scene.text))text.append(editionGuide(page));for(const line of correctPassage(scene.text).split('\n').filter(Boolean))text.append(node('p',line));}
  select.onchange=render;
  return {open(id='III-1'){select.value=scenes.some(s=>s.id===id)?id:'III-1';render();if(!dialog.open)dialog.showModal();dialog.scrollTop=0;}};
 }
-export function addContext(parent,id,reader,quotes){const c=contexts[id];if(!c)return;const box=node('section',undefined,'reading-context');box.append(node('p',c.title,'eyebrow'),node('p',c.text));for(const key of (['baronin','resistance','output','audit'].includes(id)?['refusal','command']:c.quoteKey?[c.quoteKey]:[])){const q=quotes[key];box.append(node('blockquote','«'+q.quote+'»'),node('p',q.speaker+' · '+q.location,'source-note'));}box.append(node('p',c.bridge,'reading-bridge'));if(c.scene){const b=node('button','Auftritt im Zusammenhang lesen ↗','quiet');b.type='button';b.onclick=()=>reader.open(c.scene);box.append(b);}parent.append(box);}
+export function addContext(parent,id,reader,quotes){const c=contexts[id];if(!c)return;const box=node('section',undefined,'reading-context');box.append(node('p',c.title,'eyebrow'),node('p',c.text));for(const key of (['baronin','resistance','output','audit'].includes(id)?['refusal','command']:c.quoteKey?[c.quoteKey]:[])){const q=quotes[key];box.append(node('blockquote','«'+correctPassage(q.quote)+'»'),node('p',q.speaker+' · '+q.location,'source-note'));}box.append(node('p',c.bridge,'reading-bridge'));if(c.scene){const b=node('button','Auftritt im Zusammenhang lesen ↗','quiet');b.type='button';b.onclick=()=>reader.open(c.scene);box.append(b);}parent.append(box);}

@@ -21,7 +21,9 @@
     "test:play:multiplayer": "node tests/play-multiplayer-browser.mjs",
     "test:perspectives": "node tests/perspective-browser.mjs",
     "test:perspectives:multiplayer": "node tests/perspective-multiplayer-browser.mjs",
-    "test:reading-stage": "node tests/reading-stage-browser.mjs"
+    "test:reading-stage": "node tests/reading-stage-browser.mjs",
+    "build:edition": "python3 scripts/build-edition.py",
+    "test:edition": "node tests/edition-browser.mjs"
   },
   "dependencies": {
     "chess.js": "1.4.0",
