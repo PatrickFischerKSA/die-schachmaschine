@@ -206,3 +206,12 @@ Die kanonischen Quellseiten `src/play-pages.json` und das Ausgangstranskript **b
 Unter **Zur Lesefassung** sieht man die Eingriffe des jeweiligen Abschnitts, verbleibende Unsicherheiten und bei Bedarf den unveränderten Ausgangstext. Die Themenpartie und die Entscheidungssimulation zeigen ebenfalls korrigierte Zitate. Downloads unter `public/sources/`: `beck-1798-lesefassung.txt`, `beck-1798-korrekturen.json`, `beck-1798-zusammenfassungen.md` sowie das unveränderte `beck-1798-transkript.txt`.
 
 Nach redaktionellen Änderungen: `npm run build:edition` erzeugt reproduzierbar Positionszuordnung und Downloads aus der Lesefassung; `npm run build:play` bleibt ausschliesslich der unveränderten Quelle vorbehalten. Tests: `npm test`, `npm run test:edition`, `node tests/reading-help-browser.mjs`, `node tests/reading-stage-browser.mjs`, `node tests/play-browser.mjs`. Der vollständige Browserdurchlauf prüft Lesefassung und Zusammenfassung aller 79 Abschnitte, während die neuen Tests insbesondere alte gespeicherte Belege und neue Markierungen über korrigierte Wörter hinweg prüfen.
+
+
+## Ermittlungsakte
+
+Die bereitgestellte `Schachmaschine_Ermittlungsakte.html` ist unter `public/ermittlungsakte/index.html` als vollständige Ressource integriert: zwölf Missionen, 36 Beweiskarten, Experimente, englische Originallektüre, Thesen, Gegenargumente und Revisionen. Der Button „Ermittlungsakte“ öffnet sie in einem beibehaltenen Dialog, ohne Lesestand oder Brettkamera neu aufzubauen. Passende Beck-Abschnitte bieten direkte Falleinstiege; aus den Fällen öffnen sich die vollständigen Auftritte mit der aktuellen Lesefassung, Zusammenfassungen und Druckvergleich. Die Quellenlektüre setzt keine Leseschritte automatisch auf gelesen.
+
+Die Akte speichert persönlich auf diesem Gerät (`schachmaschine-ermittlungsakte-v1`), getrennt vom gemeinsamen Multiplayer-Lesestand. JSON-Import/-Export und Text-Export bleiben erhalten. Gemeinsame Bearbeitung ist am selben Gerät möglich; die Akte wird nicht automatisch mit dem Raumserver synchronisiert.
+
+`node tests/investigation-browser.mjs` durchläuft alle zwölf Fälle und prüft Quellenverknüpfungen, Export/Import, Speicherung, unveränderten Lesestand, mobile Darstellung und verschachtelte Dialoge.

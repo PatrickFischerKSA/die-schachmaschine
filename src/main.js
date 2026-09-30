@@ -1,3 +1,4 @@
+import {createInvestigation} from './investigation-ui.js';
 import {correctPassage} from './text-edition.js';
 import {createPlay} from './play.js';
 import {createMultiplayer} from './multiplayer.js';
@@ -70,3 +71,5 @@ if(!location.hostname.endsWith('github.io'))fetch('/api/status').then(r=>r.ok?r.
 
 let roomController=null;
 createMultiplayer({roomMode:()=>fullPlay.isActive()?'play':'guided',isMultiplayer:()=>!!roomController?.isMultiplayer(),receiveRoom(snapshot,send){roomController=snapshot.mode==='play'?fullPlay:journey;if(snapshot.mode!=='play')fullPlay.pause();roomController.receiveRoom(snapshot,send);},leaveRoom(){roomController?.leaveRoom();roomController=null;}});
+
+createInvestigation();
