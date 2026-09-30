@@ -4,7 +4,9 @@ import {editionGuide} from './edition-ui.js';
 import {investigationScenes} from './investigation-links.js';
 const stations=['auftakt','kasten','operator','poe','buehne','intrige','julie','turing','searle','arbeit','archiv','tribunal'];
 const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;};
+let mounted;
 export function createInvestigation(){
+ if(mounted)return mounted;
  const dialog=node('dialog',null,'investigation-dialog');dialog.setAttribute('aria-label','Ermittlungsakte');
  const bar=node('div',null,'investigation-bar'),title=node('h2','Ermittlungsakte'),close=node('button','Zurück zum Spiel');close.type='button';close.autofocus=true;
  const separate=node('a','In eigenem Tab öffnen ↗');separate.href=import.meta.env.BASE_URL+'ermittlungsakte/index.html';separate.target='_blank';separate.rel='noopener';
@@ -21,9 +23,9 @@ export function createInvestigation(){
   for(const p of selected){const section=node('section');section.append(node('h3',(readingLocation(p)||act+'. Aufzug · '+scene+'. Auftritt')+' · Abschnitt '+p.part+'/'+p.parts),editionGuide(p),node('article',readingText(p),'staged-transcript'));d.append(section);}
   d.addEventListener('close',()=>{d.remove();frame.focus();},{once:true});document.body.append(d);d.showModal();
  }
- document.addEventListener('open-investigation',e=>open(e.detail?.station));
+ for(const name of ['open-investigation','schachmaschine:inquiry'])document.addEventListener(name,e=>open(e.detail?.station));
  window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==frame.contentWindow||!dialog.open)return;const m=e.data;if(m?.type==='schach-investigation-close')dialog.close();if(m?.type==='schach-investigation-source')source(m.act,m.scene);});
  const button=node('button','Ermittlungsakte ↗');button.id='investigation-button';button.type='button';button.setAttribute('aria-haspopup','dialog');button.onclick=()=>open();document.querySelector('.mode-bar').append(button);
  const params=new URLSearchParams(location.search);if(stations.includes(params.get('investigation'))){open(params.get('investigation'));const [a,s]=(params.get('source')||'').split('-').map(Number);if(a&&s)source(a,s);}
- return {open};
+ mounted={open};return mounted;
 }

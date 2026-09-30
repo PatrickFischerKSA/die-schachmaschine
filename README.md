@@ -210,8 +210,10 @@ Nach redaktionellen Änderungen: `npm run build:edition` erzeugt reproduzierbar 
 
 ## Ermittlungsakte
 
-Die bereitgestellte `Schachmaschine_Ermittlungsakte.html` ist unter `public/ermittlungsakte/index.html` als vollständige Ressource integriert: zwölf Missionen, 36 Beweiskarten, Experimente, englische Originallektüre, Thesen, Gegenargumente und Revisionen. Der Button „Ermittlungsakte“ öffnet sie in einem beibehaltenen Dialog, ohne Lesestand oder Brettkamera neu aufzubauen. Passende Beck-Abschnitte bieten direkte Falleinstiege; aus den Fällen öffnen sich die vollständigen Auftritte mit der aktuellen Lesefassung, Zusammenfassungen und Druckvergleich. Die Quellenlektüre setzt keine Leseschritte automatisch auf gelesen.
+Die bereitgestellte Ermittlungsakte und ihr Einbaupaket sind unter `ermittlungsakte/` als bearbeitbare Quellen integriert. `npm run build:inquiry` erzeugt daraus `public/ermittlungsakte/index.html` (auch automatisch vor Entwicklung und Produktionsbuild): zwölf Missionen, 36 Beweiskarten, Experimente, englische Originallektüre, Thesen, Gegenargumente und Revisionen. Der Button „Ermittlungsakte“ öffnet sie in einem beibehaltenen Dialog, ohne Lesestand oder Brettkamera neu aufzubauen. Passende Beck-Abschnitte bieten direkte Falleinstiege; aus den Fällen öffnen sich die vollständigen Auftritte mit der aktuellen Lesefassung, Zusammenfassungen und Druckvergleich. Die Quellenlektüre setzt keine Leseschritte automatisch auf gelesen.
 
 Die Akte speichert persönlich auf diesem Gerät (`schachmaschine-ermittlungsakte-v1`), getrennt vom gemeinsamen Multiplayer-Lesestand. JSON-Import/-Export und Text-Export bleiben erhalten. Gemeinsame Bearbeitung ist am selben Gerät möglich; die Akte wird nicht automatisch mit dem Raumserver synchronisiert.
 
 `node tests/investigation-browser.mjs` durchläuft alle zwölf Fälle und prüft Quellenverknüpfungen, Export/Import, Speicherung, unveränderten Lesestand, mobile Darstellung und verschachtelte Dialoge.
+
+Der zusätzliche Leitfaden „Unterricht & Spielwege“ öffnet Kurzroute, Werkstattplanung, Rollenverteilung und Gesprächsraster in einem Pop-up der Akte. Die Paket-Schnittstelle `schachmaschine:inquiry` und `src/inquiry-launcher.js` nutzen den bestehenden Dialog. Details: [Quellen und Build](ermittlungsakte/README.md).

@@ -1,0 +1,7 @@
+Prüfung am 30.09.2026
+
+Bestanden: JavaScript-Syntax; alle zwölf Missionen im DOM; alle zwölf vollständigen Browser-Durchläufe über die sichtbare Oberfläche; Abschlussbedingungen; englische Lektürenotizen; Wiederaufnahme nach Neuladen; JSON-Export und -Import; Dialoge; mobile Ansicht mit 390 px ohne horizontalen Überlauf; keine JavaScript-Laufzeitfehler im Test.
+
+Visuell geprüft: Desktop-Einstieg, Poe-Leseraum, mobile Searle-Lektüre.
+
+Getestet als eigenständige lokale HTML-Datei. Die Integration in den vollständigen bestehenden Vite-/Three.js-/Multiplayer-Build und das Live-Deployment wurden nicht durchgeführt. Die aktuellen Einstiegspunkte wurden anhand der öffentlichen Anwendung und src/main.js geprüft.
