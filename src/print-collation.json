@@ -1,0 +1,851 @@
+{
+  "sourceTitle": "Heinrich Beck: Die Schachmaschine. Wien: Chr. Fr. Schade, 1826.",
+  "sourceUrl": "https://www.digitale-sammlungen.de/de/view/bsb10118903?page=1",
+  "manifest": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10118903/manifest",
+  "attribution": "München, Bayerische Staatsbibliothek, bsb10118903",
+  "date": "2026-09-30",
+  "scope": "Die Schachmaschine: Druckseiten 1–116, Digitalisatseiten 3–118. Das nachfolgende Stück von Carl Schall gehört nicht zum Vergleich.",
+  "method": "Alle 79 Abschnitte wurden mit der Bibliotheks-OCR verglichen; auffällige Lesungen wurden gezielt am Seitenbild geprüft (49 Digitalisatseiten einschliesslich Titel). Keine vollständige visuelle Zeichen-für-Zeichen-Kollation. OCR ist Suchhilfe, kein verlässlicher Druckwortlaut. Seitenbereiche werden anhand übereinstimmender Wörter zugeordnet.",
+  "editionPolicy": "Das Ausgangstranskript nennt Berlin 1798; der Vergleichsdruck stammt aus Wien 1826. Der Druck von 1798 wurde nicht geprüft. Die Lesefassung bleibt eine redaktionelle Arbeitsfassung: belegte Übertragungsfehler werden berichtigt, mögliche Fassungsvarianten separat gezeigt. Historische Orthografie bleibt erhalten.",
+  "visuallyCheckedScans": [
+    1,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    24,
+    31,
+    32,
+    33,
+    36,
+    37,
+    38,
+    39,
+    41,
+    45,
+    46,
+    59,
+    60,
+    61,
+    64,
+    66,
+    72,
+    75,
+    79,
+    80,
+    81,
+    82,
+    85,
+    88,
+    90,
+    91,
+    92,
+    96,
+    97,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    108,
+    110,
+    111,
+    114,
+    117
+  ],
+  "sections": {
+    "text-0-0-0": {
+      "scanFrom": 3,
+      "scanTo": 4
+    },
+    "text-1-1-0": {
+      "scanFrom": 5,
+      "scanTo": 7
+    },
+    "text-1-1-1": {
+      "scanFrom": 7,
+      "scanTo": 8
+    },
+    "text-1-2-0": {
+      "scanFrom": 8,
+      "scanTo": 10
+    },
+    "text-1-2-1": {
+      "scanFrom": 10,
+      "scanTo": 11
+    },
+    "text-1-2-2": {
+      "scanFrom": 11,
+      "scanTo": 12
+    },
+    "text-1-3-0": {
+      "scanFrom": 12,
+      "scanTo": 14
+    },
+    "text-1-3-1": {
+      "scanFrom": 14,
+      "scanTo": 15
+    },
+    "text-1-4-0": {
+      "scanFrom": 15,
+      "scanTo": 17
+    },
+    "text-1-4-1": {
+      "scanFrom": 17,
+      "scanTo": 18
+    },
+    "text-1-5-0": {
+      "scanFrom": 18,
+      "scanTo": 19
+    },
+    "text-1-6-0": {
+      "scanFrom": 19,
+      "scanTo": 21
+    },
+    "text-1-6-1": {
+      "scanFrom": 21,
+      "scanTo": 22
+    },
+    "text-1-6-2": {
+      "scanFrom": 22,
+      "scanTo": 24
+    },
+    "text-1-6-3": {
+      "scanFrom": 24,
+      "scanTo": 25
+    },
+    "text-1-7-0": {
+      "scanFrom": 25,
+      "scanTo": 27
+    },
+    "text-1-7-1": {
+      "scanFrom": 27,
+      "scanTo": 28
+    },
+    "text-1-7-2": {
+      "scanFrom": 28,
+      "scanTo": 30
+    },
+    "text-1-7-3": {
+      "scanFrom": 30,
+      "scanTo": 30
+    },
+    "text-1-8-0": {
+      "scanFrom": 30,
+      "scanTo": 32
+    },
+    "text-1-9-0": {
+      "scanFrom": 32,
+      "scanTo": 33
+    },
+    "text-1-10-0": {
+      "scanFrom": 33,
+      "scanTo": 35
+    },
+    "text-1-10-1": {
+      "scanFrom": 35,
+      "scanTo": 36
+    },
+    "text-1-10-2": {
+      "scanFrom": 37,
+      "scanTo": 38
+    },
+    "text-1-10-3": {
+      "scanFrom": 38,
+      "scanTo": 39
+    },
+    "text-2-1-0": {
+      "scanFrom": 40,
+      "scanTo": 41
+    },
+    "text-2-2-0": {
+      "scanFrom": 41,
+      "scanTo": 43
+    },
+    "text-2-2-1": {
+      "scanFrom": 43,
+      "scanTo": 44
+    },
+    "text-2-2-2": {
+      "scanFrom": 44,
+      "scanTo": 45
+    },
+    "text-2-3-0": {
+      "scanFrom": 45,
+      "scanTo": 47
+    },
+    "text-2-4-0": {
+      "scanFrom": 47,
+      "scanTo": 49
+    },
+    "text-2-4-1": {
+      "scanFrom": 49,
+      "scanTo": 50
+    },
+    "text-2-5-0": {
+      "scanFrom": 50,
+      "scanTo": 52
+    },
+    "text-2-6-0": {
+      "scanFrom": 52,
+      "scanTo": 54
+    },
+    "text-2-6-1": {
+      "scanFrom": 54,
+      "scanTo": 55
+    },
+    "text-2-7-0": {
+      "scanFrom": 55,
+      "scanTo": 57
+    },
+    "text-2-7-1": {
+      "scanFrom": 57,
+      "scanTo": 58
+    },
+    "text-2-8-0": {
+      "scanFrom": 58,
+      "scanTo": 60
+    },
+    "text-2-9-0": {
+      "scanFrom": 60,
+      "scanTo": 62
+    },
+    "text-2-9-1": {
+      "scanFrom": 62,
+      "scanTo": 63
+    },
+    "text-2-10-0": {
+      "scanFrom": 63,
+      "scanTo": 65
+    },
+    "text-2-10-1": {
+      "scanFrom": 65,
+      "scanTo": 65
+    },
+    "text-3-1-0": {
+      "scanFrom": 66,
+      "scanTo": 68
+    },
+    "text-3-1-1": {
+      "scanFrom": 68,
+      "scanTo": 69
+    },
+    "text-3-2-0": {
+      "scanFrom": 69,
+      "scanTo": 71
+    },
+    "text-3-2-1": {
+      "scanFrom": 71,
+      "scanTo": 71
+    },
+    "text-3-3-0": {
+      "scanFrom": 72,
+      "scanTo": 73
+    },
+    "text-3-4-0": {
+      "scanFrom": 73,
+      "scanTo": 75
+    },
+    "text-3-4-1": {
+      "scanFrom": 75,
+      "scanTo": 76
+    },
+    "text-3-5-0": {
+      "scanFrom": 76,
+      "scanTo": 78
+    },
+    "text-3-5-1": {
+      "scanFrom": 78,
+      "scanTo": 79
+    },
+    "text-3-6-0": {
+      "scanFrom": 79,
+      "scanTo": 80
+    },
+    "text-3-7-0": {
+      "scanFrom": 80,
+      "scanTo": 81
+    },
+    "text-3-8-0": {
+      "scanFrom": 82,
+      "scanTo": 83
+    },
+    "text-3-8-1": {
+      "scanFrom": 83,
+      "scanTo": 85
+    },
+    "text-3-9-0": {
+      "scanFrom": 85,
+      "scanTo": 86
+    },
+    "text-3-10-0": {
+      "scanFrom": 86,
+      "scanTo": 87
+    },
+    "text-3-11-0": {
+      "scanFrom": 88,
+      "scanTo": 89
+    },
+    "text-3-11-1": {
+      "scanFrom": 89,
+      "scanTo": 91
+    },
+    "text-3-11-2": {
+      "scanFrom": 91,
+      "scanTo": 93
+    },
+    "text-3-11-3": {
+      "scanFrom": 93,
+      "scanTo": 94
+    },
+    "text-4-1-0": {
+      "scanFrom": 95,
+      "scanTo": 95
+    },
+    "text-4-2-0": {
+      "scanFrom": 96,
+      "scanTo": 97
+    },
+    "text-4-3-0": {
+      "scanFrom": 97,
+      "scanTo": 98
+    },
+    "text-4-4-0": {
+      "scanFrom": 99,
+      "scanTo": 99
+    },
+    "text-4-5-0": {
+      "scanFrom": 99,
+      "scanTo": 100
+    },
+    "text-4-6-0": {
+      "scanFrom": 100,
+      "scanTo": 102
+    },
+    "text-4-6-1": {
+      "scanFrom": 102,
+      "scanTo": 103
+    },
+    "text-4-7-0": {
+      "scanFrom": 104,
+      "scanTo": 106
+    },
+    "text-4-7-1": {
+      "scanFrom": 106,
+      "scanTo": 107
+    },
+    "text-4-8-0": {
+      "scanFrom": 107,
+      "scanTo": 108
+    },
+    "text-4-8-1": {
+      "scanFrom": 108,
+      "scanTo": 109
+    },
+    "text-4-9-0": {
+      "scanFrom": 109,
+      "scanTo": 110
+    },
+    "text-4-10-0": {
+      "scanFrom": 111,
+      "scanTo": 112
+    },
+    "text-4-11-0": {
+      "scanFrom": 112,
+      "scanTo": 113
+    },
+    "text-4-12-0": {
+      "scanFrom": 113,
+      "scanTo": 114
+    },
+    "text-4-13-0": {
+      "scanFrom": 114,
+      "scanTo": 115
+    },
+    "text-4-13-1": {
+      "scanFrom": 115,
+      "scanTo": 117
+    },
+    "text-4-13-2": {
+      "scanFrom": 117,
+      "scanTo": 118
+    }
+  },
+  "findings": [
+    {
+      "section": "text-1-10-2",
+      "scan": 37,
+      "printedPage": 35,
+      "kind": "correction",
+      "before": "koutschmaßen",
+      "printReading": "laut schwatzen",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-13-1",
+      "scan": 117,
+      "printedPage": 115,
+      "kind": "correction",
+      "before": "Gegensegen",
+      "printReading": "Segen",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-6-0",
+      "scan": 101,
+      "printedPage": 99,
+      "kind": "correction",
+      "before": "vorauszusehen",
+      "printReading": "vorauszusetzen",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-1-2-1",
+      "scan": 10,
+      "printedPage": 8,
+      "kind": "correction",
+      "before": "auszuschwatzen",
+      "printReading": "aufzuschwatzen",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-1-2-1",
+      "scan": 11,
+      "printedPage": 9,
+      "kind": "correction",
+      "before": "letztlich noch",
+      "printReading": "letzthin noch",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-1-2-2",
+      "scan": 11,
+      "printedPage": 9,
+      "kind": "correction",
+      "before": "mir nichts die nichts",
+      "printReading": "mir nichts dir nichts",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-1-6-3",
+      "scan": 24,
+      "printedPage": 22,
+      "kind": "correction",
+      "before": "Carl.dieu",
+      "printReading": "Carl. Adieu",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-1-8-0",
+      "scan": 32,
+      "printedPage": 30,
+      "kind": "correction",
+      "before": "zu machen hatte",
+      "printReading": "zu machen hätte",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-1-10-1",
+      "scan": 36,
+      "printedPage": 34,
+      "kind": "correction",
+      "before": "Stumpfnaschen",
+      "printReading": "Stumpfnäschen",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-1-10-2",
+      "scan": 38,
+      "printedPage": 36,
+      "kind": "correction",
+      "before": "wie wars",
+      "printReading": "wie wärs",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-1-10-3",
+      "scan": 39,
+      "printedPage": 37,
+      "kind": "correction",
+      "before": "prachtigen",
+      "printReading": "prächtigen",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-2-9-0",
+      "scan": 61,
+      "printedPage": 59,
+      "kind": "correction",
+      "before": "hatt' ich gleich",
+      "printReading": "hätt' ich gleich",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-2-10-0",
+      "scan": 64,
+      "printedPage": 62,
+      "kind": "correction",
+      "before": "erbarmlich",
+      "printReading": "erbärmlich",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-1-0",
+      "scan": 66,
+      "printedPage": 64,
+      "kind": "correction",
+      "before": "Unterricht nahme",
+      "printReading": "Unterricht nähme",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-3-0",
+      "scan": 72,
+      "printedPage": 70,
+      "kind": "correction",
+      "before": "Jetzt war also",
+      "printReading": "Jetzt wär also",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-4-1",
+      "scan": 75,
+      "printedPage": 73,
+      "kind": "correction",
+      "before": "Du hattest Dich schwerlich",
+      "printReading": "Du hättest Dich schwerlich",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-7-0",
+      "scan": 80,
+      "printedPage": 78,
+      "kind": "correction",
+      "before": "Der Herr Onkel war hier",
+      "printReading": "Ihr Herr Onkel war hier",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-7-0",
+      "scan": 80,
+      "printedPage": 78,
+      "kind": "correction",
+      "before": "wunscht",
+      "printReading": "wünscht",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-7-0",
+      "scan": 81,
+      "printedPage": 79,
+      "kind": "correction",
+      "before": "die Wachsamkeit aus",
+      "printReading": "die Wachsamkeit auf",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-7-0",
+      "scan": 81,
+      "printedPage": 79,
+      "kind": "correction",
+      "before": "Plankeley",
+      "printReading": "Plänkeley",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-8-1",
+      "scan": 85,
+      "printedPage": 83,
+      "kind": "correction",
+      "before": "Strauben",
+      "printReading": "Sträuben",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-11-1",
+      "scan": 91,
+      "printedPage": 89,
+      "kind": "correction",
+      "before": "warum ich ihn aussuche",
+      "printReading": "warum ich ihn aufsuche",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-6-0",
+      "scan": 100,
+      "printedPage": 98,
+      "kind": "correction",
+      "before": "spat",
+      "printReading": "spät",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-6-1",
+      "scan": 102,
+      "printedPage": 100,
+      "kind": "correction",
+      "before": "ungestum",
+      "printReading": "ungestüm",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-7-0",
+      "scan": 104,
+      "printedPage": 102,
+      "kind": "correction",
+      "before": "gesprochen hatte",
+      "printReading": "gesprochen hätte",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-2-9-0",
+      "scan": 61,
+      "printedPage": 59,
+      "kind": "correction",
+      "before": "verstohlenen Seitenblick",
+      "printReading": "verstohlnen Seitenblick",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-1-3-1",
+      "scan": 15,
+      "printedPage": 13,
+      "kind": "correction",
+      "before": "Er und der Baron gehen ab.",
+      "printReading": "Er und Ruf gehen ab.",
+      "note": "Frühere Konjektur zurückgenommen: Auch der Druck nennt „Er und Ruf“. Nach dem Dialog gehen Ruf und der Baron ab; die widersprüchliche Anweisung wird erläutert, nicht stillschweigend umgeschrieben.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-8-0",
+      "scan": 82,
+      "printedPage": 80,
+      "kind": "correction",
+      "before": "Wechselgläubiger",
+      "printReading": "Wechselschuldner",
+      "note": "Frühere Konjektur zurückgenommen: Auch 1826 steht „Wechselschuldner“. Im Zusammenhang ist Wendheims Gläubiger gemeint (vgl. III, 5). Der gedruckte Widerspruch bleibt sichtbar.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-2-0",
+      "scan": 96,
+      "printedPage": 94,
+      "kind": "variant",
+      "before": "Leere Sprecherstelle nach „Was habt ihr?“",
+      "printReading": "1. Träger. Ah — Wir haben einen Skrupel. Sie sind nicht der Rechte.",
+      "note": "1826 enthält diese Antwort. Im Ausgangstranskript ist nur eine leere Sprecherangabe vorhanden. Als Ergänzung der Vergleichsausgabe hier lesbar; ohne Druck von 1798 bleibt offen, ob Übertragungslücke oder Fassungsunterschied.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-1-8-0",
+      "scan": 31,
+      "printedPage": 29,
+      "kind": "variant",
+      "before": "Zwischen „Disharmonie zwischen beiden“ und „Du glaubst nicht“ fehlen zwei Reden.",
+      "printReading": "Julie. Doch Beyde darin einverstanden, daß ich Wendheim nicht mehr sehen, geschweige jemals besitzen soll.\nSophie. Das ist freylich etwas. — Aber — bis der eine Liebhaber hier ankömmt, zänken sich Onkel und Tante um den andern; vielleicht führt unterdessen der Zufall etwas Günstiges herbey.",
+      "note": "Zusätzliche Passage in der Ausgabe von 1826. Sie verdeutlicht den gemeinsamen Widerstand von Onkel und Tante und Sophies Hoffnung auf Zeitgewinn. Nicht ungekennzeichnet in die auf 1798 zurückgeführte Lesefassung eingefügt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-2-3-0",
+      "scan": 46,
+      "printedPage": 44,
+      "kind": "variant",
+      "before": "leicht und luftig",
+      "printReading": "leicht und lustig",
+      "note": "Abweichende Lesart der Vergleichsausgabe; Ausgangsform bleibt erhalten.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-7-0",
+      "scan": 104,
+      "printedPage": 102,
+      "kind": "variant",
+      "before": "keinen Platz",
+      "printReading": "keinen andern Platz",
+      "note": "Abweichende Lesart der Vergleichsausgabe; Ausgangsform bleibt erhalten.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-11-2",
+      "scan": 92,
+      "printedPage": 90,
+      "kind": "variant",
+      "before": "Physionomie",
+      "printReading": "Physiognomie",
+      "note": "Abweichende Lesart der Vergleichsausgabe; Ausgangsform bleibt erhalten.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-2-0",
+      "scan": 97,
+      "printedPage": 95,
+      "kind": "variant",
+      "before": "in Gutem",
+      "printReading": "im Guten",
+      "note": "Abweichende Lesart der Vergleichsausgabe; Ausgangsform bleibt erhalten.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-2-1-0",
+      "scan": 41,
+      "printedPage": 39,
+      "kind": "confirmed",
+      "before": "",
+      "printReading": "Arend",
+      "note": "Der Name steht auch im Druck; die Identität wird damit nicht geklärt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-2-10-0",
+      "scan": 64,
+      "printedPage": 62,
+      "kind": "confirmed",
+      "before": "",
+      "printReading": "Genug für jetzt. Carl. / Trotz der Scenen von vorhin?",
+      "note": "Die bisherigen Rekonstruktionen sind durch das Seitenbild bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-11-0",
+      "scan": 88,
+      "printedPage": 86,
+      "kind": "confirmed",
+      "before": "",
+      "printReading": "Wahrlich, ich werde ein tröstlicheres Wort hier hören",
+      "note": "Die auffällige Formulierung steht so im Druck und bleibt erhalten.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-7-0",
+      "scan": 104,
+      "printedPage": 102,
+      "kind": "confirmed",
+      "before": "",
+      "printReading": "und fest ent",
+      "note": "Auch im Druck abgebrochene Rede; keine erfundene Vervollständigung.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-11-1",
+      "scan": 90,
+      "printedPage": 88,
+      "kind": "confirmed",
+      "before": "",
+      "printReading": "Zwölfter Auftritt.",
+      "note": "Auftrittsgrenze bestätigt; bestehende Abschnittskennungen bleiben erhalten.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-6-1",
+      "scan": 102,
+      "printedPage": 100,
+      "kind": "confirmed",
+      "before": "",
+      "printReading": "Die satyrische Laune gewinnt um so viel mehr",
+      "note": "Schauspieleranmerkung über den Seitenwechsel S. 99–100; keine Figurenrede.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-13-0",
+      "scan": 114,
+      "printedPage": 112,
+      "kind": "confirmed",
+      "before": "",
+      "printReading": "Anweisung zum nächtlichen Eintritt",
+      "note": "Der zuvor entfernte Einschub „Sonst“ wird vom zusammenhängenden Drucktext nicht gestützt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-2-2-2",
+      "scan": 45,
+      "printedPage": 43,
+      "kind": "uncertain",
+      "before": "Cubach",
+      "printReading": "Cubachs / Culachs?",
+      "note": "Der Eigenname bleibt auch im Seitenbild nicht sicher auflösbar. Keine Ersetzung aus Vermutung.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-2-8-0",
+      "scan": 59,
+      "printedPage": 57,
+      "kind": "correction",
+      "before": "stor' Dich",
+      "printReading": "stör' Dich",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-2-8-0",
+      "scan": 60,
+      "printedPage": 58,
+      "kind": "correction",
+      "before": "scham' ich",
+      "printReading": "schäm' ich",
+      "note": "Am Seitenbild der Wiener Ausgabe bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-3-0",
+      "scan": 72,
+      "printedPage": 70,
+      "kind": "confirmed",
+      "before": "Entfas gen",
+      "printReading": "Entsagen",
+      "note": "Die bisherige Berichtigung ist durch das Seitenbild bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-3-8-1",
+      "scan": 85,
+      "printedPage": 83,
+      "kind": "confirmed",
+      "before": "bur. tig",
+      "printReading": "hurtig",
+      "note": "Die bisherige Berichtigung ist durch das Seitenbild bestätigt.",
+      "verifiedOnImage": true
+    },
+    {
+      "section": "text-4-2-0",
+      "scan": 97,
+      "printedPage": 95,
+      "kind": "confirmed",
+      "before": "Dus katen",
+      "printReading": "Dukaten",
+      "note": "Die bisherige Berichtigung ist durch das Seitenbild bestätigt.",
+      "verifiedOnImage": true
+    }
+  ]
+}

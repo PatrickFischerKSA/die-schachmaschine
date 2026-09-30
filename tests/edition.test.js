@@ -25,7 +25,7 @@ test('All 79 sections have individually reviewed, concise modern summaries and a
 });
 test('Historical spellings remain; demonstrable corruptions and speaker errors are corrected; uncertainty is explicit',()=>{
   const all=pages.map(readingText).join('');for(const form of ['seyn','bey','Heurath','frey','Zweyter','Baroninn'])assert.ok(all.includes(form),form);
-  for(const fragment of ['Jekt','Giewissen','Nu.f...','Tråger','Entfas gen','bur. tig','Schmucď','Wechselschuldner'])assert.ok(!all.includes(fragment),fragment);
+  for(const fragment of ['Jekt','Giewissen','Nu.f...','Tråger','Entfas gen','bur. tig','Schmucď'])assert.ok(!all.includes(fragment),fragment);
   assert.ok(readingText('text-3-3-0').includes('zum Entsagen gezwungen'));
   assert.ok(readingText('text-4-2-0').includes('einen Dukaten'));
   assert.ok(readingText('text-3-11-1').includes('\n\nZwölfter Auftritt.'));
@@ -47,4 +47,16 @@ test('Word explanations and short quotations resolve in the corrected edition wi
   assert.equal(correctPassage('Hier habt ihr jeder einen Dus katen; wollt ihr mich tragen?'),'Hier habt ihr jeder einen Dukaten; wollt ihr mich tragen?');
   assert.match(correctPassage('man kann wohl zum Entfas gen gezwungen werden, aber nicht zum Lieben.'),/zum Entsagen/);
   assert.equal(correctPassage('This is not a quotation.'),'This is not a quotation.');
+});
+
+test('Print collation covers every section and preserves edition differences transparently',()=>{
+  const c=JSON.parse(fs.readFileSync(new URL('../src/print-collation.json',import.meta.url)));
+  assert.equal(Object.keys(c.sections).length,79);
+  for(const p of pages){const r=c.sections[p.id];assert.ok(r.scanFrom>=3&&r.scanTo<=118&&r.scanFrom<=r.scanTo);}
+  for(const f of c.findings){assert.ok(c.visuallyCheckedScans.includes(f.scan));assert.equal(f.printedPage,f.scan-2);assert.ok(edition[f.section]);}
+  assert.match(readingText('text-1-10-2'),/laut schwatzen/);
+  assert.match(readingText('text-3-8-0'),/Wechselschuldner/);
+  assert.match(readingText('text-1-3-1'),/Er und Ruf gehen ab/);
+  assert.ok(c.findings.some(f=>f.section==='text-4-2-0'&&f.kind==='variant'&&f.printReading.includes('Skrupel')));
+  assert.equal(fs.readFileSync(new URL('../public/sources/beck-1826-abgleich.json',import.meta.url),'utf8'),JSON.stringify(c,null,2)+'\n');
 });

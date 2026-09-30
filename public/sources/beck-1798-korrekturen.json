@@ -1,52 +1,52 @@
 {
   "edition": "Behutsam korrigierte Lesefassung, 2026-09-30",
-  "basis": "Bereitgestelltes Transkript; kein Abgleich mit dem historischen Druck",
+  "basis": "Bereitgestelltes Transkript (Titelangabe Berlin 1798), OCR-gestützter Gesamtvergleich mit Wien 1826 und gezielte Seitenbildprüfung; Druck von 1798 ungeprüft. Siehe beck-1826-abgleich.json.",
   "sourceUnchanged": true,
   "notes": {
     "text-1-3-1": [
-      "Die Schlussanweisung nennt im Transkript nach Rufs Rede „Er und Ruf“. Gemeint sind nach dem Dialog Ruf und der Baron."
+      "„Er und Ruf“ steht auch im Druck von 1826 (S. 13). Gemeint sind nach dem Dialog Ruf und der Baron. Die frühere redaktionelle Ersetzung wurde zurückgenommen."
     ],
     "text-1-10-2": [
-      "„koutschmaßen“ bleibt als ungesicherte Lesung des Ausgangstranskripts stehen; ohne Druckvergleich wird keine Ersatzform erfunden."
+      "Das unverständliche „koutschmaßen“ ist nach dem Seitenbild von 1826, S. 35, zu „laut schwatzen“ berichtigt."
     ],
     "text-2-1-0": [
-      "Die Anspielung auf „Arend“ und das „wahre Christenthum“ wird nicht ohne Druckvergleich in einen anderen Eigennamen geändert."
+      "„Arend“ ist im Druck von 1826, S. 39, bestätigt. Die Identität des Namensträgers bleibt offen."
     ],
     "text-2-2-2": [
-      "Der Name „Cubach“ im Gebetbuch-Verweis ist in der Vorlage unsicher und bleibt ohne Druckvergleich unverändert."
+      "Der Name „Cubach“ bleibt unsicher; auch das Seitenbild von 1826, S. 43, erlaubt keine zweifelsfreie Auflösung."
     ],
     "text-2-9-0": [
-      "Die durch den Seitenwechsel zerrissene Schauspieleranmerkung wird hier zusammengeführt. „ver.“ und „stohinen“ werden zu „verstohlenen“ ergänzt."
+      "Die Schauspieleranmerkung ist nach dem Seitenbild S. 59 wieder zusammengeführt; die historische Form lautet „verstohlnen“."
     ],
     "text-2-9-1": [
       "Die versehentlich in die Rede geratene Fortsetzung der Schauspieleranmerkung steht nun vollständig beim vorherigen Abschnitt."
     ],
     "text-2-10-0": [
-      "Die stark beschädigten Übergänge „Genug für jes in Carlo T L“ und „Troß der Grenen“ werden aus dem unmittelbaren Dialogzusammenhang hergestellt."
+      "„Genug für jetzt. Carl.“ und „Trotz der Scenen von vorhin?“ sind durch den Druck von 1826, S. 62, bestätigt."
     ],
     "text-3-8-0": [
-      "„Wechselschuldner“ wird zu „Wechselgläubiger“ berichtigt: Nach dem unmittelbar zuvor belauschten Plan soll der Mann, dem Wendheim Geld schuldet, Arrest androhen."
+      "Auch 1826, S. 80, steht „Wechselschuldner“. Im Kontext ist der Gläubiger gemeint. Die frühere Konjektur „Wechselgläubiger“ ist zurückgenommen."
     ],
     "text-3-11-0": [
-      "„Wahrlich, ich werde ein tröstlicheres Wort hier hören“ bleibt stehen. Eine Änderung zu einer anderen Zeitform wäre ohne Druckvergleich nicht eindeutig."
+      "„Wahrlich, ich werde ein tröstlicheres Wort hier hören“ ist im Druck von 1826, S. 86, bestätigt."
     ],
     "text-3-11-1": [
       "Dieser bisher als III/11 geführte Abschnitt enthält auch den Beginn des zwölften Auftritts. Die vorhandene Überschrift wird wieder als Überschrift abgesetzt; die Abschnittskennung bleibt für gespeicherte Belege erhalten."
     ],
     "text-4-2-0": [
-      "Nach „Was habt ihr?“ steht im Ausgangstranskript eine leere Sprecherangabe des ersten Trägers. Sie wird entfernt; eine fehlende Antwort wird nicht erfunden."
+      "Die leere Sprecherstelle nach „Was habt ihr?“ wird im Lauftext weiterhin ausgelassen. Unter „Druckvergleich“ ist die in der Ausgabe von 1826 enthaltene Antwort des Trägers vollständig nachzulesen."
     ],
     "text-4-6-1": [
-      "Die Schauspieleranmerkung gehört zum „Wuchs“ im vorigen Abschnitt und ist keine Rede Carls. Sie wird ausdrücklich als Anmerkung gekennzeichnet."
+      "Die über S. 99–100 verteilte Schauspieleranmerkung ist im Druck bestätigt und bleibt als Anmerkung vom Dialog getrennt."
     ],
     "text-4-7-0": [
-      "Die abgebrochene Wendung „und fest ent –“ bleibt als ungesicherter Wortlaut stehen. Eine Fortsetzung wird nicht ergänzt."
+      "„und fest ent“ steht auch im Druck von 1826, S. 102, als abgebrochene Rede. Keine Ergänzung erfunden."
     ],
     "text-4-13-0": [
       "Der beschädigte Satz über das nächtliche Eindringen wird durch Entfernen des störenden „Sonst“ zusammengeführt. Carls Behauptung ist Teil des inszenierten Schreckens, kein tatsächlicher Befund über den Grafen."
     ],
     "text-4-13-1": [
-      "„Gegensegen“ ist möglicherweise beschädigt, lässt sich ohne Druckvergleich aber nicht eindeutig verbessern. Die Zusammenfassung deutet Sophies Nein nicht in eine gesicherte Zustimmung um."
+      "„Gegensegen“ ist nach dem Seitenbild von 1826, S. 115, zu „Segen“ berichtigt."
     ]
   },
   "changes": [
@@ -283,6 +283,17 @@
     },
     {
       "page": "text-1-2-1",
+      "start": 415,
+      "end": 416,
+      "readingStart": 411,
+      "readingEnd": 412,
+      "before": "s",
+      "after": "f",
+      "contextBefore": "an Leib und Seele kranken Grafen auszuschwaken? Dann rathe ich Dir die ",
+      "contextAfter": "an Leib und Seele kranken Grafen aufzuschwatzen? Dann rathe ich Dir die"
+    },
+    {
+      "page": "text-1-2-1",
       "start": 423,
       "end": 424,
       "readingStart": 419,
@@ -290,7 +301,7 @@
       "before": "k",
       "after": "tz",
       "contextBefore": "und Seele kranken Grafen auszuschwaken? Dann rathe ich Dir die ganze Au",
-      "contextAfter": "und Seele kranken Grafen auszuschwatzen? Dann rathe ich Dir die ganze Au"
+      "contextAfter": "und Seele kranken Grafen aufzuschwatzen? Dann rathe ich Dir die ganze Au"
     },
     {
       "page": "text-1-2-1",
@@ -316,10 +327,32 @@
     },
     {
       "page": "text-1-2-1",
+      "start": 845,
+      "end": 846,
+      "readingStart": 843,
+      "readingEnd": 844,
+      "before": "l",
+      "after": "h",
+      "contextBefore": "inzigen schlechten Streich -! letztlich noch – Baroninn.\nSchreibt er Ih",
+      "contextAfter": "inzigen schlechten Streich -! letzthin noch – Baroninn.\nSchreibt er Ihn"
+    },
+    {
+      "page": "text-1-2-1",
+      "start": 847,
+      "end": 849,
+      "readingStart": 845,
+      "readingEnd": 846,
+      "before": "ch",
+      "after": "n",
+      "contextBefore": "zigen schlechten Streich -! letztlich noch – Baroninn.\nSchreibt er Ihnen",
+      "contextAfter": "zigen schlechten Streich -! letzthin noch – Baroninn.\nSchreibt er Ihnen"
+    },
+    {
+      "page": "text-1-2-1",
       "start": 957,
       "end": 959,
-      "readingStart": 955,
-      "readingEnd": 955,
+      "readingStart": 954,
+      "readingEnd": 954,
       "before": "s ",
       "after": "",
       "contextBefore": "Die meisten schrieb mir sein Hofmeis ster. Ich habe ihm einen mitgegeben",
@@ -329,8 +362,8 @@
       "page": "text-1-2-1",
       "start": 1553,
       "end": 1555,
-      "readingStart": 1549,
-      "readingEnd": 1551,
+      "readingStart": 1548,
+      "readingEnd": 1550,
       "before": "Nn",
       "after": "Ru",
       "contextBefore": "in wilder Passagier?\nBaron.\nGewiß. Nnf. Ein Cato! gegen meinen Karl. Bar",
@@ -356,7 +389,18 @@
       "before": "s ",
       "after": "",
       "contextBefore": "en; er kehrte sich nicht an das Vers bot, schoß mir nichts die nichts ei",
-      "contextAfter": "en; er kehrte sich nicht an das Verbot, schoß mir nichts die nichts ei"
+      "contextAfter": "en; er kehrte sich nicht an das Verbot, schoß mir nichts dir nichts ei"
+    },
+    {
+      "page": "text-1-2-2",
+      "start": 334,
+      "end": 335,
+      "readingStart": 333,
+      "readingEnd": 334,
+      "before": "e",
+      "after": "r",
+      "contextBefore": "n das Vers bot, schoß mir nichts die nichts einen Rehbock. Wie aber den",
+      "contextAfter": " an das Verbot, schoß mir nichts dir nichts einen Rehbock. Wie aber den"
     },
     {
       "page": "text-1-2-2",
@@ -544,17 +588,6 @@
       "after": "",
       "contextBefore": "e kuriose Figur damit. Gehen wir zus sammen auf die Aue, und machen uns ",
       "contextAfter": "e kuriose Figur damit. Gehen wir zusammen auf die Aue, und machen uns "
-    },
-    {
-      "page": "text-1-3-1",
-      "start": 1027,
-      "end": 1030,
-      "readingStart": 1020,
-      "readingEnd": 1029,
-      "before": "Ruf",
-      "after": "der Baron",
-      "contextBefore": "as ist eben die Fatalität! (Er und Ruf gehen ab.)\n",
-      "contextAfter": "as ist eben die Fatalität! (Er und der Baron gehen ab.)\n"
     },
     {
       "page": "text-1-4-0",
@@ -1313,25 +1346,14 @@
       "before": "L",
       "after": "T",
       "contextBefore": "l.\nAuf wie lange? Salden.\nAuf drey Lage. Carl. Adieu! -\nDu siehst, daß ",
-      "contextAfter": "l.\nAuf wie lange? Salden.\nAuf drey Tage. Carl.dieu! -\nDu siehst, daß ic"
-    },
-    {
-      "page": "text-1-6-3",
-      "start": 398,
-      "end": 400,
-      "readingStart": 392,
-      "readingEnd": 392,
-      "before": " A",
-      "after": "",
-      "contextBefore": "lange? Salden.\nAuf drey Lage. Carl. Adieu! -\nDu siehst, daß ich bey alle",
-      "contextAfter": "lange? Salden.\nAuf drey Tage. Carl.dieu! -\nDu siehst, daß ich bey alle"
+      "contextAfter": "l.\nAuf wie lange? Salden.\nAuf drey Tage. Carl. Adieu! -\nDu siehst, daß "
     },
     {
       "page": "text-1-6-3",
       "start": 443,
       "end": 445,
-      "readingStart": 435,
-      "readingEnd": 435,
+      "readingStart": 437,
+      "readingEnd": 437,
       "before": ". ",
       "after": "",
       "contextBefore": "Du siehst, daß ich bey aller Leicht. heit, meiner Freunde nicht vergesse",
@@ -1910,6 +1932,17 @@
       "contextAfter": "hgültig. Sophie. Sey still, sey still! man kann nicht wissen. Der junge"
     },
     {
+      "page": "text-1-8-0",
+      "start": 1647,
+      "end": 1648,
+      "readingStart": 1634,
+      "readingEnd": 1635,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "Ansprüche der junge Ruf zu machen hatte; um so ängstlicher würde meine ",
+      "contextAfter": "Ansprüche der junge Ruf zu machen hätte; um so ängstlicher würde meine "
+    },
+    {
       "page": "text-1-9-0",
       "start": 35,
       "end": 35,
@@ -2351,6 +2384,17 @@
     },
     {
       "page": "text-1-10-1",
+      "start": 1686,
+      "end": 1687,
+      "readingStart": 1685,
+      "readingEnd": 1686,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "ie kleine Sophie? – mit dem Stumpfnaschen? die immer mit uns Soldaten s",
+      "contextAfter": "ie kleine Sophie? – mit dem Stumpfnäschen? die immer mit uns Soldaten s"
+    },
+    {
+      "page": "text-1-10-1",
       "start": 2046,
       "end": 2048,
       "readingStart": 2045,
@@ -2384,10 +2428,54 @@
     },
     {
       "page": "text-1-10-2",
+      "start": 246,
+      "end": 248,
+      "readingStart": 246,
+      "readingEnd": 248,
+      "before": "ko",
+      "after": "la",
+      "contextBefore": "nn schon ein Drittheil vorbey ist, koutschmaßen und dergleichen, das ist",
+      "contextAfter": "nn schon ein Drittheil vorbey ist, laut schwatzen und dergleichen, das i"
+    },
+    {
+      "page": "text-1-10-2",
+      "start": 250,
+      "end": 250,
+      "readingStart": 250,
+      "readingEnd": 251,
+      "before": "",
+      "after": " ",
+      "contextBefore": "chon ein Drittheil vorbey ist, koutschmaßen und dergleichen, das ist n",
+      "contextAfter": "chon ein Drittheil vorbey ist, laut schwatzen und dergleichen, das ist "
+    },
+    {
+      "page": "text-1-10-2",
+      "start": 253,
+      "end": 254,
+      "readingStart": 254,
+      "readingEnd": 255,
+      "before": "m",
+      "after": "w",
+      "contextBefore": "n ein Drittheil vorbey ist, koutschmaßen und dergleichen, das ist nicht",
+      "contextAfter": " ein Drittheil vorbey ist, laut schwatzen und dergleichen, das ist nich"
+    },
+    {
+      "page": "text-1-10-2",
+      "start": 255,
+      "end": 256,
+      "readingStart": 256,
+      "readingEnd": 258,
+      "before": "ß",
+      "after": "tz",
+      "contextBefore": "ein Drittheil vorbey ist, koutschmaßen und dergleichen, das ist nichts,",
+      "contextAfter": "in Drittheil vorbey ist, laut schwatzen und dergleichen, das ist nichts,"
+    },
+    {
+      "page": "text-1-10-2",
       "start": 692,
       "end": 694,
-      "readingStart": 692,
-      "readingEnd": 692,
+      "readingStart": 694,
+      "readingEnd": 694,
       "before": "s ",
       "after": "",
       "contextBefore": "er wieder auf die Hauptsache zu koms men. Diese Strickleiter hängen Sie ",
@@ -2395,21 +2483,32 @@
     },
     {
       "page": "text-1-10-2",
-      "start": 1496,
-      "end": 1497,
-      "readingStart": 1494,
-      "readingEnd": 1494,
+      "start": 1405,
+      "end": 1406,
+      "readingStart": 1405,
+      "readingEnd": 1406,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "icht zu weit weg; – wer weiß? wie wars wenn ich der erste? – heute zwar",
+      "contextAfter": "icht zu weit weg; – wer weiß? wie wärs wenn ich der erste? – heute zwar"
+    },
+    {
+      "page": "text-1-10-2",
+      "start": 1495,
+      "end": 1496,
+      "readingStart": 1495,
+      "readingEnd": 1495,
       "before": "?",
       "after": "",
-      "contextBefore": "ich Schildwache; aber ein andermal??\nSophie. (mit Laune.) Kommen Sie li",
-      "contextAfter": "ich Schildwache; aber ein andermal?\nSophie. (mit Laune.) Kommen Sie li"
+      "contextBefore": " ich Schildwache; aber ein andermal??\nSophie. (mit Laune.) Kommen Sie l",
+      "contextAfter": " ich Schildwache; aber ein andermal?\nSophie. (mit Laune.) Kommen Sie l"
     },
     {
       "page": "text-1-10-2",
       "start": 1924,
       "end": 1926,
-      "readingStart": 1921,
-      "readingEnd": 1922,
+      "readingStart": 1923,
+      "readingEnd": 1924,
       "before": "nı",
       "after": "m",
       "contextBefore": "h laufen was ich kann. Sophie. Warunı eilen Sie fo? Carl.\nEr darf mich n",
@@ -2419,8 +2518,8 @@
       "page": "text-1-10-2",
       "start": 1937,
       "end": 1938,
-      "readingStart": 1933,
-      "readingEnd": 1934,
+      "readingStart": 1935,
+      "readingEnd": 1936,
       "before": "f",
       "after": "s",
       "contextBefore": "ich kann. Sophie. Warunı eilen Sie fo? Carl.\nEr darf mich noch nicht se",
@@ -2430,8 +2529,8 @@
       "page": "text-1-10-2",
       "start": 1997,
       "end": 1999,
-      "readingStart": 1993,
-      "readingEnd": 1993,
+      "readingStart": 1995,
+      "readingEnd": 1995,
       "before": " i",
       "after": "",
       "contextBefore": "ch nicht sehen. Julie. Warum nicht? i\nCarl.\nEy, wenn er mich nun nach un",
@@ -2483,6 +2582,17 @@
     },
     {
       "page": "text-1-10-3",
+      "start": 743,
+      "end": 744,
+      "readingStart": 742,
+      "readingEnd": 743,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "Carl.\nEin wandelndes Rondo – mit prachtigen Vas riationen – abwechselnd",
+      "contextAfter": "Carl.\nEin wandelndes Rondo – mit prächtigen Variationen – abwechselnd n"
+    },
+    {
+      "page": "text-1-10-3",
       "start": 754,
       "end": 756,
       "readingStart": 753,
@@ -2490,7 +2600,7 @@
       "before": "s ",
       "after": "",
       "contextBefore": "andelndes Rondo – mit prachtigen Vas riationen – abwechselnd nach jedem ",
-      "contextAfter": "andelndes Rondo – mit prachtigen Variationen – abwechselnd nach jedem "
+      "contextAfter": "andelndes Rondo – mit prächtigen Variationen – abwechselnd nach jedem "
     },
     {
       "page": "text-2-1-0",
@@ -3990,6 +4100,17 @@
     },
     {
       "page": "text-2-8-0",
+      "start": 760,
+      "end": 761,
+      "readingStart": 760,
+      "readingEnd": 761,
+      "before": "o",
+      "after": "ö",
+      "contextBefore": "s hier unten etwan Lärmen giebt, stor' Dich an nichts. Ich deck Dir auf",
+      "contextAfter": "s hier unten etwan Lärmen giebt, stör' Dich an nichts. Ich deck Dir auf"
+    },
+    {
+      "page": "text-2-8-0",
       "start": 820,
       "end": 826,
       "readingStart": 820,
@@ -4053,6 +4174,17 @@
       "after": "",
       "contextBefore": "mpel; aber eine Braut! und eine huba sche Braut – das macht mir keiner s",
       "contextAfter": "mpel; aber eine Braut! und eine hübsche Braut – das macht mir keiner s"
+    },
+    {
+      "page": "text-2-8-0",
+      "start": 1901,
+      "end": 1902,
+      "readingStart": 1890,
+      "readingEnd": 1891,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "Lärm und Spektakel ausgeht – so scham' ich mich zu Tode.- Stille es rüh",
+      "contextAfter": "Lärm und Spektakel ausgeht – so schäm' ich mich zu Tode.- Stille es rüh"
     },
     {
       "page": "text-2-8-0",
@@ -4122,6 +4254,17 @@
     },
     {
       "page": "text-2-9-0",
+      "start": 1216,
+      "end": 1217,
+      "readingStart": 1209,
+      "readingEnd": 1210,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "Der Herr ist von der Polizey? das hatt' ich gleich an der Manier merken",
+      "contextAfter": "Der Herr ist von der Polizey? das hätt' ich gleich an der Manier merken"
+    },
+    {
+      "page": "text-2-9-0",
       "start": 1267,
       "end": 1268,
       "readingStart": 1260,
@@ -4173,25 +4316,25 @@
       "before": ",",
       "after": "",
       "contextBefore": "er Schauspieler wird dieß Wortspiel, durch einen ver.\nRuf. Was ist das?",
-      "contextAfter": "er Schauspieler wird dieß Wortspiel durch einen verstohlenen Seitenbli"
+      "contextAfter": "er Schauspieler wird dieß Wortspiel durch einen verstohlnen Seitenblic"
     },
     {
       "page": "text-2-9-0",
       "start": 1686,
       "end": 1686,
       "readingStart": 1685,
-      "readingEnd": 1750,
+      "readingEnd": 1749,
       "before": "",
-      "after": "stohlenen Seitenblick auf die Leiter und den Balkon wohl andeuten",
+      "after": "stohlnen Seitenblick auf die Leiter und den Balkon wohl andeuten",
       "contextBefore": "ird dieß Wortspiel, durch einen ver.\nRuf. Was ist das? Die Stimme hat ",
-      "contextAfter": "wird dieß Wortspiel durch einen verstohlenen Seitenblick auf die Leiter und den Balkon wohl andeuten.)\nRuf. Was ist das? Die Stimme hat"
+      "contextAfter": "wird dieß Wortspiel durch einen verstohlnen Seitenblick auf die Leiter und den Balkon wohl andeuten.)\nRuf. Was ist das? Die Stimme hat"
     },
     {
       "page": "text-2-9-0",
       "start": 1687,
       "end": 1687,
-      "readingStart": 1751,
-      "readingEnd": 1752,
+      "readingStart": 1750,
+      "readingEnd": 1751,
       "before": "",
       "after": ")",
       "contextBefore": "rd dieß Wortspiel, durch einen ver.\nRuf. Was ist das? Die Stimme hat Ä",
@@ -4201,8 +4344,8 @@
       "page": "text-2-9-0",
       "start": 1819,
       "end": 1820,
-      "readingStart": 1884,
-      "readingEnd": 1885,
+      "readingStart": 1883,
+      "readingEnd": 1884,
       "before": "G",
       "after": "S",
       "contextBefore": "Carl. (in verstelltem Tone.) Keine Gottisen! das bitt ich mir aus; wer ",
@@ -4591,7 +4734,18 @@
       "before": "s ",
       "after": "",
       "contextBefore": "oll ein Abentheuer, das so schön ans fing, so ganz erbarmlich beschließe",
-      "contextAfter": "oll ein Abentheuer, das so schön anfing, so ganz erbarmlich beschließe"
+      "contextAfter": "oll ein Abentheuer, das so schön anfing, so ganz erbärmlich beschließe"
+    },
+    {
+      "page": "text-2-10-0",
+      "start": 1186,
+      "end": 1187,
+      "readingStart": 1164,
+      "readingEnd": 1165,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": " das so schön ans fing, so ganz erbarmlich beschließen? Nein, das kann ",
+      "contextAfter": "r, das so schön anfing, so ganz erbärmlich beschließen? Nein, das kann "
     },
     {
       "page": "text-2-10-0",
@@ -4801,6 +4955,17 @@
       "after": "tz",
       "contextBefore": " als in einem ganzen Gaal voll gepuster Skelette ohne Seelen. Baroninn.",
       "contextAfter": " als in einem ganzen Saal voll geputzter Skelette ohne Seelen. Baroninn."
+    },
+    {
+      "page": "text-3-1-0",
+      "start": 668,
+      "end": 669,
+      "readingStart": 669,
+      "readingEnd": 670,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "nn. Wie wärs, wenn ich Unterricht nahme? Baron.\nSie haltens nicht aus, ",
+      "contextAfter": "nn. Wie wärs, wenn ich Unterricht nähme? Baron.\nSie haltens nicht aus, "
     },
     {
       "page": "text-3-1-0",
@@ -5405,7 +5570,18 @@
       "before": "s",
       "after": "tz",
       "contextBefore": "t hätte mein Herr Gemahl zurück. Jest war also nur noch sein Eigensinn ",
-      "contextAfter": "t hätte mein Herr Gemahl zurück. Jetzt war also nur noch sein Eigensinn "
+      "contextAfter": "t hätte mein Herr Gemahl zurück. Jetzt wär also nur noch sein Eigensinn "
+    },
+    {
+      "page": "text-3-3-0",
+      "start": 228,
+      "end": 229,
+      "readingStart": 228,
+      "readingEnd": 229,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "tte mein Herr Gemahl zurück. Jest war also nur noch sein Eigensinn zu b",
+      "contextAfter": "te mein Herr Gemahl zurück. Jetzt wär also nur noch sein Eigensinn zu b"
     },
     {
       "page": "text-3-3-0",
@@ -5673,6 +5849,17 @@
     },
     {
       "page": "text-3-4-1",
+      "start": 296,
+      "end": 297,
+      "readingStart": 292,
+      "readingEnd": 293,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "in solches Geschenk zu machen? Du hattest Dich schwerlich geweigert.: J",
+      "contextAfter": "in solches Geschenk zu machen? Du hättest Dich schwerlich geweigert. Ju"
+    },
+    {
+      "page": "text-3-4-1",
       "start": 329,
       "end": 330,
       "readingStart": 325,
@@ -5680,7 +5867,7 @@
       "before": ":",
       "after": "",
       "contextBefore": " hattest Dich schwerlich geweigert.: Julie. (erröthend vor Unwillen.) I",
-      "contextAfter": " hattest Dich schwerlich geweigert. Julie. (erröthend vor Unwillen.) I"
+      "contextAfter": " hättest Dich schwerlich geweigert. Julie. (erröthend vor Unwillen.) I"
     },
     {
       "page": "text-3-4-1",
@@ -6230,7 +6417,29 @@
       "before": "f",
       "after": "s",
       "contextBefore": "damit ists nun ganz aus.\nCarl. Wie fo? Julie. Der Herr Onkel war hier, ",
-      "contextAfter": "damit ists nun ganz aus.\nCarl. Wie so? Julie. Der Herr Onkel war hier, "
+      "contextAfter": "damit ists nun ganz aus.\nCarl. Wie so? Julie. Ihr Herr Onkel war hier, "
+    },
+    {
+      "page": "text-3-7-0",
+      "start": 713,
+      "end": 715,
+      "readingStart": 711,
+      "readingEnd": 713,
+      "before": "De",
+      "after": "Ih",
+      "contextBefore": "nun ganz aus.\nCarl. Wie fo? Julie. Der Herr Onkel war hier, und hat mein",
+      "contextAfter": "nun ganz aus.\nCarl. Wie so? Julie. Ihr Herr Onkel war hier, und hat mein"
+    },
+    {
+      "page": "text-3-7-0",
+      "start": 817,
+      "end": 818,
+      "readingStart": 815,
+      "readingEnd": 816,
+      "before": "u",
+      "after": "ü",
+      "contextBefore": "ht. Carl. Was ist das? – Der Graf wunscht, – mein Onkel will nicht; – j",
+      "contextAfter": "ht. Carl. Was ist das? – Der Graf wünscht, – mein Onkel will nicht; – j"
     },
     {
       "page": "text-3-7-0",
@@ -6278,6 +6487,17 @@
     },
     {
       "page": "text-3-7-0",
+      "start": 1437,
+      "end": 1438,
+      "readingStart": 1433,
+      "readingEnd": 1434,
+      "before": "s",
+      "after": "f",
+      "contextBefore": "en Sie denn noch die Wachsamkeit aus? Carl.\nEs ging mir zu friedlich zu",
+      "contextAfter": "en Sie denn noch die Wachsamkeit auf? Carl.\nEs ging mir zu friedlich zu"
+    },
+    {
+      "page": "text-3-7-0",
       "start": 1543,
       "end": 1544,
       "readingStart": 1539,
@@ -6286,6 +6506,17 @@
       "after": "s",
       "contextBefore": " ich habe doch Malheur. Julie. Wie fo?\nCarl.\nEs geht mir dennoch nicht ",
       "contextAfter": " ich habe doch Malheur. Julie. Wie so?\nCarl.\nEs geht mir dennoch nicht "
+    },
+    {
+      "page": "text-3-7-0",
+      "start": 1688,
+      "end": 1689,
+      "readingStart": 1684,
+      "readingEnd": 1685,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": " es gab nicht einmal eine elende Plankeley.- Die Tröpfe von Bedienten m",
+      "contextAfter": " es gab nicht einmal eine elende Plänkeley.- Die Tröpfe von Bedienten m"
     },
     {
       "page": "text-3-7-0",
@@ -6363,28 +6594,6 @@
       "after": "",
       "contextBefore": "he Manier aus der Stadt zu bringen.: Julie. Auf welche Manier? Sophie. ",
       "contextAfter": "he Manier aus der Stadt zu bringen. Julie. Auf welche Manier? Sophie. "
-    },
-    {
-      "page": "text-3-8-0",
-      "start": 595,
-      "end": 598,
-      "readingStart": 588,
-      "readingEnd": 591,
-      "before": "sch",
-      "after": "glä",
-      "contextBefore": " welche Manier? Sophie. Ein Wechselschuldner soll ihm mit Arrest drohen, ",
-      "contextAfter": " welche Manier? Sophie. Ein Wechselgläubiger soll ihm mit Arrest drohen, "
-    },
-    {
-      "page": "text-3-8-0",
-      "start": 599,
-      "end": 602,
-      "readingStart": 592,
-      "readingEnd": 595,
-      "before": "ldn",
-      "after": "big",
-      "contextBefore": "che Manier? Sophie. Ein Wechselschuldner soll ihm mit Arrest drohen, und ",
-      "contextAfter": "che Manier? Sophie. Ein Wechselgläubiger soll ihm mit Arrest drohen, und "
     },
     {
       "page": "text-3-8-0",
@@ -6616,6 +6825,17 @@
       "after": "y",
       "contextBefore": "lich! – ich hab's! Wendheim muß fren seyn, und der Graf die Gelbsucht b",
       "contextAfter": "lich! – ich hab's! Wendheim muß frey seyn, und der Graf die Gelbsucht b"
+    },
+    {
+      "page": "text-3-8-1",
+      "start": 1409,
+      "end": 1410,
+      "readingStart": 1409,
+      "readingEnd": 1410,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "ger Mensch!\nCarl.\nWas hilft das Strauben? Wir sind beide prächtig! für ",
+      "contextAfter": "ger Mensch!\nCarl.\nWas hilft das Sträuben? Wir sind beide prächtig! für "
     },
     {
       "page": "text-3-8-1",
@@ -6902,6 +7122,17 @@
       "after": "tz",
       "contextBefore": " sollstDeinen Spaß erleben. (das legtere bey Seite.)\nWendheim. (bleibt ",
       "contextAfter": "sollst Deinen Spaß erleben. (das letztere bey Seite.)\nWendheim. (bleibt "
+    },
+    {
+      "page": "text-3-11-1",
+      "start": 1966,
+      "end": 1967,
+      "readingStart": 1961,
+      "readingEnd": 1962,
+      "before": "s",
+      "after": "f",
+      "contextBefore": "n Sie auch wissen, warum ich ihn aussuche? Graf. Das geht mich nichts a",
+      "contextAfter": "n Sie auch wissen, warum ich ihn aufsuche? Graf. Das geht mich nichts a"
     },
     {
       "page": "text-3-11-1",
@@ -7561,7 +7792,18 @@
       "before": " L",
       "after": "",
       "contextBefore": "! Die Träger. (gehen ab.) Baroninn. L\nJulie, es wird spat, geh' auf Dein",
-      "contextAfter": "! Die Träger. (gehen ab.) Baroninn.\nJulie, es wird spat, geh' auf Dein"
+      "contextAfter": "! Die Träger. (gehen ab.) Baroninn.\nJulie, es wird spät, geh' auf Dein"
+    },
+    {
+      "page": "text-4-6-0",
+      "start": 496,
+      "end": 497,
+      "readingStart": 493,
+      "readingEnd": 494,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": " ab.) Baroninn. L\nJulie, es wird spat, geh' auf Dein Zimmer. Julie. Ich",
+      "contextAfter": "en ab.) Baroninn.\nJulie, es wird spät, geh' auf Dein Zimmer. Julie. Ich"
     },
     {
       "page": "text-4-6-0",
@@ -7594,18 +7836,40 @@
       "before": "s ",
       "after": "",
       "contextBefore": "r so geschaffen hat; wie es denn ges wiß vorauszusehen ist. Baroninn. (k",
-      "contextAfter": "r so geschaffen hat; wie es denn gewiß vorauszusehen ist. Baroninn. (k"
+      "contextAfter": "r so geschaffen hat; wie es denn gewiß vorauszusetzen ist. Baroninn. ("
+    },
+    {
+      "page": "text-4-6-0",
+      "start": 1967,
+      "end": 1968,
+      "readingStart": 1963,
+      "readingEnd": 1965,
+      "before": "h",
+      "after": "tz",
+      "contextBefore": "hat; wie es denn ges wiß vorauszusehen ist. Baroninn. (koquettirend.) S",
+      "contextAfter": "n hat; wie es denn gewiß vorauszusetzen ist. Baroninn. (koquettirend.) S"
     },
     {
       "page": "text-4-6-0",
       "start": 2075,
       "end": 2076,
-      "readingStart": 2071,
-      "readingEnd": 2071,
+      "readingStart": 2072,
+      "readingEnd": 2072,
       "before": ":",
       "after": "",
       "contextBefore": " o! der ist vollends zum Bezaubern.: Baroninn. (für sich.) Wie angenehm",
       "contextAfter": " o! der ist vollends zum Bezaubern. Baroninn. (für sich.) Wie angenehm"
+    },
+    {
+      "page": "text-4-6-1",
+      "start": 97,
+      "end": 98,
+      "readingStart": 97,
+      "readingEnd": 98,
+      "before": "u",
+      "after": "ü",
+      "contextBefore": " Baroninn. – Wie kann man so ungestum – so unartig Carl. í\nIch kann die",
+      "contextAfter": " Baroninn. – Wie kann man so ungestüm – so unartig Carl.\nIch kann die U"
     },
     {
       "page": "text-4-6-1",
@@ -7616,7 +7880,7 @@
       "before": " í",
       "after": "",
       "contextBefore": " man so ungestum – so unartig Carl. í\nIch kann die Umschweise nicht leid",
-      "contextAfter": " man so ungestum – so unartig Carl.\nIch kann die Umschweife nicht leid"
+      "contextAfter": " man so ungestüm – so unartig Carl.\nIch kann die Umschweife nicht leid"
     },
     {
       "page": "text-4-6-1",
@@ -7917,6 +8181,17 @@
     },
     {
       "page": "text-4-7-0",
+      "start": 835,
+      "end": 836,
+      "readingStart": 822,
+      "readingEnd": 823,
+      "before": "a",
+      "after": "ä",
+      "contextBefore": "h ihn nur nicht selbst gesprochen hatte! Baroninn. &\nWarten Sie's ab, u",
+      "contextAfter": "h ihn nur nicht selbst gesprochen hätte! Baroninn.\nWarten Sie's ab, und"
+    },
+    {
+      "page": "text-4-7-0",
       "start": 850,
       "end": 852,
       "readingStart": 837,
@@ -7924,7 +8199,7 @@
       "before": " &",
       "after": "",
       "contextBefore": " selbst gesprochen hatte! Baroninn. &\nWarten Sie's ab, und Sie werden mi",
-      "contextAfter": " selbst gesprochen hatte! Baroninn.\nWarten Sie's ab, und Sie werden mi"
+      "contextAfter": " selbst gesprochen hätte! Baroninn.\nWarten Sie's ab, und Sie werden mi"
     },
     {
       "page": "text-4-7-0",
@@ -8816,6 +9091,17 @@
       "after": "",
       "contextBefore": "er dem Fenster zu promeniren. Ruf. V Das ist das Kostbarste! aber nimms ",
       "contextAfter": "er dem Fenster zu promeniren. Ruf. Das ist das Kostbarste! aber nimms "
+    },
+    {
+      "page": "text-4-13-1",
+      "start": 1997,
+      "end": 2003,
+      "readingStart": 1981,
+      "readingEnd": 1982,
+      "before": "Gegens",
+      "after": "S",
+      "contextBefore": "arste! aber nimms auch, und meinen Gegensegen dazu. Wendheim. Und meinen her",
+      "contextAfter": "arste! aber nimms auch, und meinen Segen dazu. Wendheim. Und meinen her"
     },
     {
       "page": "text-4-13-2",

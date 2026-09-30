@@ -180,7 +180,7 @@
   },
   "text-1-2-1": {
     "summary": "Die Baronin möchte die geplante Heirat verschieben. Ruf vermutet, dass sie Zeit für ihren eigenen Kandidaten, den Grafen, gewinnen will. Er verteidigt Carls lebhaftes Wesen und seine ungewöhnliche Erziehung.",
-    "text": "Ruf. Aufhören? mit der Heurath gehen sie erst recht an: denn, was ist Heurathen anders, als einen tollen Streich machen? Baroninn.\nMeiner Meinung nach wartet man mit dieser Heurath noch ein wenig; da können Sie Ihr Vergnügen an seiner Ausgelassenheit mit der Schicklichkeit vereinigen. Ruf. -\nHörst Du sie gehen? Ah, meine Gnädige, Sie wollen Zeit gewinnen? um Julien ihren – an Leib und Seele kranken Grafen auszuschwatzen? Dann rathe ich Dir die ganze Aussteuer in wohl riechenden Puder und Brustzucker umzusetzen. Nein da kenne ich meinen alten Freund zu gut; das gelingt Ihnen doch nicht. Baroninn.\nWas Sie nicht alles wissen? Baron.\nDu magst Recht haben. Indeß ist Dein Karl willkommen. Ich freue mich, ihn zu sehen. Ruf.\nEr gefällt Dir sicher, Er ist voller Leben;\nWitz, und Schelmerey; aber -\nkeinen einzigen schlechten Streich -! letztlich noch – Baroninn.\nSchreibt er Ihnen seine Abentheuer selbst? Ruf. Wenig. Die meisten schrieb mir sein Hofmeister. Ich habe ihm einen mitgegeben, der eben auch kein Kopfhänger war: die Briefe – Baroninn. Der Referent der tollen Streiche? das nenne ich doch eine hofmeisterliche Beschäfftigung! Ruf. Liebe Gnädige; was sollt er ihn lehren? Complimente, süße Narrheiten, – die wir sonst Artigkeiten heißen. Baron.\nNein, das braucht er nicht; das lernt er bey uns.\nRuf. Den Teufel auch! nichts davon. Wer mir den Jungen verderbt, der kriegt Händel mit mir. So wünscht' ich ihn; so ist er geworden; und das freut mich! – Du weißt doch, – ich war in meinen jüngern Jahren ein wilder Passagier?\nBaron.\nGewiß. Ruf. Ein Cato! gegen meinen Karl. Baron.\n",
+    "text": "Ruf. Aufhören? mit der Heurath gehen sie erst recht an: denn, was ist Heurathen anders, als einen tollen Streich machen? Baroninn.\nMeiner Meinung nach wartet man mit dieser Heurath noch ein wenig; da können Sie Ihr Vergnügen an seiner Ausgelassenheit mit der Schicklichkeit vereinigen. Ruf. -\nHörst Du sie gehen? Ah, meine Gnädige, Sie wollen Zeit gewinnen? um Julien ihren – an Leib und Seele kranken Grafen aufzuschwatzen? Dann rathe ich Dir die ganze Aussteuer in wohl riechenden Puder und Brustzucker umzusetzen. Nein da kenne ich meinen alten Freund zu gut; das gelingt Ihnen doch nicht. Baroninn.\nWas Sie nicht alles wissen? Baron.\nDu magst Recht haben. Indeß ist Dein Karl willkommen. Ich freue mich, ihn zu sehen. Ruf.\nEr gefällt Dir sicher, Er ist voller Leben;\nWitz, und Schelmerey; aber -\nkeinen einzigen schlechten Streich -! letzthin noch – Baroninn.\nSchreibt er Ihnen seine Abentheuer selbst? Ruf. Wenig. Die meisten schrieb mir sein Hofmeister. Ich habe ihm einen mitgegeben, der eben auch kein Kopfhänger war: die Briefe – Baroninn. Der Referent der tollen Streiche? das nenne ich doch eine hofmeisterliche Beschäfftigung! Ruf. Liebe Gnädige; was sollt er ihn lehren? Complimente, süße Narrheiten, – die wir sonst Artigkeiten heißen. Baron.\nNein, das braucht er nicht; das lernt er bey uns.\nRuf. Den Teufel auch! nichts davon. Wer mir den Jungen verderbt, der kriegt Händel mit mir. So wünscht' ich ihn; so ist er geworden; und das freut mich! – Du weißt doch, – ich war in meinen jüngern Jahren ein wilder Passagier?\nBaron.\nGewiß. Ruf. Ein Cato! gegen meinen Karl. Baron.\n",
     "notes": [],
     "edits": [
       {
@@ -198,6 +198,14 @@
         "readingEnd": 265,
         "before": "s ",
         "after": ""
+      },
+      {
+        "start": 415,
+        "end": 416,
+        "readingStart": 411,
+        "readingEnd": 412,
+        "before": "s",
+        "after": "f"
       },
       {
         "start": 423,
@@ -224,18 +232,34 @@
         "after": "k"
       },
       {
+        "start": 845,
+        "end": 846,
+        "readingStart": 843,
+        "readingEnd": 844,
+        "before": "l",
+        "after": "h"
+      },
+      {
+        "start": 847,
+        "end": 849,
+        "readingStart": 845,
+        "readingEnd": 846,
+        "before": "ch",
+        "after": "n"
+      },
+      {
         "start": 957,
         "end": 959,
-        "readingStart": 955,
-        "readingEnd": 955,
+        "readingStart": 954,
+        "readingEnd": 954,
         "before": "s ",
         "after": ""
       },
       {
         "start": 1553,
         "end": 1555,
-        "readingStart": 1549,
-        "readingEnd": 1551,
+        "readingStart": 1548,
+        "readingEnd": 1550,
         "before": "Nn",
         "after": "Ru"
       }
@@ -243,7 +267,7 @@
   },
   "text-1-2-2": {
     "summary": "Ruf erzählt zwei Abenteuer Carls: Er liess einen verbotenerweise erlegten Rehbock als verletzten Studenten nach Hause tragen und musste in Venedig vor einem eifersüchtigen Ehemann fliehen. Die Baronin sieht darin Warnzeichen für Julie.",
-    "text": "Da muß er arg seyn! Ruf. Prächtig arg! Wie der verdammte Junge nur ins Freie kam, da wars gleich als ob der Teufel der Lustigkeit ihn regierte. Ich will Dir nur ein Stückchen von ihm erzählen. Auf der Universität, wohin ich ihn schickte, war es den Studenten verboten zu jagen; er kehrte sich nicht an das Verbot, schoß mir nichts die nichts einen Rehbock. Wie aber den nach Hause bringen? Einer von seinen Kameraden mußte nach der Stadt und eine Portchaise holen; sie gaben den Rehbock für einen blessirten Studenten aus, verbanden den Trägern die Augen, bis er eingepackt war, und ließen so die kranke Person in ihr Haus tragen. Baron. Ein toller Einfall! Ruf. Eins seiner letzten Abentheuer in Venedig wär' ihm aber beinahe theuer zu stehen gekommen, und davon bin ich auch unzufrieden; er mußte dort in den Kanal springen, weil ihn ein eifersüchtiger Ehemann mit Pistolen suchte. Baroninn.\nEin feiner Wandel! Eine schöne Empfehlung bey unserer Julie! Wo ein junger Mensch einmal solche Principes hat, da müssen gutdenkende Ältern wachen, daß – Baron.\nBst Bst! Kind! Danken Sie doch Gott, daß wir nicht in Venedig leben.\n",
+    "text": "Da muß er arg seyn! Ruf. Prächtig arg! Wie der verdammte Junge nur ins Freie kam, da wars gleich als ob der Teufel der Lustigkeit ihn regierte. Ich will Dir nur ein Stückchen von ihm erzählen. Auf der Universität, wohin ich ihn schickte, war es den Studenten verboten zu jagen; er kehrte sich nicht an das Verbot, schoß mir nichts dir nichts einen Rehbock. Wie aber den nach Hause bringen? Einer von seinen Kameraden mußte nach der Stadt und eine Portchaise holen; sie gaben den Rehbock für einen blessirten Studenten aus, verbanden den Trägern die Augen, bis er eingepackt war, und ließen so die kranke Person in ihr Haus tragen. Baron. Ein toller Einfall! Ruf. Eins seiner letzten Abentheuer in Venedig wär' ihm aber beinahe theuer zu stehen gekommen, und davon bin ich auch unzufrieden; er mußte dort in den Kanal springen, weil ihn ein eifersüchtiger Ehemann mit Pistolen suchte. Baroninn.\nEin feiner Wandel! Eine schöne Empfehlung bey unserer Julie! Wo ein junger Mensch einmal solche Principes hat, da müssen gutdenkende Ältern wachen, daß – Baron.\nBst Bst! Kind! Danken Sie doch Gott, daß wir nicht in Venedig leben.\n",
     "notes": [],
     "edits": [
       {
@@ -261,6 +285,14 @@
         "readingEnd": 309,
         "before": "s ",
         "after": ""
+      },
+      {
+        "start": 334,
+        "end": 335,
+        "readingStart": 333,
+        "readingEnd": 334,
+        "before": "e",
+        "after": "r"
       },
       {
         "start": 404,
@@ -369,9 +401,9 @@
   },
   "text-1-3-1": {
     "summary": "Sophie fordert Ruf scherzhaft auf, sie wie ein leidenschaftlicher Verehrer zu umwerben. Er nimmt sich vor, nachts unter ihrem Fenster zu seufzen. Rink findet dieses Verhalten lächerlich und geht mit ihm fort.",
-    "text": "Sophie. Sie fragen noch? ein schöner Anbeter! Duelliren müssen Sie sich alle Wochen um meinetwillen; alle Tage ein neues Gedicht auf meine Schönheit machen, und alle Abend unter meinem Kammerfenster gehen und seufzen. Ruf.\nDas könnte machen daß ich Ihnen gefiele? Sophie. Gewiß; dann käme die Reihe an mich, Sie anzubeten. Ruf. Nun, Sie sollen sehen, was meine Zärtlichkeit vermag; ich will täglich zur Nachtzeit unter Ihrem Kammerfenster wandeln und die herzbrechendsten Stoßseufzer herauf schicken. Sophie.\nCharmant! ich spiele Ihnen dann eine zärtliche Sonate auf dem Clavier. Ruf. Spaß bey Seite; ich halte Sie beym Worte. Sophie. Das versteht sich. Ruf. Auf Ehre, ich promenire unter Ihrem Schlafzimmer. Wenn Sie aber dann noch grausam bleiben -\nBaron.\nO hör auf mit Deinen Zärtlichkeiten; Du machst eine kuriose Figur damit. Gehen wir zusammen auf die Aue, und machen uns lustig über andere, die um nichts lächerlicher sind als wir. Ruf. Kuriose Figur? das macht das Alter, und das ist eben die Fatalität! (Er und der Baron gehen ab.)\n",
+    "text": "Sophie. Sie fragen noch? ein schöner Anbeter! Duelliren müssen Sie sich alle Wochen um meinetwillen; alle Tage ein neues Gedicht auf meine Schönheit machen, und alle Abend unter meinem Kammerfenster gehen und seufzen. Ruf.\nDas könnte machen daß ich Ihnen gefiele? Sophie. Gewiß; dann käme die Reihe an mich, Sie anzubeten. Ruf. Nun, Sie sollen sehen, was meine Zärtlichkeit vermag; ich will täglich zur Nachtzeit unter Ihrem Kammerfenster wandeln und die herzbrechendsten Stoßseufzer herauf schicken. Sophie.\nCharmant! ich spiele Ihnen dann eine zärtliche Sonate auf dem Clavier. Ruf. Spaß bey Seite; ich halte Sie beym Worte. Sophie. Das versteht sich. Ruf. Auf Ehre, ich promenire unter Ihrem Schlafzimmer. Wenn Sie aber dann noch grausam bleiben -\nBaron.\nO hör auf mit Deinen Zärtlichkeiten; Du machst eine kuriose Figur damit. Gehen wir zusammen auf die Aue, und machen uns lustig über andere, die um nichts lächerlicher sind als wir. Ruf. Kuriose Figur? das macht das Alter, und das ist eben die Fatalität! (Er und Ruf gehen ab.)\n",
     "notes": [
-      "Die Schlussanweisung nennt im Transkript nach Rufs Rede „Er und Ruf“. Gemeint sind nach dem Dialog Ruf und der Baron."
+      "„Er und Ruf“ steht auch im Druck von 1826 (S. 13). Gemeint sind nach dem Dialog Ruf und der Baron. Die frühere redaktionelle Ersetzung wurde zurückgenommen."
     ],
     "edits": [
       {
@@ -413,14 +445,6 @@
         "readingEnd": 843,
         "before": "s ",
         "after": ""
-      },
-      {
-        "start": 1027,
-        "end": 1030,
-        "readingStart": 1020,
-        "readingEnd": 1029,
-        "before": "Ruf",
-        "after": "der Baron"
       }
     ]
   },
@@ -988,7 +1012,7 @@
   },
   "text-1-6-3": {
     "summary": "Carl will die Heirat gerade deshalb nicht, weil alle sie von ihm erwarten. Salden verabschiedet sich für eine dreitägige Dienstreise. Carl verspricht ihm, bald von sich reden zu machen.",
-    "text": "Nun, was mißfällt Dir denn? Carl.\nDaß die Leute wissen, daß der Onkel es gesagt hat; daß es die Braut weiß; daß Du es weißt; mit einem Wort, nun wird nichts daraus.\nSalden.\nSieh sie erst. Carl.\nUnd wenn es ein Engel ist. Ich thu's nicht und thu's nicht. Salden.\nDu erznärrischer Kerl! Adieu! ich muß fort. Carl.\nWohin? Salden.\nAuf Commission.\nCarl.\nAuf wie lange? Salden.\nAuf drey Tage. Carl.dieu! -\nDu siehst, daß ich bey aller Leichtheit, meiner Freunde nicht vergesse. Wahrhaftig, es war mir Bedürfniß Dich zu sehen. Nun fahre wohl. Salden.\nTopp! Ich verleugne Dich nicht! (geht.)\nCarl. (ruft ihm nach.)\nDu sollst von mir hören.\n",
+    "text": "Nun, was mißfällt Dir denn? Carl.\nDaß die Leute wissen, daß der Onkel es gesagt hat; daß es die Braut weiß; daß Du es weißt; mit einem Wort, nun wird nichts daraus.\nSalden.\nSieh sie erst. Carl.\nUnd wenn es ein Engel ist. Ich thu's nicht und thu's nicht. Salden.\nDu erznärrischer Kerl! Adieu! ich muß fort. Carl.\nWohin? Salden.\nAuf Commission.\nCarl.\nAuf wie lange? Salden.\nAuf drey Tage. Carl. Adieu! -\nDu siehst, daß ich bey aller Leichtheit, meiner Freunde nicht vergesse. Wahrhaftig, es war mir Bedürfniß Dich zu sehen. Nun fahre wohl. Salden.\nTopp! Ich verleugne Dich nicht! (geht.)\nCarl. (ruft ihm nach.)\nDu sollst von mir hören.\n",
     "notes": [],
     "edits": [
       {
@@ -1024,18 +1048,10 @@
         "after": "T"
       },
       {
-        "start": 398,
-        "end": 400,
-        "readingStart": 392,
-        "readingEnd": 392,
-        "before": " A",
-        "after": ""
-      },
-      {
         "start": 443,
         "end": 445,
-        "readingStart": 435,
-        "readingEnd": 435,
+        "readingStart": 437,
+        "readingEnd": 437,
         "before": ". ",
         "after": ""
       }
@@ -1375,7 +1391,7 @@
   },
   "text-1-8-0": {
     "summary": "Julie leidet unter der Kontrolle ihres Onkels und ihrer Tante. Sophie versucht, ihr Hoffnung zu machen, obwohl sie noch keinen sicheren Ausweg kennt. Julie bleibt ihrer Liebe zu Wendheim treu und fürchtet auch den angekündigten neuen Bewerber Carl.",
-    "text": "Achter Auftritt. Julie. Sophie. Julie. (im Eintreten.) Bleibe bey mir, liebe Sophie! Sophie. Ja, aber Du mußt nicht so trauren. Julie. Kann ich wohl anders? Sophie. Ach ja; Du mußt hoffen. Julie. Worauf? Sophie. Auf Glück. Julie. Mit welcher Wahrscheinlichkeit? Sophie. Das gilt gleich. Wenn man hofft, so hoffe man; und bekümmert sich nicht um das Wie. Julie. Ach Du hast noch nie geliebt. Sophie. Nein; wenn ich aber einmal liebe, so will ich auch beständig hoffen; das habe ich mir fest vorgenommen.\nJulie. Man muß sich aber doch eine Möglichkeit denken können ...\nSophie. Nein! man muß sich gar nichts denken. Wenn ich etwas wünschte, und dachte: – so kanns eintreffen! – so geschahs gerade nicht; dann kam ein Zufall, und mein Wunsch ward erfüllt.\nJulie. Du kennst aber die Hartnäckigkeit meines Onkels, meine Abhängigkeit von ihm, und die listige Gewandheit meiner Tante? Sophie. Kenne alles, – und auch die gänzliche Disharmonie zwischen beiden. \nJulie. Du glaubst nicht, welche Stürme ich täglich auszuhalten habe; sie quält mich mit diesem verhaßten Grafen -\nSophie. Mich hat sie auch einspinnen wollen in ihr Gewebe; ich sollte Dir zureden; – ich Dir- zureden! – aber ich meine, sie probierts nicht wieder.\nJulie.\nWie mag sie sich nur für diesen Menschen so interessiren? Sophie. Aus Hochmuth und Eigensinn. Aber hör' einmal, Julchen! wie wärs, wenn der Onkel besser gewählt hätte? Julie. Das wäre mir sehr gleichgültig. Sophie. Sey still, sey still! man kann nicht wissen. Der junge Ruf soll ein recht angenehmer Wildfang seyn. Julie. Du weißt, daß ich liebe! und – wie ich liebe\nJe mehr Ansprüche der junge Ruf zu machen hatte; um so ängstlicher würde meine Lage. Sophie. Nun, so wollen wir denn beten, daß er noch recht lange ausbleiben möge.\n",
+    "text": "Achter Auftritt. Julie. Sophie. Julie. (im Eintreten.) Bleibe bey mir, liebe Sophie! Sophie. Ja, aber Du mußt nicht so trauren. Julie. Kann ich wohl anders? Sophie. Ach ja; Du mußt hoffen. Julie. Worauf? Sophie. Auf Glück. Julie. Mit welcher Wahrscheinlichkeit? Sophie. Das gilt gleich. Wenn man hofft, so hoffe man; und bekümmert sich nicht um das Wie. Julie. Ach Du hast noch nie geliebt. Sophie. Nein; wenn ich aber einmal liebe, so will ich auch beständig hoffen; das habe ich mir fest vorgenommen.\nJulie. Man muß sich aber doch eine Möglichkeit denken können ...\nSophie. Nein! man muß sich gar nichts denken. Wenn ich etwas wünschte, und dachte: – so kanns eintreffen! – so geschahs gerade nicht; dann kam ein Zufall, und mein Wunsch ward erfüllt.\nJulie. Du kennst aber die Hartnäckigkeit meines Onkels, meine Abhängigkeit von ihm, und die listige Gewandheit meiner Tante? Sophie. Kenne alles, – und auch die gänzliche Disharmonie zwischen beiden. \nJulie. Du glaubst nicht, welche Stürme ich täglich auszuhalten habe; sie quält mich mit diesem verhaßten Grafen -\nSophie. Mich hat sie auch einspinnen wollen in ihr Gewebe; ich sollte Dir zureden; – ich Dir- zureden! – aber ich meine, sie probierts nicht wieder.\nJulie.\nWie mag sie sich nur für diesen Menschen so interessiren? Sophie. Aus Hochmuth und Eigensinn. Aber hör' einmal, Julchen! wie wärs, wenn der Onkel besser gewählt hätte? Julie. Das wäre mir sehr gleichgültig. Sophie. Sey still, sey still! man kann nicht wissen. Der junge Ruf soll ein recht angenehmer Wildfang seyn. Julie. Du weißt, daß ich liebe! und – wie ich liebe\nJe mehr Ansprüche der junge Ruf zu machen hätte; um so ängstlicher würde meine Lage. Sophie. Nun, so wollen wir denn beten, daß er noch recht lange ausbleiben möge.\n",
     "notes": [],
     "edits": [
       {
@@ -1489,6 +1505,14 @@
         "readingEnd": 1458,
         "before": "",
         "after": "l"
+      },
+      {
+        "start": 1647,
+        "end": 1648,
+        "readingStart": 1634,
+        "readingEnd": 1635,
+        "before": "a",
+        "after": "ä"
       }
     ]
   },
@@ -1740,7 +1764,7 @@
   },
   "text-1-10-1": {
     "summary": "Die Leiter soll Wendheim heimlich zu Julie bringen. Julie hat Bedenken, Carl drängt aber auf die Umsetzung seines Versprechens. Dann erkennt er in Sophie eine Bekannte aus Kindertagen und erfährt von ihren künstlerischen Arbeiten.",
-    "text": "Das ist das kostbarste Geschenk unter allen, die man Ihnen jetzt machen könnte; und zugleich das seltenste- was ein Bräutigam seiner bestimmten\nBraut selbst ins Zimmer tragen mag. Julie. Was soll ich damit?\nCarl.\nDamit? Das ist eine kostbare Leiter! Die hängt man ins Fenster – wenn die Treppen verboten sind; – darauf steigt sichs ganz allerliebst heraus und herein nach Belieben. Sie ist fest und gut, ich hab' sie oft genug probiert.\nSophie. (klatscht in die Hände.) Ha, ich errathe! Julie. Erklären Sie sich deutlicher, wenn ich bitten darf. Carl.\nEy du mein Himmel! – Nun wenn ich dann muß? Sehen Sie: es giebt einen gewissen kreuzbraven Kerl, genannt Eduard von Wendheim, der Sie um sein Leben gern eine halbe Stunde allein spräche. Weil aber Riesen, Zwerge und Drachen dies verwünschte Schloß umlagern, so habe ich hier das einzige Mittel gewählt, ihn unbemerkt durch die Lüfte zu Ihnen zu erheben...\nJulie. Herr von Ruf ich verbitte – Carl.\nWas? Ver bitte?\nJulie. Fühlen Sie nicht das Unschickliche?\nCarl.\nGar nicht. Ihrer sind zwey Frauenzimmer; nehmen Sie noch zwey Mädchen dazu – Was ist dann noch unschicklich?\nJulie. Ich erkenne Ihre Verbindlichkeit! aber ich darf sie nicht – Carl.\nNicht? Das wär' ein schöner Spaß! Wissen Sie wohl, daß ich mein Wort gegeben habe, und nun muß er herauf! – Wenn Sie die Strickleiter nicht benutzen, zünd' ichs Haus an, und helf' ihm auf einer Feuerleiter herauf. Sophie. Gott behüt uns vor Mord und Brand! Ihre erste Methode ist besser, und so ziemlich originell.\nCarl.\nSie sind eine Liebhaberinn von Originalen? freut mich! Wen habe ich die Ehre -? Julie. Meine Freundinn, Sophie von Hastfeld – Carl.\nDie kleine Sophie? – mit dem Stumpfnaschen? die immer mit uns Soldaten spielte? Sophie. Richtig; ich hatte die Ehre unter Ihrer Fahne zu dienen. Carl.\nSie haben sich recht hübsch ausgebildet. Julie. Von innen und außen. Sie finden in ihr eine angenehme Virtuosinn, trefliche Malerinn. Sophie. Und ausgepfiffene Schriftstellerinn. Carl.\nIm Ernst? Sophie. O im allerbittersten Ernst! eine von Recensenten ganz erbärmlich herunter gezogene Romanschreiberinn.\nCarl.\n",
+    "text": "Das ist das kostbarste Geschenk unter allen, die man Ihnen jetzt machen könnte; und zugleich das seltenste- was ein Bräutigam seiner bestimmten\nBraut selbst ins Zimmer tragen mag. Julie. Was soll ich damit?\nCarl.\nDamit? Das ist eine kostbare Leiter! Die hängt man ins Fenster – wenn die Treppen verboten sind; – darauf steigt sichs ganz allerliebst heraus und herein nach Belieben. Sie ist fest und gut, ich hab' sie oft genug probiert.\nSophie. (klatscht in die Hände.) Ha, ich errathe! Julie. Erklären Sie sich deutlicher, wenn ich bitten darf. Carl.\nEy du mein Himmel! – Nun wenn ich dann muß? Sehen Sie: es giebt einen gewissen kreuzbraven Kerl, genannt Eduard von Wendheim, der Sie um sein Leben gern eine halbe Stunde allein spräche. Weil aber Riesen, Zwerge und Drachen dies verwünschte Schloß umlagern, so habe ich hier das einzige Mittel gewählt, ihn unbemerkt durch die Lüfte zu Ihnen zu erheben...\nJulie. Herr von Ruf ich verbitte – Carl.\nWas? Ver bitte?\nJulie. Fühlen Sie nicht das Unschickliche?\nCarl.\nGar nicht. Ihrer sind zwey Frauenzimmer; nehmen Sie noch zwey Mädchen dazu – Was ist dann noch unschicklich?\nJulie. Ich erkenne Ihre Verbindlichkeit! aber ich darf sie nicht – Carl.\nNicht? Das wär' ein schöner Spaß! Wissen Sie wohl, daß ich mein Wort gegeben habe, und nun muß er herauf! – Wenn Sie die Strickleiter nicht benutzen, zünd' ichs Haus an, und helf' ihm auf einer Feuerleiter herauf. Sophie. Gott behüt uns vor Mord und Brand! Ihre erste Methode ist besser, und so ziemlich originell.\nCarl.\nSie sind eine Liebhaberinn von Originalen? freut mich! Wen habe ich die Ehre -? Julie. Meine Freundinn, Sophie von Hastfeld – Carl.\nDie kleine Sophie? – mit dem Stumpfnäschen? die immer mit uns Soldaten spielte? Sophie. Richtig; ich hatte die Ehre unter Ihrer Fahne zu dienen. Carl.\nSie haben sich recht hübsch ausgebildet. Julie. Von innen und außen. Sie finden in ihr eine angenehme Virtuosinn, trefliche Malerinn. Sophie. Und ausgepfiffene Schriftstellerinn. Carl.\nIm Ernst? Sophie. O im allerbittersten Ernst! eine von Recensenten ganz erbärmlich herunter gezogene Romanschreiberinn.\nCarl.\n",
     "notes": [],
     "edits": [
       {
@@ -1832,6 +1856,14 @@
         "after": "."
       },
       {
+        "start": 1686,
+        "end": 1687,
+        "readingStart": 1685,
+        "readingEnd": 1686,
+        "before": "a",
+        "after": "ä"
+      },
+      {
         "start": 2046,
         "end": 2048,
         "readingStart": 2045,
@@ -1851,9 +1883,9 @@
   },
   "text-1-10-2": {
     "summary": "Carl und Sophie teilen die Freude daran, öffentlich aufzufallen. Sie vereinbaren, die Leiter um neun Uhr bereitzuhalten; Wendheim soll hinaufsteigen, während Carl Wache hält. Carl will Rink noch ausweichen, um nicht über die Heirat sprechen zu müssen.",
-    "text": "Also ein öffentlicher Charakter? Bravissimo! wir passen zusammen. Sehen Sie, die Art wie sich gewöhnliche Frauenzimmer bemerkbar zu machen suchen, als: in Conzerte und Schauspiele mit viel Geräusch eintreten, wenn schon ein Drittheil vorbey ist, koutschmaßen und dergleichen, das ist nichts, dabey ist selten Profit; denn, aus Unmuth wegen der Stöhrung, ruft der größte Theil: Ach  Gott! die hätte früher kommen oder wegbleiben können.  Aber – etwas schreiben, – komponiren, und sich tadeln lassen; – das ist der Mühe werth! Wenn's auch Dummköpfe tadeln, so wird man doch genannt; das Lob wiederholt kein Mensch am dritten Orte,\nSophie. (lacht.)\nCarl.\nUm aber wieder auf die Hauptsache zu kommen. Diese Strickleiter hängen Sie heute Abend neun Uhr in Ihr Fenster. Ich bringe meinen\nFreund in den Garten, er steigt herauf, und ich steh' Schildwache. Was sagen Sie jetzt? Julie. In der That, die Güte und – Art-\nCarl.\nNicht wahr, jetzt ists Ihr Ernst daß ich sehr gütig bin; – man merkts gleich am Tone wenn er von Herzen kömmt. Studiren Sie weiter auf gar keine Höflichkeiten; sie sind bey mir nicht angewandt. Sophie. So kurz als möglich. Ihr Geschenk, Herr von Ruf, ist uns angenehm, und wir werden Gebrauch machen. Carl.\nFür diesmal ist die Reihe an Ihrer Freundinn; ein andermal steht sie Ihnen auch zu Befehl. Sophie. (lachend.) O ich danke. Carl.\n- werfen Sie's nicht zu weit weg; – wer weiß? wie wars wenn ich der erste? – heute zwar nicht, heute steh' ich Schildwache; aber ein andermal?\nSophie. (mit Laune.) Kommen Sie lieber auf geraden Wegen. Carl.\nDie geh' ich mein Lebtage nicht. So krumm als möglich! Was zu klettern, Zwist, Spektakel! – sonst verlierts für mich den Reiz. Julie. Waren Sie schon bey meinem Onkel? Carl.\nWarum nicht gar – ich fange allezeit mit dem Angenehmen an. Julie. Er muß nicht wissen, daß Sie da sind, sonst wär' er schon hier. Carl.\nBlitz! da muß ich laufen was ich kann. Sophie. Warum eilen Sie so? Carl.\nEr darf mich noch nicht sehen. Julie. Warum nicht?\nCarl.\nEy, wenn er mich nun nach unserer Heurath fragt, soll ich sagen: Da wird nichts daraus? «Das wäre zu unhöflich! und -\n",
+    "text": "Also ein öffentlicher Charakter? Bravissimo! wir passen zusammen. Sehen Sie, die Art wie sich gewöhnliche Frauenzimmer bemerkbar zu machen suchen, als: in Conzerte und Schauspiele mit viel Geräusch eintreten, wenn schon ein Drittheil vorbey ist, laut schwatzen und dergleichen, das ist nichts, dabey ist selten Profit; denn, aus Unmuth wegen der Stöhrung, ruft der größte Theil: Ach  Gott! die hätte früher kommen oder wegbleiben können.  Aber – etwas schreiben, – komponiren, und sich tadeln lassen; – das ist der Mühe werth! Wenn's auch Dummköpfe tadeln, so wird man doch genannt; das Lob wiederholt kein Mensch am dritten Orte,\nSophie. (lacht.)\nCarl.\nUm aber wieder auf die Hauptsache zu kommen. Diese Strickleiter hängen Sie heute Abend neun Uhr in Ihr Fenster. Ich bringe meinen\nFreund in den Garten, er steigt herauf, und ich steh' Schildwache. Was sagen Sie jetzt? Julie. In der That, die Güte und – Art-\nCarl.\nNicht wahr, jetzt ists Ihr Ernst daß ich sehr gütig bin; – man merkts gleich am Tone wenn er von Herzen kömmt. Studiren Sie weiter auf gar keine Höflichkeiten; sie sind bey mir nicht angewandt. Sophie. So kurz als möglich. Ihr Geschenk, Herr von Ruf, ist uns angenehm, und wir werden Gebrauch machen. Carl.\nFür diesmal ist die Reihe an Ihrer Freundinn; ein andermal steht sie Ihnen auch zu Befehl. Sophie. (lachend.) O ich danke. Carl.\n- werfen Sie's nicht zu weit weg; – wer weiß? wie wärs wenn ich der erste? – heute zwar nicht, heute steh' ich Schildwache; aber ein andermal?\nSophie. (mit Laune.) Kommen Sie lieber auf geraden Wegen. Carl.\nDie geh' ich mein Lebtage nicht. So krumm als möglich! Was zu klettern, Zwist, Spektakel! – sonst verlierts für mich den Reiz. Julie. Waren Sie schon bey meinem Onkel? Carl.\nWarum nicht gar – ich fange allezeit mit dem Angenehmen an. Julie. Er muß nicht wissen, daß Sie da sind, sonst wär' er schon hier. Carl.\nBlitz! da muß ich laufen was ich kann. Sophie. Warum eilen Sie so? Carl.\nEr darf mich noch nicht sehen. Julie. Warum nicht?\nCarl.\nEy, wenn er mich nun nach unserer Heurath fragt, soll ich sagen: Da wird nichts daraus? «Das wäre zu unhöflich! und -\n",
     "notes": [
-      "„koutschmaßen“ bleibt als ungesicherte Lesung des Ausgangstranskripts stehen; ohne Druckvergleich wird keine Ersatzform erfunden."
+      "Das unverständliche „koutschmaßen“ ist nach dem Seitenbild von 1826, S. 35, zu „laut schwatzen“ berichtigt."
     ],
     "edits": [
       {
@@ -1865,42 +1897,82 @@
         "after": "a"
       },
       {
+        "start": 246,
+        "end": 248,
+        "readingStart": 246,
+        "readingEnd": 248,
+        "before": "ko",
+        "after": "la"
+      },
+      {
+        "start": 250,
+        "end": 250,
+        "readingStart": 250,
+        "readingEnd": 251,
+        "before": "",
+        "after": " "
+      },
+      {
+        "start": 253,
+        "end": 254,
+        "readingStart": 254,
+        "readingEnd": 255,
+        "before": "m",
+        "after": "w"
+      },
+      {
+        "start": 255,
+        "end": 256,
+        "readingStart": 256,
+        "readingEnd": 258,
+        "before": "ß",
+        "after": "tz"
+      },
+      {
         "start": 692,
         "end": 694,
-        "readingStart": 692,
-        "readingEnd": 692,
+        "readingStart": 694,
+        "readingEnd": 694,
         "before": "s ",
         "after": ""
       },
       {
-        "start": 1496,
-        "end": 1497,
-        "readingStart": 1494,
-        "readingEnd": 1494,
+        "start": 1405,
+        "end": 1406,
+        "readingStart": 1405,
+        "readingEnd": 1406,
+        "before": "a",
+        "after": "ä"
+      },
+      {
+        "start": 1495,
+        "end": 1496,
+        "readingStart": 1495,
+        "readingEnd": 1495,
         "before": "?",
         "after": ""
       },
       {
         "start": 1924,
         "end": 1926,
-        "readingStart": 1921,
-        "readingEnd": 1922,
+        "readingStart": 1923,
+        "readingEnd": 1924,
         "before": "nı",
         "after": "m"
       },
       {
         "start": 1937,
         "end": 1938,
-        "readingStart": 1933,
-        "readingEnd": 1934,
+        "readingStart": 1935,
+        "readingEnd": 1936,
         "before": "f",
         "after": "s"
       },
       {
         "start": 1997,
         "end": 1999,
-        "readingStart": 1993,
-        "readingEnd": 1993,
+        "readingStart": 1995,
+        "readingEnd": 1995,
         "before": " i",
         "after": ""
       }
@@ -1908,7 +1980,7 @@
   },
   "text-1-10-3": {
     "summary": "Carl muss weiter, weil er seinem Onkel einen ernsten Philosophen vorspielen will. Sophie fragt, wer er unter all seinen wechselnden Rollen eigentlich ist. Carl behauptet, hinter jeder Verkleidung stecke ein ehrlicher Kern.",
-    "text": "Ja kann ich doch bey (auf die Strickleiter zeigend) so bewandten Umständen auch nicht sagen. Am besten, ich mach' mich aus dem Staube. (will ab.)\nSophie. Ein wenig könnten Sie wohl noch verziehen. Carl:\nIch blieb gern noch ein Stündchen bey Ihnen, aber ich habe noch sehr wichtige Geschäfte! Jetzt muß ich mich in einen Philosophen verwandeln.\nSophie. Philosophen? wem zu Ehren wollen sie Ihrem Humor diese Qual zufügen? Carl.\nMeinem Onkel.\nSophie. Warum nicht gar? ich wette, daß Sie gerade dem – so – eine Millionmahl lieber sind. Carl.\nIch wette auch! Aber just darum will ich mich verwandeln.\nSophie. Ey schön! (sieht ihm mit Drolligkeit in die Augen) Sagen Sie mir doch – was sind sie denn eigentlich? Carl.\nEin wandelndes Rondo – mit prachtigen Variationen – abwechselnd nach jedem Instrument, welches ich spiele; aber immer ein recht grundehrliches Thema. (mit kurzer Verbeugung ab.)\n(Die andern folgen.)\nEnde des ersten Aufzuges.\n",
+    "text": "Ja kann ich doch bey (auf die Strickleiter zeigend) so bewandten Umständen auch nicht sagen. Am besten, ich mach' mich aus dem Staube. (will ab.)\nSophie. Ein wenig könnten Sie wohl noch verziehen. Carl:\nIch blieb gern noch ein Stündchen bey Ihnen, aber ich habe noch sehr wichtige Geschäfte! Jetzt muß ich mich in einen Philosophen verwandeln.\nSophie. Philosophen? wem zu Ehren wollen sie Ihrem Humor diese Qual zufügen? Carl.\nMeinem Onkel.\nSophie. Warum nicht gar? ich wette, daß Sie gerade dem – so – eine Millionmahl lieber sind. Carl.\nIch wette auch! Aber just darum will ich mich verwandeln.\nSophie. Ey schön! (sieht ihm mit Drolligkeit in die Augen) Sagen Sie mir doch – was sind sie denn eigentlich? Carl.\nEin wandelndes Rondo – mit prächtigen Variationen – abwechselnd nach jedem Instrument, welches ich spiele; aber immer ein recht grundehrliches Thema. (mit kurzer Verbeugung ab.)\n(Die andern folgen.)\nEnde des ersten Aufzuges.\n",
     "notes": [],
     "edits": [
       {
@@ -1944,6 +2016,14 @@
         "after": ""
       },
       {
+        "start": 743,
+        "end": 744,
+        "readingStart": 742,
+        "readingEnd": 743,
+        "before": "a",
+        "after": "ä"
+      },
+      {
         "start": 754,
         "end": 756,
         "readingStart": 753,
@@ -1957,7 +2037,7 @@
     "summary": "Carl erwartet seinen Onkel im Gasthof. Frey berichtet dessen Worte genau und findet Carls gewöhnliche Kleidung passender als den feierlichen Schlafrock. Gerade dieses ungewöhnlich ernste Aussehen braucht Carl für seine Verstellung.",
     "text": "Zweyter Aufzug. (Zimmer im Gasthof.)\nErster Auftritt. Carl Ruf in einem langen seidenen Schlafrock. Frey. Carl.\nAlso will mein Onkel hieher kommen? Frey. Gleich. Carl.\nWas sagte er? Frey. Was ficht denn den Narren an, daß er nicht -gleich zu mir kommt? «Ich weiß es nicht, «sagte ich: er ist eben noch nicht frisirt. -»Als » ob ich gewohnt wär' auf das Kleid zu sehen?  es ist gewiß wieder einer von seinen Streichen. Gelt er ist ein rechter Windbeutel? « Carl.\nEr wird sich gräulich betrügen. Frey. »»Es geht noch an, «sagte ich. »»Nun es ist »»gut, sagte er, ich will den Augenblick bey ihm» seyn, wenn's der Narr denn doch nicht anders »»»haben will, «Carl.\nHöre einmal, Du richtest verflucht pünktlich aus. Frey. Sie wollen's ja so, gnädiger Herr! Carl.\nBetrachte mich einmal recht, wie gefall' ich Dir?\nFrey. Nicht so gut wie sonst; die leichtfertige Kleidung steht Ihnen besser. Carl.\nSo ists recht, zu meiner Absicht; kurios komm' ich mir vor in dem Schlafrock; so extraordinair ehrwürdig! Ich muß aussehen wie der selige\nArend, da ihn der Teufel im wahren Christenthum konfus machte.\n",
     "notes": [
-      "Die Anspielung auf „Arend“ und das „wahre Christenthum“ wird nicht ohne Druckvergleich in einen anderen Eigennamen geändert."
+      "„Arend“ ist im Druck von 1826, S. 39, bestätigt. Die Identität des Namensträgers bleibt offen."
     ],
     "edits": [
       {
@@ -2324,7 +2404,7 @@
     "summary": "Carl treibt seine Rolle als weltabgewandter Philosoph weiter. Ruf verliert endgültig die Geduld und sagt sich von ihm los. Er geht wütend fort und droht, Carl künftig nur noch armselige Dinge zu hinterlassen.",
     "text": "Ein Philosoph, ein Denker! Ich habe mich bemüht, den Körper gänzlich zu verachten, und bloß auf die Kultur einer unsterblichen Seele mein Augenmerk zu richten. Ruf.\nUnsterblicher – Perükenstock! (anfangs mit verbissener, hernach ausbrechender Wuth.) Schön! löblich! das, muß man sagen! Da würde mancher alte Onkel seine Herzensfreude daran haben; aber ich, wollte doch lieber daß Dich der Teufel vollends geholt hätte in jener Lebensgefahr, als daß ich Dich jetzt so erblicken muß! Friß Heuschrecken, trink Wasser aus der hohlen Hand; ein Stück Sackleinwand und Cubachs Gebetbuch will ich Dir im Testament aussetzen; aber mein Angesicht siehst Du nun nie wieder. (im Abgehen.) Du verdammter – Erz – Simpel. (ab.)\n",
     "notes": [
-      "Der Name „Cubach“ im Gebetbuch-Verweis ist in der Vorlage unsicher und bleibt ohne Druckvergleich unverändert."
+      "Der Name „Cubach“ bleibt unsicher; auch das Seitenbild von 1826, S. 43, erlaubt keine zweifelsfreie Auflösung."
     ],
     "edits": [
       {
@@ -3099,7 +3179,7 @@
   },
   "text-2-8-0": {
     "summary": "Carl bringt Wendheim zur Leiter, während Frey aufpasst. Wendheim fürchtet die Folgen für Julie, steigt aber hinauf. Carl bleibt zurück und ärgert sich fast darüber, dass sein Wachdienst bisher ohne Streit verläuft.",
-    "text": "Achter Auftritt. Carl Ruf im Mantel. Wendheim im Überrock. Frey.\nCarl. (im hineintreten,)\nFrey, sieh zu, daß uns niemand aus dem Hause überfällt. Frey. (geht an die hintersten Coulissen der Seite wo das Haus ist.) Carl.\nSiehst Du die Flagge der begünstigten Liebe im Fenster?\nWendheim. Wahrhaftig! eine Strickleiter. Carl.\nBegreifst Du's nun, wie Du sie heute noch sprechen wirst? Wendheim. (umarmt ihn.) Carl.\nLaß die Possen; nutz' die Zeit, steig hinauf. Wendheim. Ich zittere. Carl.\nPfui Teufel! Wendheim. Wenn man uns überraschte? Carl.\nSo wehr' Dich, und im Nothfall ruf Hülfe; hier steht das corps de réserve. Wendheim. Man wird den Zorn an ihr auslassen. Carl.\nAh – man wird sie nicht einmauren. Steig! Noch eins; wenns hier unten etwan Lärmen giebt, stor' Dich an nichts. Ich deck Dir auf alle Fälle den Rückzug.\nWendheim. Guter Mensch! wie beneid' ich Dich um Deine glückliche Laune! O wär' ich doch an Deiner Stelle!\nCarl. Warum?\nWendheim. Welche Schwierigkeiten – welche Gefahren – stehen zwischen mir und meinen Wünschen! Carl.\nUnd ich steh hier, und möchte des Teufels werden, daß ich zu den Mädchen dürfte wenn ich wollte. Ich stähle um mein Leben gern auch so was. Mir läuft ordentlich der Mund voll Wasser, wie ich nur die Leiter anseh! – Mach fort – oder ich steig hinauf, und nehm Dir's Mädchen vor der Nase weg. Wendheim. (steigt hinauf.) Carl.\nEy ey, kurios! da steigt er hinauf – zu meiner Braut – und ich halte die Leiter – das ist neu! Wenns noch eine Frau wäre; da hat man Exempel; aber eine Braut! und eine hübsche Braut – das macht mir keiner so leicht\n- nach. – (Pause.) Droben wär' er! Ich habe einen zu friedlichen Posten; das ärgert mich! – Kein Bedienter läßt sich sehen: wo stecken denn die Schurken? – schlechte Wachsamkeit in dem Hause! Kein Polizeybeamter – nicht einmal ein Nachtwächter! Wenn die ganze Expedition ohne Lärm und Spektakel ausgeht – so scham' ich mich zu Tode.- Stille es rührt sich etwas -\nWer kömmt da?\n",
+    "text": "Achter Auftritt. Carl Ruf im Mantel. Wendheim im Überrock. Frey.\nCarl. (im hineintreten,)\nFrey, sieh zu, daß uns niemand aus dem Hause überfällt. Frey. (geht an die hintersten Coulissen der Seite wo das Haus ist.) Carl.\nSiehst Du die Flagge der begünstigten Liebe im Fenster?\nWendheim. Wahrhaftig! eine Strickleiter. Carl.\nBegreifst Du's nun, wie Du sie heute noch sprechen wirst? Wendheim. (umarmt ihn.) Carl.\nLaß die Possen; nutz' die Zeit, steig hinauf. Wendheim. Ich zittere. Carl.\nPfui Teufel! Wendheim. Wenn man uns überraschte? Carl.\nSo wehr' Dich, und im Nothfall ruf Hülfe; hier steht das corps de réserve. Wendheim. Man wird den Zorn an ihr auslassen. Carl.\nAh – man wird sie nicht einmauren. Steig! Noch eins; wenns hier unten etwan Lärmen giebt, stör' Dich an nichts. Ich deck Dir auf alle Fälle den Rückzug.\nWendheim. Guter Mensch! wie beneid' ich Dich um Deine glückliche Laune! O wär' ich doch an Deiner Stelle!\nCarl. Warum?\nWendheim. Welche Schwierigkeiten – welche Gefahren – stehen zwischen mir und meinen Wünschen! Carl.\nUnd ich steh hier, und möchte des Teufels werden, daß ich zu den Mädchen dürfte wenn ich wollte. Ich stähle um mein Leben gern auch so was. Mir läuft ordentlich der Mund voll Wasser, wie ich nur die Leiter anseh! – Mach fort – oder ich steig hinauf, und nehm Dir's Mädchen vor der Nase weg. Wendheim. (steigt hinauf.) Carl.\nEy ey, kurios! da steigt er hinauf – zu meiner Braut – und ich halte die Leiter – das ist neu! Wenns noch eine Frau wäre; da hat man Exempel; aber eine Braut! und eine hübsche Braut – das macht mir keiner so leicht\n- nach. – (Pause.) Droben wär' er! Ich habe einen zu friedlichen Posten; das ärgert mich! – Kein Bedienter läßt sich sehen: wo stecken denn die Schurken? – schlechte Wachsamkeit in dem Hause! Kein Polizeybeamter – nicht einmal ein Nachtwächter! Wenn die ganze Expedition ohne Lärm und Spektakel ausgeht – so schäm' ich mich zu Tode.- Stille es rührt sich etwas -\nWer kömmt da?\n",
     "notes": [],
     "edits": [
       {
@@ -3133,6 +3213,14 @@
         "readingEnd": 431,
         "before": "s",
         "after": "tz"
+      },
+      {
+        "start": 760,
+        "end": 761,
+        "readingStart": 760,
+        "readingEnd": 761,
+        "before": "o",
+        "after": "ö"
       },
       {
         "start": 820,
@@ -3183,6 +3271,14 @@
         "after": ""
       },
       {
+        "start": 1901,
+        "end": 1902,
+        "readingStart": 1890,
+        "readingEnd": 1891,
+        "before": "a",
+        "after": "ä"
+      },
+      {
         "start": 1967,
         "end": 1969,
         "readingStart": 1956,
@@ -3194,9 +3290,9 @@
   },
   "text-2-9-0": {
     "summary": "Ruf kommt in den Garten, um Sophie wie versprochen unter ihrem Fenster zu umwerben. Carl verstellt seine Stimme, gibt sich als Polizeibedienter aus und verbietet ihm den Zutritt. Ruf versucht es mit Geld und bemerkt kurz eine Ähnlichkeit mit Carls Stimme.",
-    "text": "Neunter Auftritt. Der alte Ruf. Vorige.\nRuf. (von innen.) Bleib nur dort an der Gassenecke bis ich komme.\nCarl. Mein Onkel! so wahr ich lebe! ah – ich bin 'verstellt genug, und hier sucht er den Philosophen wahrhaftig nicht; – da könnt's was geben? Va! der Staat will Krieg, folglich muß er angegriffen werden. Ruf. (geht herein und nach dem Fenster zu.) Ich bin doch neugierig ob sie Wort hält.\nCarl. (mit verstelter Stimme.) Hier darf niemand gehen. Ruf. Wer will mir's wehren?\nCarl.\nIch, Herr Patron! Ruf. Das will ich wohl sehen.\nCarl. (schleudert ihn sanft.) Marsch hinaus. Ruf.\nWas hat der Herr für ein Recht mir diesen Garten zu verbieten? Carl.\nIch bin beordert, alles Gesindel wegzutreiben. Ruf. Zum Henker, sieht mich der Herr für Gesindel an?\nCarl.\nSo was dergleichen. Er hat so was Mädchenfängermäßiges im Gesicht, und darum bin ich just hier, um die wegzujagen. Ruf. Darum?\nCarl.\nJa darum. Die hübschen Mädchen da oben – gelt, darnach gelüstet ihm? Möcht' er nicht da hinauf klettern? – ja – gehorsamer Diener -! Da hinauf kömmt mir einmal niemand, (für sich) als dem ich selbst die Leiter halte. Ruf. Wer ist denn der Herr? Carl.\nIch bin von der Polizey. Ruf. Der Herr ist von der Polizey? das hatt' ich gleich an der Manier merken können; nun Herr\nPolizeybedienter, ein Wort im Vertrauen. Carl. Was beliebt? Ruf. Da ist eine Kleinigkeit. (will ihm Geld geben.) Carl.\n(etwas im launigten und natürlichen seines Tons.) Fort damit! ich thue mein Tage nicht, was andere meines Gleichen thun; sonst wär' ich nicht hier; ich könnt höher *) seyn, als ich bin, aber es ist mein eigener Wille daß ich unten bleibe. (Anmerkung: Der Schauspieler wird dieß Wortspiel durch einen verstohlenen Seitenblick auf die Leiter und den Balkon wohl andeuten.)\nRuf. Was ist das? Die Stimme hat Ähnlichkeit – Carl.\nMit was?\nRuf. Mit meinem Tropf von Neffen.\nCarl. (in verstelltem Tone.) Keine Sottisen! das bitt ich mir aus; wer ist sein Neffe? Ruf. Was geht's den Herrn an? Carl. Ich muß es wissen – des Vergleichs wegen. – Wenn ich beschimpft bin, so soll – Ruf. Oho! Wegen dem Schimpf. Der Baron Ruf – und ein -\nCarl.\n",
+    "text": "Neunter Auftritt. Der alte Ruf. Vorige.\nRuf. (von innen.) Bleib nur dort an der Gassenecke bis ich komme.\nCarl. Mein Onkel! so wahr ich lebe! ah – ich bin 'verstellt genug, und hier sucht er den Philosophen wahrhaftig nicht; – da könnt's was geben? Va! der Staat will Krieg, folglich muß er angegriffen werden. Ruf. (geht herein und nach dem Fenster zu.) Ich bin doch neugierig ob sie Wort hält.\nCarl. (mit verstelter Stimme.) Hier darf niemand gehen. Ruf. Wer will mir's wehren?\nCarl.\nIch, Herr Patron! Ruf. Das will ich wohl sehen.\nCarl. (schleudert ihn sanft.) Marsch hinaus. Ruf.\nWas hat der Herr für ein Recht mir diesen Garten zu verbieten? Carl.\nIch bin beordert, alles Gesindel wegzutreiben. Ruf. Zum Henker, sieht mich der Herr für Gesindel an?\nCarl.\nSo was dergleichen. Er hat so was Mädchenfängermäßiges im Gesicht, und darum bin ich just hier, um die wegzujagen. Ruf. Darum?\nCarl.\nJa darum. Die hübschen Mädchen da oben – gelt, darnach gelüstet ihm? Möcht' er nicht da hinauf klettern? – ja – gehorsamer Diener -! Da hinauf kömmt mir einmal niemand, (für sich) als dem ich selbst die Leiter halte. Ruf. Wer ist denn der Herr? Carl.\nIch bin von der Polizey. Ruf. Der Herr ist von der Polizey? das hätt' ich gleich an der Manier merken können; nun Herr\nPolizeybedienter, ein Wort im Vertrauen. Carl. Was beliebt? Ruf. Da ist eine Kleinigkeit. (will ihm Geld geben.) Carl.\n(etwas im launigten und natürlichen seines Tons.) Fort damit! ich thue mein Tage nicht, was andere meines Gleichen thun; sonst wär' ich nicht hier; ich könnt höher *) seyn, als ich bin, aber es ist mein eigener Wille daß ich unten bleibe. (Anmerkung: Der Schauspieler wird dieß Wortspiel durch einen verstohlnen Seitenblick auf die Leiter und den Balkon wohl andeuten.)\nRuf. Was ist das? Die Stimme hat Ähnlichkeit – Carl.\nMit was?\nRuf. Mit meinem Tropf von Neffen.\nCarl. (in verstelltem Tone.) Keine Sottisen! das bitt ich mir aus; wer ist sein Neffe? Ruf. Was geht's den Herrn an? Carl. Ich muß es wissen – des Vergleichs wegen. – Wenn ich beschimpft bin, so soll – Ruf. Oho! Wegen dem Schimpf. Der Baron Ruf – und ein -\nCarl.\n",
     "notes": [
-      "Die durch den Seitenwechsel zerrissene Schauspieleranmerkung wird hier zusammengeführt. „ver.“ und „stohinen“ werden zu „verstohlenen“ ergänzt."
+      "Die Schauspieleranmerkung ist nach dem Seitenbild S. 59 wieder zusammengeführt; die historische Form lautet „verstohlnen“."
     ],
     "edits": [
       {
@@ -3238,6 +3334,14 @@
         "readingEnd": 1102,
         "before": "t",
         "after": "r"
+      },
+      {
+        "start": 1216,
+        "end": 1217,
+        "readingStart": 1209,
+        "readingEnd": 1210,
+        "before": "a",
+        "after": "ä"
       },
       {
         "start": 1267,
@@ -3283,23 +3387,23 @@
         "start": 1686,
         "end": 1686,
         "readingStart": 1685,
-        "readingEnd": 1750,
+        "readingEnd": 1749,
         "before": "",
-        "after": "stohlenen Seitenblick auf die Leiter und den Balkon wohl andeuten"
+        "after": "stohlnen Seitenblick auf die Leiter und den Balkon wohl andeuten"
       },
       {
         "start": 1687,
         "end": 1687,
-        "readingStart": 1751,
-        "readingEnd": 1752,
+        "readingStart": 1750,
+        "readingEnd": 1751,
         "before": "",
         "after": ")"
       },
       {
         "start": 1819,
         "end": 1820,
-        "readingStart": 1884,
-        "readingEnd": 1885,
+        "readingStart": 1883,
+        "readingEnd": 1884,
         "before": "G",
         "after": "S"
       }
@@ -3452,9 +3556,9 @@
   },
   "text-2-10-0": {
     "summary": "Wendheim kommt wegen des Lärms vorzeitig zurück; die Leiter wird eingezogen. Carl möchte den Abend trotzdem nicht ruhig beenden und provoziert die Bediensteten. Er spottet darüber, tagsüber den Philosophen und nachts den wilden Abenteurer zu spielen.",
-    "text": "Zehnter Auftritt. Carl Ruf. Frey. Wendheim.\nWendheim. (kam unter den vorigen Reden schnell die Leiter herunter.) Was gabs hier für Lärmen?\nCarl.\nNichts, gar nichts; ich habe nur meinen Onkel ein bißchen zum Garten hinaus transportirt. Wendheim. Deinen Onkel?\nCarl.\nJa. Wendheim. Weßwegen? Carl.\nEr zweifelte an meiner Courage; da mußt' ich ihm doch das Gegentheil beweisen. Wendheim. Kannt' er Dich denn nicht? Carl.\nNein, verstellte Stimme, Verkleidung – und die Philosophie! Wendheim. Wenn er das je erfährt? Carl.\nHahaha, ich sags ihm selber, so bald es Zeit ist. Es freut ihn königlich! Nun, wie gings oben? Hat man euch gestört?\nWendheim. Nein.\nCarl. Gar nicht bemerkt? Wendheim. Auch nicht.\nCarl.\nWarum führt Dich denn Beelzebub schon wieder herunter? Wendheim.\nDas Geräusch hier unten machte mich schüchtern. Carl.\nDu Memme! steig gleich wieder hinauf. Wendheim.\nWie kann ich? da liegt die Strickleiter. Carl. Es geschieht Dir recht. Frey, nimm die Leiter. Da stehen wir – ist das auch der Mühe werth? Pfuy Teufel! Wendheim.\nGenug für jetzt. Carl. Für Dich wohl; aber für mich noch lange nicht. Was? ich soll ein Abentheuer, das so schön anfing, so ganz erbarmlich beschließen? Nein, das kann ich nicht. Wendheim. Was willst du denn noch? Carl.\nLärm, Spektakel! (schreyend.) He ihr Kerls! liegt ihr denn alle auf den Ohren? Laßt euch doch nicht so leicht eure Mädchen stehlen.\nWendheim. (hält ihm den Mund zu.) Bist Du rasend? was machst Du? Carl.\nWachsam sollen die Kerls werden. Es ist ja eine Schande wie leicht sie's uns machen! Ich hätt' den Teufel davon, wenns nicht mehr Mühe kosten soll. (wieder schreyend.) Wollt ihr nicht heraus, ihr Schurken! Diebe sind da; sie tragen euch's Haus mit sammt den Mädchen weg. Wendheim. (wie vorhin.)\nIch bitte Dich um alles in der Welt. Carl.\nLaß mich doch nur den Abend austoben; morgen, wenn mich der Onkel sieht, muß ich vielleicht wieder Philosoph seyn. Wendheim. Trotz der Scenen von vorhin? Carl.\nDie gehören zur Experimental-Philosophie. Bey Tage beweise ich ihm die Unsterblichkeit der Seele; bey Nacht – die Hinfälligkeit des Körpers. (Stimmen von innen) Der Lärmen kömmt aus dem Garten.\n",
+    "text": "Zehnter Auftritt. Carl Ruf. Frey. Wendheim.\nWendheim. (kam unter den vorigen Reden schnell die Leiter herunter.) Was gabs hier für Lärmen?\nCarl.\nNichts, gar nichts; ich habe nur meinen Onkel ein bißchen zum Garten hinaus transportirt. Wendheim. Deinen Onkel?\nCarl.\nJa. Wendheim. Weßwegen? Carl.\nEr zweifelte an meiner Courage; da mußt' ich ihm doch das Gegentheil beweisen. Wendheim. Kannt' er Dich denn nicht? Carl.\nNein, verstellte Stimme, Verkleidung – und die Philosophie! Wendheim. Wenn er das je erfährt? Carl.\nHahaha, ich sags ihm selber, so bald es Zeit ist. Es freut ihn königlich! Nun, wie gings oben? Hat man euch gestört?\nWendheim. Nein.\nCarl. Gar nicht bemerkt? Wendheim. Auch nicht.\nCarl.\nWarum führt Dich denn Beelzebub schon wieder herunter? Wendheim.\nDas Geräusch hier unten machte mich schüchtern. Carl.\nDu Memme! steig gleich wieder hinauf. Wendheim.\nWie kann ich? da liegt die Strickleiter. Carl. Es geschieht Dir recht. Frey, nimm die Leiter. Da stehen wir – ist das auch der Mühe werth? Pfuy Teufel! Wendheim.\nGenug für jetzt. Carl. Für Dich wohl; aber für mich noch lange nicht. Was? ich soll ein Abentheuer, das so schön anfing, so ganz erbärmlich beschließen? Nein, das kann ich nicht. Wendheim. Was willst du denn noch? Carl.\nLärm, Spektakel! (schreyend.) He ihr Kerls! liegt ihr denn alle auf den Ohren? Laßt euch doch nicht so leicht eure Mädchen stehlen.\nWendheim. (hält ihm den Mund zu.) Bist Du rasend? was machst Du? Carl.\nWachsam sollen die Kerls werden. Es ist ja eine Schande wie leicht sie's uns machen! Ich hätt' den Teufel davon, wenns nicht mehr Mühe kosten soll. (wieder schreyend.) Wollt ihr nicht heraus, ihr Schurken! Diebe sind da; sie tragen euch's Haus mit sammt den Mädchen weg. Wendheim. (wie vorhin.)\nIch bitte Dich um alles in der Welt. Carl.\nLaß mich doch nur den Abend austoben; morgen, wenn mich der Onkel sieht, muß ich vielleicht wieder Philosoph seyn. Wendheim. Trotz der Scenen von vorhin? Carl.\nDie gehören zur Experimental-Philosophie. Bey Tage beweise ich ihm die Unsterblichkeit der Seele; bey Nacht – die Hinfälligkeit des Körpers. (Stimmen von innen) Der Lärmen kömmt aus dem Garten.\n",
     "notes": [
-      "Die stark beschädigten Übergänge „Genug für jes in Carlo T L“ und „Troß der Grenen“ werden aus dem unmittelbaren Dialogzusammenhang hergestellt."
+      "„Genug für jetzt. Carl.“ und „Trotz der Scenen von vorhin?“ sind durch den Druck von 1826, S. 62, bestätigt."
     ],
     "edits": [
       {
@@ -3600,6 +3704,14 @@
         "readingEnd": 1147,
         "before": "s ",
         "after": ""
+      },
+      {
+        "start": 1186,
+        "end": 1187,
+        "readingStart": 1164,
+        "readingEnd": 1165,
+        "before": "a",
+        "after": "ä"
       },
       {
         "start": 1301,
@@ -3748,7 +3860,7 @@
   },
   "text-3-1-0": {
     "summary": "Rink spielt Schach gegen sich selbst und folgt dabei einem Buch. Die Baronin schlägt ihm einen Schachautomaten als Gegner vor. Danach berichtet sie empört von Carls nächtlichem Besuch bei den jungen Frauen.",
-    "text": "Dritter Aufzug. (Zimmer des Baron Rink.)\nErster Auftritt. Der Baron. (an einem Schachtisch, hat ein Buch in der Hand und zieht die Schachsteine auf beiden Seiten, nachdem er vor jedem Zug ins Buch gesehen, nach einer Weile)\nDie Baroninn.\nBaroninn.\nHm! Ew. Gnaden amusiren sich mit sich selbst? Baron. Wahrhaftig, das thu' ich; und finde eine zehn mal bessere Unterhaltung, als in einem ganzen Saal voll geputzter Skelette ohne Seelen. Baroninn.\nDas soll wohl abermals ein Stich seyn auf meine Zirkel? Baron. Was Sie nicht rathen können!\nBaroninn.\nWarum wählen Sie nicht einen Mitspieler? Baron.\nWeil ich keinen so leicht finde. Baroninn. Wie wärs, wenn ich Unterricht nahme? Baron.\nSie haltens nicht aus, meine Gnädige, ihre Nerven sind zu fein. Baroninn.\nEs giebt doch hier Liebhaber genug vom Schachspiele? Baron.\nO ja, aber von ungleicher Geschicklichkeit; ein Stärkerer mahlt Figuren auf den Tisch, während ich nachsinne; und ein Schwächerer macht mir Langeweile. Baroninn.\nSo würde ich mir eine Maschine anschaffen; z. B. wie des Herrn von Kempelen seine war; da können Sie doch mit Ehren Ihre ganze Kunst aufbieten.\nBaron.\nWenn Sie so galant wären, mir eine solche zu verschaffen?\nBaroninn.\nIch werde mich bemühen. Baron.\nUnterthäniger Diener. Baroninn.\nApropos! – Haben Sie schon von den abscheulichen Ungezogenheiten voriger Nacht gehört? Baron.\nNein. Was wars denn?\nBaroninn.\nEin paar liederliche Pursche hatten sich in den Garten geschlichen, unter die Fenster der Fräuleins, und führten sich im höchsten Grade insolent auf. Baron.\nWer waren sie? Baroninn.\nDer eine war der junge Baron Ruf, der würdige sogenannte Bräutigam unserer Niece. Baron.\nDer junge Ruf? Baroninn.\nWie ich Ihnen sage. Baron.\nIst denn der hier?\nBaroninn.\nSeit gestern Vormittag. Baron.\nWoher wissen Sie das? Baroninn.\nEr war schon hier im Hause. Baron.\nBey Ihnen? Baroninn.\nO nein; wie käme der zu einer schuldigen Höflichkeit? Baron. Wo denn? Baroninn.\nBey den Mädchen. Baron.\nDaran that er wohl. Baroninn.\nAber seine Insolenz in der Nacht. Baron.\nWelche denn? Baroninn.\n",
+    "text": "Dritter Aufzug. (Zimmer des Baron Rink.)\nErster Auftritt. Der Baron. (an einem Schachtisch, hat ein Buch in der Hand und zieht die Schachsteine auf beiden Seiten, nachdem er vor jedem Zug ins Buch gesehen, nach einer Weile)\nDie Baroninn.\nBaroninn.\nHm! Ew. Gnaden amusiren sich mit sich selbst? Baron. Wahrhaftig, das thu' ich; und finde eine zehn mal bessere Unterhaltung, als in einem ganzen Saal voll geputzter Skelette ohne Seelen. Baroninn.\nDas soll wohl abermals ein Stich seyn auf meine Zirkel? Baron. Was Sie nicht rathen können!\nBaroninn.\nWarum wählen Sie nicht einen Mitspieler? Baron.\nWeil ich keinen so leicht finde. Baroninn. Wie wärs, wenn ich Unterricht nähme? Baron.\nSie haltens nicht aus, meine Gnädige, ihre Nerven sind zu fein. Baroninn.\nEs giebt doch hier Liebhaber genug vom Schachspiele? Baron.\nO ja, aber von ungleicher Geschicklichkeit; ein Stärkerer mahlt Figuren auf den Tisch, während ich nachsinne; und ein Schwächerer macht mir Langeweile. Baroninn.\nSo würde ich mir eine Maschine anschaffen; z. B. wie des Herrn von Kempelen seine war; da können Sie doch mit Ehren Ihre ganze Kunst aufbieten.\nBaron.\nWenn Sie so galant wären, mir eine solche zu verschaffen?\nBaroninn.\nIch werde mich bemühen. Baron.\nUnterthäniger Diener. Baroninn.\nApropos! – Haben Sie schon von den abscheulichen Ungezogenheiten voriger Nacht gehört? Baron.\nNein. Was wars denn?\nBaroninn.\nEin paar liederliche Pursche hatten sich in den Garten geschlichen, unter die Fenster der Fräuleins, und führten sich im höchsten Grade insolent auf. Baron.\nWer waren sie? Baroninn.\nDer eine war der junge Baron Ruf, der würdige sogenannte Bräutigam unserer Niece. Baron.\nDer junge Ruf? Baroninn.\nWie ich Ihnen sage. Baron.\nIst denn der hier?\nBaroninn.\nSeit gestern Vormittag. Baron.\nWoher wissen Sie das? Baroninn.\nEr war schon hier im Hause. Baron.\nBey Ihnen? Baroninn.\nO nein; wie käme der zu einer schuldigen Höflichkeit? Baron. Wo denn? Baroninn.\nBey den Mädchen. Baron.\nDaran that er wohl. Baroninn.\nAber seine Insolenz in der Nacht. Baron.\nWelche denn? Baroninn.\n",
     "notes": [],
     "edits": [
       {
@@ -3766,6 +3878,14 @@
         "readingEnd": 409,
         "before": "s",
         "after": "tz"
+      },
+      {
+        "start": 668,
+        "end": 669,
+        "readingStart": 669,
+        "readingEnd": 670,
+        "before": "a",
+        "after": "ä"
       },
       {
         "start": 815,
@@ -4216,7 +4336,7 @@
   },
   "text-3-3-0": {
     "summary": "Die Baronin glaubt, nach dem Ende der Verlobungsabsprache freie Hand zu haben. Sie fordert Julie auf, den Grafen zu wählen. Julie erklärt, dass man sie zwar zum Verzicht auf eine Verbindung zwingen könne, aber nicht zur Liebe oder zu einer ungewollten Heirat.",
-    "text": "Dritter Auftritt. Die Baroninn. Hernach Marie. Dann Julie.\nBaroninn. (klingelt.) Marie. (kömmt.)\nBaroninn.\nJulie soll kommen! Marie. (ab.)\nBaroninn. Etwas wäre nun schon gewonnen. Sein Wort hätte mein Herr Gemahl zurück. Jetzt war also nur noch sein Eigensinn zu bekämpfen. Julie. Was befehlen Sie, gnädige Tante? Baroninn. Mein liebes Kind; die Dinge haben eine sonderbare Wendung genommen. Eben brachte der alte Ruf Deinem Onkel sein gegebenes Wort zurück, mit der Versicherung, daß sein Neffe Deiner nicht würdig wäre. Wendheim ist nun ein für allemal nichts für Dich; was bleibt Dir nun übrig? Julie. Einsamkeit! Ihre und meines Onkels Güte. Baroninn.\nNein, mein Kind, das geht nicht. Heurathen mußt Du auf alle Fälle. Aber, wenn Du mir beweisen willst, daß Du mich liebst, so wählst Du den, welchen ich Dir vorschlagen werde. Julie. Liebe Tante, das Herz bestimmt die Wahl des geliebten Gatten; man kann wohl zum Entsagen gezwungen werden, aber nicht zum Lieben. Baroninn. Das ist Schwärmerey! Julie. Ich fühle so. Baroninn. Das Herz eines jungen Mädchens ist ein sehr unweiser Führer. Der reifere Verstand eines Dritten muß erwägen, leiten, entscheiden. Julie. Gegen, aber nicht für; ich kann allenfalls entsagen, wenn ich muß. Aber nie würde ich einem die Hand geben, den ich weder achten noch lieben könnte.\nBaroninn.\nAuf wen geht das? Julie. Auf jeden, der unedel genug dächte, sich mir aufdringen zu lassen.\nBaroninn.\nEy, wie stolz das gnädige Fräulein sind! Aufdringen wird man ihnen niemand; aber ich hoffe, Sie werden nicht thöricht genug seyn, um jemand abzuweisen, der am Range und Vermögen wenige über sich hat. Kurz, Graf Balken erzeigt Ihnen, wie Sie wissen, die Ehre, sich um Sie zu bewerben, und ich hoffe, Sie werden keine Caprizen einem solchen Glücke entgegen sezen.\n",
+    "text": "Dritter Auftritt. Die Baroninn. Hernach Marie. Dann Julie.\nBaroninn. (klingelt.) Marie. (kömmt.)\nBaroninn.\nJulie soll kommen! Marie. (ab.)\nBaroninn. Etwas wäre nun schon gewonnen. Sein Wort hätte mein Herr Gemahl zurück. Jetzt wär also nur noch sein Eigensinn zu bekämpfen. Julie. Was befehlen Sie, gnädige Tante? Baroninn. Mein liebes Kind; die Dinge haben eine sonderbare Wendung genommen. Eben brachte der alte Ruf Deinem Onkel sein gegebenes Wort zurück, mit der Versicherung, daß sein Neffe Deiner nicht würdig wäre. Wendheim ist nun ein für allemal nichts für Dich; was bleibt Dir nun übrig? Julie. Einsamkeit! Ihre und meines Onkels Güte. Baroninn.\nNein, mein Kind, das geht nicht. Heurathen mußt Du auf alle Fälle. Aber, wenn Du mir beweisen willst, daß Du mich liebst, so wählst Du den, welchen ich Dir vorschlagen werde. Julie. Liebe Tante, das Herz bestimmt die Wahl des geliebten Gatten; man kann wohl zum Entsagen gezwungen werden, aber nicht zum Lieben. Baroninn. Das ist Schwärmerey! Julie. Ich fühle so. Baroninn. Das Herz eines jungen Mädchens ist ein sehr unweiser Führer. Der reifere Verstand eines Dritten muß erwägen, leiten, entscheiden. Julie. Gegen, aber nicht für; ich kann allenfalls entsagen, wenn ich muß. Aber nie würde ich einem die Hand geben, den ich weder achten noch lieben könnte.\nBaroninn.\nAuf wen geht das? Julie. Auf jeden, der unedel genug dächte, sich mir aufdringen zu lassen.\nBaroninn.\nEy, wie stolz das gnädige Fräulein sind! Aufdringen wird man ihnen niemand; aber ich hoffe, Sie werden nicht thöricht genug seyn, um jemand abzuweisen, der am Range und Vermögen wenige über sich hat. Kurz, Graf Balken erzeigt Ihnen, wie Sie wissen, die Ehre, sich um Sie zu bewerben, und ich hoffe, Sie werden keine Caprizen einem solchen Glücke entgegen sezen.\n",
     "notes": [],
     "edits": [
       {
@@ -4234,6 +4354,14 @@
         "readingEnd": 225,
         "before": "s",
         "after": "tz"
+      },
+      {
+        "start": 228,
+        "end": 229,
+        "readingStart": 228,
+        "readingEnd": 229,
+        "before": "a",
+        "after": "ä"
       },
       {
         "start": 366,
@@ -4422,7 +4550,7 @@
   },
   "text-3-4-1": {
     "summary": "Die Baronin befiehlt Julie, den Schmuck zu behalten. Julie betont, dass für sie der Charakter eines Menschen wichtiger ist als sein Geld, und verteidigt Wendheim. Sie verlässt den Raum, ohne dem Grafen ihre Liebe oder Zustimmung zu geben.",
-    "text": "Welche Unhöflichkeit! Ein solches Geschenk auszuschlagen. Du behältst den Schmuck! Julie. (steht an.) Baroninn.\nDu behältst ihn! ich befehl es! Ich muß wirklich Deine Delicatesse bewundern! Nicht wahr, wenn der armselige Herr von Wendheim, im Stande wäre, ein solches Geschenk zu machen? Du hattest Dich schwerlich geweigert. Julie. (erröthend vor Unwillen.) Ich bin gewohnt die Menschen nach ihrem innern Werth zu schätzen, nicht nach Dukaten! Und da Sie mich auffordern, gnädige Tante, so gesteh' ich Ihnen frey: daß der armselige Wendheim, wie Sie ihn zu nennen belieben, – bey seiner Armuth mehr Werth in meinen Augen besitzt, als irgend ein Mann auf Gottes weiter Erde! und wär' er auch so vornehm, reich und freygebig – als der Herr Graf!\nBaroninn. Unverschämte, entferne Dich! Julie. Mit Vergnügen! Nur erlauben Sie mir noch eins zu erinnern, weil Sie doch einen so entehrenden Accent auf Wendheims Armuth legten: Das Schicksal vertheilt die Güter; dem einen giebt es Rang, Titel, Reichthümer! dem andern Verstand, Tugend und ein edles Herz! – Wer ist wohl zu beneiden? (Sie verbeugt sich mit einer Mischung von Würde und Unterwürfigkeit, und geht ab.)\n",
+    "text": "Welche Unhöflichkeit! Ein solches Geschenk auszuschlagen. Du behältst den Schmuck! Julie. (steht an.) Baroninn.\nDu behältst ihn! ich befehl es! Ich muß wirklich Deine Delicatesse bewundern! Nicht wahr, wenn der armselige Herr von Wendheim, im Stande wäre, ein solches Geschenk zu machen? Du hättest Dich schwerlich geweigert. Julie. (erröthend vor Unwillen.) Ich bin gewohnt die Menschen nach ihrem innern Werth zu schätzen, nicht nach Dukaten! Und da Sie mich auffordern, gnädige Tante, so gesteh' ich Ihnen frey: daß der armselige Wendheim, wie Sie ihn zu nennen belieben, – bey seiner Armuth mehr Werth in meinen Augen besitzt, als irgend ein Mann auf Gottes weiter Erde! und wär' er auch so vornehm, reich und freygebig – als der Herr Graf!\nBaroninn. Unverschämte, entferne Dich! Julie. Mit Vergnügen! Nur erlauben Sie mir noch eins zu erinnern, weil Sie doch einen so entehrenden Accent auf Wendheims Armuth legten: Das Schicksal vertheilt die Güter; dem einen giebt es Rang, Titel, Reichthümer! dem andern Verstand, Tugend und ein edles Herz! – Wer ist wohl zu beneiden? (Sie verbeugt sich mit einer Mischung von Würde und Unterwürfigkeit, und geht ab.)\n",
     "notes": [],
     "edits": [
       {
@@ -4440,6 +4568,14 @@
         "readingEnd": 156,
         "before": "s ",
         "after": ""
+      },
+      {
+        "start": 296,
+        "end": 297,
+        "readingStart": 292,
+        "readingEnd": 293,
+        "before": "a",
+        "after": "ä"
       },
       {
         "start": 329,
@@ -4842,7 +4978,7 @@
   },
   "text-3-7-0": {
     "summary": "Carl besucht Julie und erfährt, dass sein Onkel die Heiratsabsprache aufgelöst hat. Gerade das Verbotene reizt ihn nun wieder. Julie freut sich über den glimpflichen Ausgang der vergangenen Nacht; Carl hätte sich mehr Widerstand und Aufregung gewünscht.",
-    "text": "Siebenter Auftritt. Carl. Vorige. Carl. (sieht verstohlen herein) Ist die Luft rein? Julie. In welchem Verstande?\nCarl.\nOb niemand fatales hier ist? Julie. Niemand; kommen Sie nur näher. Carl.\nGiebts nichts neues? nichts zu thun?\nJulie.\nZu thun? Carl.\nDas heißt: etwas Schlechtes gut zu machen, oder was Gutes schlecht zu machen? Julie. Gut zu machen, eher. Carl. Ich lasse mirs auch gefallen. (mit einem Blick auf das Schmuckkästchen.) Was haben Sie da? Julie. Ein Geschenk von dem elenden Balken, das mir die Tante aufgedrungen hat. Carl. Dem gefallen Sie auch? ich glaubs; es kostet mich auch nicht wenig – Sie – bestimmteste aller Bräute – Julie. (schnell.) O! damit ists nun ganz aus.\nCarl. Wie so? Julie. Der Herr Onkel war hier, und hat meinem Onkel sein Wort zurück gebracht. Carl. Was ist das? – Der Graf wunscht, – mein Onkel will nicht; – jetzt machen die mir gerade recht Lust Sie zu haben. Julie. Sie scherzen. Carl.\nNitimur in vetitum! Sie sind hübsch genug: was meynen Sie denn, daß ich ausgestanden habe, als ich Wendheim die Leiter hielt? Julie. Ihre Großmuth hob sie – Carl.\nDen Teufel auch! es war ein anderes Gefühl das mich hob! Es war mir, als ob lauter Stahlfedern unter den Absätzen wären; die Sehnsucht nach dergleichen peitschte mich so unter dem Fenster herum, daß ich Gott dankte, wie es zu einem kleinen Scharmützel kam.\nJulie. Aber – lieber Herr von Ruf! warum forderten Sie denn noch die Wachsamkeit aus? Carl.\nEs ging mir zu friedlich zu; ich bin das nicht gewohnt. Ach! – ich habe doch Malheur. Julie. Wie so?\nCarl.\nEs geht mir dennoch nicht alles nach Wunsch. Ich hatte mich so sehr auf eine Bataille gefreut, – und es gab nicht einmal eine elende Plankeley.- Die Tröpfe von Bedienten meynen Sie, daß einer das Herz hatte uns anzugreifen. Julie. Es freut mich, daß es so gut abging! Carl.\nUnd mich ärgerts. Lange halte ichs so nicht aus; wenns nicht bald ein Bischen bunter hergeht, kehr' ichs Haus um,\n",
+    "text": "Siebenter Auftritt. Carl. Vorige. Carl. (sieht verstohlen herein) Ist die Luft rein? Julie. In welchem Verstande?\nCarl.\nOb niemand fatales hier ist? Julie. Niemand; kommen Sie nur näher. Carl.\nGiebts nichts neues? nichts zu thun?\nJulie.\nZu thun? Carl.\nDas heißt: etwas Schlechtes gut zu machen, oder was Gutes schlecht zu machen? Julie. Gut zu machen, eher. Carl. Ich lasse mirs auch gefallen. (mit einem Blick auf das Schmuckkästchen.) Was haben Sie da? Julie. Ein Geschenk von dem elenden Balken, das mir die Tante aufgedrungen hat. Carl. Dem gefallen Sie auch? ich glaubs; es kostet mich auch nicht wenig – Sie – bestimmteste aller Bräute – Julie. (schnell.) O! damit ists nun ganz aus.\nCarl. Wie so? Julie. Ihr Herr Onkel war hier, und hat meinem Onkel sein Wort zurück gebracht. Carl. Was ist das? – Der Graf wünscht, – mein Onkel will nicht; – jetzt machen die mir gerade recht Lust Sie zu haben. Julie. Sie scherzen. Carl.\nNitimur in vetitum! Sie sind hübsch genug: was meynen Sie denn, daß ich ausgestanden habe, als ich Wendheim die Leiter hielt? Julie. Ihre Großmuth hob sie – Carl.\nDen Teufel auch! es war ein anderes Gefühl das mich hob! Es war mir, als ob lauter Stahlfedern unter den Absätzen wären; die Sehnsucht nach dergleichen peitschte mich so unter dem Fenster herum, daß ich Gott dankte, wie es zu einem kleinen Scharmützel kam.\nJulie. Aber – lieber Herr von Ruf! warum forderten Sie denn noch die Wachsamkeit auf? Carl.\nEs ging mir zu friedlich zu; ich bin das nicht gewohnt. Ach! – ich habe doch Malheur. Julie. Wie so?\nCarl.\nEs geht mir dennoch nicht alles nach Wunsch. Ich hatte mich so sehr auf eine Bataille gefreut, – und es gab nicht einmal eine elende Plänkeley.- Die Tröpfe von Bedienten meynen Sie, daß einer das Herz hatte uns anzugreifen. Julie. Es freut mich, daß es so gut abging! Carl.\nUnd mich ärgerts. Lange halte ichs so nicht aus; wenns nicht bald ein Bischen bunter hergeht, kehr' ichs Haus um,\n",
     "notes": [],
     "edits": [
       {
@@ -4878,6 +5014,22 @@
         "after": "s"
       },
       {
+        "start": 713,
+        "end": 715,
+        "readingStart": 711,
+        "readingEnd": 713,
+        "before": "De",
+        "after": "Ih"
+      },
+      {
+        "start": 817,
+        "end": 818,
+        "readingStart": 815,
+        "readingEnd": 816,
+        "before": "u",
+        "after": "ü"
+      },
+      {
         "start": 1183,
         "end": 1185,
         "readingStart": 1181,
@@ -4910,12 +5062,28 @@
         "after": ""
       },
       {
+        "start": 1437,
+        "end": 1438,
+        "readingStart": 1433,
+        "readingEnd": 1434,
+        "before": "s",
+        "after": "f"
+      },
+      {
         "start": 1543,
         "end": 1544,
         "readingStart": 1539,
         "readingEnd": 1540,
         "before": "f",
         "after": "s"
+      },
+      {
+        "start": 1688,
+        "end": 1689,
+        "readingStart": 1684,
+        "readingEnd": 1685,
+        "before": "a",
+        "after": "ä"
       },
       {
         "start": 1782,
@@ -4937,9 +5105,9 @@
   },
   "text-3-8-0": {
     "summary": "Sophie warnt Julie und Carl vor dem Plan, Wendheim mit Hilfe seiner Schulden aus der Stadt zu vertreiben. Julie bittet Carl um Hilfe. Er macht daraus zunächst ein Spiel um eine mögliche Heirat mit Julie oder Sophie und setzt die beiden damit unter Druck.",
-    "text": "Achter Auftritt. Sophie. Vorige. Sophie. Große Neuigkeiten! artige Streiche!\nCarl.\nGeschwind! (schiebt das Haar von beiden Ohren weg.) Sophie. Ein guter Genius führt mich von ohngefähr ins Zimmer der gnädigen Frau; indem hör' ich den Eingang zu einem recht malitiösen Plan. – Horchen ist sonst etwas Niedriges, – aber der Plan betraf Wendheim, und das hob mich über die Bedenklichkeiten! Carl.\nEin Plan? Wendheim? ich brenne! Sophie. Nichts Geringeres, als den armen, guten Wendheim auf eine recht schändliche Manier aus der Stadt zu bringen. Julie. Auf welche Manier? Sophie. Ein Wechselgläubiger soll ihm mit Arrest drohen, und sein schlechter Bruder will nur unter der Bedingung ihm Reisegeld geben, daß er durchgeht. Julie. Abscheulich! Herr von Ruf, jetzt helfen Sie! Carl.\nAha! jetzt geben Sie wieder gute Worte. Nun wohlan; ich will helfen, und auf die ordentlichste Weise von der Welt.\nSophie. (neugierig.) Auf welche? Carl.\nEy nun, ich nehme von meinen alten Rechten Besitz, und heurathe Sie selbst. Julie. (sanft und traurig.) Wie können Sie mich in einem solchen Augenblick noch quälen? Carl. Quälen? wenn ich Sie heurathe? Sie machen mir immer mehr Lust. Sophie. Glaubst Du's ihm? Das weiß ich besser. Carl.\nJa? – meynen Sie? Sophie. Gewiß! für einen so artigen, gefälligen Sonderling, wäre das viel zu alltäglich. Carl.\nWie das liebliche Kätzchen schmeicheln kann! Sophie. Geschwind im wahren Charakter!\nCarl.\nDa bin ich. Ich stehe ab; mit der Bedingung, – daß Sie augenblicklich an ihre Stelle treten.\nSophie. Ey wie peremtorisch! Carl.\nDas ist im wahren Charakter.\nSophie. Ein wenig Geduld, artiger Herr! Carl.\nDavon liegt kein Fünkchen in meinem Charakter. Nu, geschwind! Sophie. Werden uns besinnen. Carl.\nGanz gut! derweile halte ich mich an diese Braut, und lasse die Sache ihren Gang gehen. Julie. Liebe Sophie!\nSophie. Nun – lassen Sie nur los! es wird sich finden. Carl. So? – wie aus Barmherzigkeit? Da bin ich kein Narr. Es bleibt beym Alten.\n",
+    "text": "Achter Auftritt. Sophie. Vorige. Sophie. Große Neuigkeiten! artige Streiche!\nCarl.\nGeschwind! (schiebt das Haar von beiden Ohren weg.) Sophie. Ein guter Genius führt mich von ohngefähr ins Zimmer der gnädigen Frau; indem hör' ich den Eingang zu einem recht malitiösen Plan. – Horchen ist sonst etwas Niedriges, – aber der Plan betraf Wendheim, und das hob mich über die Bedenklichkeiten! Carl.\nEin Plan? Wendheim? ich brenne! Sophie. Nichts Geringeres, als den armen, guten Wendheim auf eine recht schändliche Manier aus der Stadt zu bringen. Julie. Auf welche Manier? Sophie. Ein Wechselschuldner soll ihm mit Arrest drohen, und sein schlechter Bruder will nur unter der Bedingung ihm Reisegeld geben, daß er durchgeht. Julie. Abscheulich! Herr von Ruf, jetzt helfen Sie! Carl.\nAha! jetzt geben Sie wieder gute Worte. Nun wohlan; ich will helfen, und auf die ordentlichste Weise von der Welt.\nSophie. (neugierig.) Auf welche? Carl.\nEy nun, ich nehme von meinen alten Rechten Besitz, und heurathe Sie selbst. Julie. (sanft und traurig.) Wie können Sie mich in einem solchen Augenblick noch quälen? Carl. Quälen? wenn ich Sie heurathe? Sie machen mir immer mehr Lust. Sophie. Glaubst Du's ihm? Das weiß ich besser. Carl.\nJa? – meynen Sie? Sophie. Gewiß! für einen so artigen, gefälligen Sonderling, wäre das viel zu alltäglich. Carl.\nWie das liebliche Kätzchen schmeicheln kann! Sophie. Geschwind im wahren Charakter!\nCarl.\nDa bin ich. Ich stehe ab; mit der Bedingung, – daß Sie augenblicklich an ihre Stelle treten.\nSophie. Ey wie peremtorisch! Carl.\nDas ist im wahren Charakter.\nSophie. Ein wenig Geduld, artiger Herr! Carl.\nDavon liegt kein Fünkchen in meinem Charakter. Nu, geschwind! Sophie. Werden uns besinnen. Carl.\nGanz gut! derweile halte ich mich an diese Braut, und lasse die Sache ihren Gang gehen. Julie. Liebe Sophie!\nSophie. Nun – lassen Sie nur los! es wird sich finden. Carl. So? – wie aus Barmherzigkeit? Da bin ich kein Narr. Es bleibt beym Alten.\n",
     "notes": [
-      "„Wechselschuldner“ wird zu „Wechselgläubiger“ berichtigt: Nach dem unmittelbar zuvor belauschten Plan soll der Mann, dem Wendheim Geld schuldet, Arrest androhen."
+      "Auch 1826, S. 80, steht „Wechselschuldner“. Im Kontext ist der Gläubiger gemeint. Die frühere Konjektur „Wechselgläubiger“ ist zurückgenommen."
     ],
     "edits": [
       {
@@ -4981,22 +5149,6 @@
         "readingEnd": 542,
         "before": ":",
         "after": ""
-      },
-      {
-        "start": 595,
-        "end": 598,
-        "readingStart": 588,
-        "readingEnd": 591,
-        "before": "sch",
-        "after": "glä"
-      },
-      {
-        "start": 599,
-        "end": 602,
-        "readingStart": 592,
-        "readingEnd": 595,
-        "before": "ldn",
-        "after": "big"
       },
       {
         "start": 941,
@@ -5098,7 +5250,7 @@
   },
   "text-3-8-1": {
     "summary": "Carl nimmt den Schmuck an sich, nachdem ihm eine Idee zur Rettung Wendheims gekommen ist. Sophie verrät ihm zusätzlich den Kastenplan und den Zeitpunkt. Carl reagiert begeistert, missachtet aber Sophies Abwehr und küsst sie gegen ihren Widerstand.",
-    "text": "Sophie. (mit gefaltenen Händen.) Liebenswürdiger Herr von Ruf! Muster aller unartigen Wildfänge! Krone der Ungezogenheit! ehe Sie meine Freundinn mit so gräßlicher Verdammniß bedrohen, heben Sie lieber ein Auge auf Ihre Magd!\nCarl. (wirft sie mit einem Schnupftuche.) Gut, Sultaninn! Ihr seyd erhört! Prächtiges Gegenstück! in reizender Form! Jetzt bin ich zu Diensten. Wo soll ich helfen? Julie. Daß Wendheim weder beschimpft wird, noch flüchten muß. Carl.\nIch will mich für ihn ausgeben, und arretiren lassen. Julie. Nein, unmöglich! Carl.\nEs ist nicht das erstemal!\nSophie. Wo bliebe dann unsre Hülfe? unser Schützer? unser Ritter von der Strickleiter? Carl.\nEs ist wahr! also – ja, mit Geld wäre die\nSache am leichtesten abzuthun! Teufel, daß ich mit dem Onkel brouillirt bin!\nSophie. Das ist fatal! Carl.\nAh – das wäre auch zu alltäglich! – Still, laßt mich nachsinnen. – (wendet sich nach der Seite des Tisches und sieht den Schmuck:) Herrlich! – ich hab's! Wendheim muß frey seyn, und der Graf die Gelbsucht bekommen. (Nimmt den Schmuck.) Ich hab's! Adieu! (er will ab.)\nSophie. Noch eins! Der Graf wird heute in einem Kasten ins Haus gebracht. Carl.\nIn einem Kasten? – Wann geschieht das?\nSophie. Heute Abend neun Uhr. Carl. Göttlich! göttlich! die Entdeckung ist eine Million werth! Du kleiner, lieblicher Spion, komm her! (will sie küssen.)\nSophie. Ey fort, unartiger Mensch!\nCarl.\nWas hilft das Strauben? Wir sind beide prächtig! für einander geschaffen! Ich habe eine schwere Expedition vor, und will mir Courage holen. Allons, was wirds! (küßt sie halb mit Gewalt) So! (springt hurtig ab.)\n",
+    "text": "Sophie. (mit gefaltenen Händen.) Liebenswürdiger Herr von Ruf! Muster aller unartigen Wildfänge! Krone der Ungezogenheit! ehe Sie meine Freundinn mit so gräßlicher Verdammniß bedrohen, heben Sie lieber ein Auge auf Ihre Magd!\nCarl. (wirft sie mit einem Schnupftuche.) Gut, Sultaninn! Ihr seyd erhört! Prächtiges Gegenstück! in reizender Form! Jetzt bin ich zu Diensten. Wo soll ich helfen? Julie. Daß Wendheim weder beschimpft wird, noch flüchten muß. Carl.\nIch will mich für ihn ausgeben, und arretiren lassen. Julie. Nein, unmöglich! Carl.\nEs ist nicht das erstemal!\nSophie. Wo bliebe dann unsre Hülfe? unser Schützer? unser Ritter von der Strickleiter? Carl.\nEs ist wahr! also – ja, mit Geld wäre die\nSache am leichtesten abzuthun! Teufel, daß ich mit dem Onkel brouillirt bin!\nSophie. Das ist fatal! Carl.\nAh – das wäre auch zu alltäglich! – Still, laßt mich nachsinnen. – (wendet sich nach der Seite des Tisches und sieht den Schmuck:) Herrlich! – ich hab's! Wendheim muß frey seyn, und der Graf die Gelbsucht bekommen. (Nimmt den Schmuck.) Ich hab's! Adieu! (er will ab.)\nSophie. Noch eins! Der Graf wird heute in einem Kasten ins Haus gebracht. Carl.\nIn einem Kasten? – Wann geschieht das?\nSophie. Heute Abend neun Uhr. Carl. Göttlich! göttlich! die Entdeckung ist eine Million werth! Du kleiner, lieblicher Spion, komm her! (will sie küssen.)\nSophie. Ey fort, unartiger Mensch!\nCarl.\nWas hilft das Sträuben? Wir sind beide prächtig! für einander geschaffen! Ich habe eine schwere Expedition vor, und will mir Courage holen. Allons, was wirds! (küßt sie halb mit Gewalt) So! (springt hurtig ab.)\n",
     "notes": [],
     "edits": [
       {
@@ -5172,6 +5324,14 @@
         "readingEnd": 981,
         "before": "n",
         "after": "y"
+      },
+      {
+        "start": 1409,
+        "end": 1410,
+        "readingStart": 1409,
+        "readingEnd": 1410,
+        "before": "a",
+        "after": "ä"
       },
       {
         "start": 1515,
@@ -5305,7 +5465,7 @@
     "summary": "Wendheim bittet seinen wohlhabenden Stiefbruder um einen Vorschuss. Der Graf weist jede Verantwortung zurück und wertet sogar die zweite Ehe ihrer gemeinsamen Mutter ab. Wendheim verteidigt ihre Ehre und besteht auf brüderlicher Hilfe.",
     "text": "Eilfter Auftritt. Wendheim. Graf. Wendheim. Für den Bruder wird doch wohl der Graf zu Hause seyn? Graf. Aber ich habe dringende Geschäfte, Wendheim. Ich werde nicht lange beschwerlich fallen. Graf. Zur Sache. Wendheim. Bruder! Möge dieses Wort etwas gelten. Alles steht auf dem Spiel.- Ich bin unglücklich! Graf. Wie kommt das? Wendheim. Vom Zufall. Das dachte meine Mutter nicht, als sie ihren ältesten Sohn zum erstenmale küßte, daß der jüngste einst darben würde, indeß der älteste im Überfluß schwelgt.\nGraf. Von Überfluß weiß ich nichts. Ein jeder muß sich nach seinen Umständen einrichten; man muß nicht mehr verzehren wollen, als man einzunehmen hat. Wendheim. Wahrlich, ich werde ein tröstlicheres Wort hier hören. Man muß etwas einzunehmen haben, um zehren zu können. Graf. Das ist Ihre Sache. Wendheim. Ich habe Ihnen keine Schande gemacht. Meine Dürftigkeit entehrt mich nicht. Sie ist nicht meine Schuld. Ich würde meinen Kummer keinem Menschen klagen, als dem Bruder. Graf.\nWem? mir?\nWendheim. Wem sonst? Wer hat, außer Ihnen, Pflichten, mich aus dem Elende zu befreyen? Elend! ja! ich erröthe, indem ich dies Wort ausspreche! und es ist nicht gut, daß der Bruder erst ein solch Geständniß erpreßt, ehe er hilft. Graf. Hm! Bruder! Bruder? Mein Vater war der Graf von Balken; nach dessen Tode heurathete die verwittwete Frau Gräfinn einen gewissen armen Herrn von Wendheim. Was kann das gräflich Balkensche Haus dafür? Wendheim. (erstaunt.) Was sagen Sie? Graf. Daß es eben nicht der klügste Streich war, den meine Frau Mutter beging. Wendheim. (beleidigt.) Herr Graf! ich habe Ihre Kränkungen oft ertragen. Eine Kränkung meiner Mutter ertrage ich nicht. Beschimpfen Sie unsere Mutter nicht! Graf. Was verlangen Sie denn eigentlich? Wendheim. Was ich wünsche – sey auch meine letzte Bitte an Sie. Nur – nur Vorschuß einer mäßigen Summe. Darum bittet der Bruder, den Bruder! Graf. Ich leihe niemals etwas.\nWendheim. Auch dem Bruder nicht? Graf. Nie.\n",
     "notes": [
-      "„Wahrlich, ich werde ein tröstlicheres Wort hier hören“ bleibt stehen. Eine Änderung zu einer anderen Zeitform wäre ohne Druckvergleich nicht eindeutig."
+      "„Wahrlich, ich werde ein tröstlicheres Wort hier hören“ ist im Druck von 1826, S. 86, bestätigt."
     ],
     "edits": [
       {
@@ -5336,7 +5496,7 @@
   },
   "text-3-11-1": {
     "summary": "Der Graf bietet nur Reisegeld an und verlangt dafür Wendheims Abreise. Wendheim lehnt diese demütigende Hilfe ab und will die Folgen seiner Schulden tragen. Zu Beginn des nächsten Auftritts kommt Carl hinzu und spricht den Grafen auf die Angelegenheit an.",
-    "text": "Wendheim. Ich bin der Verzweiflung nahe! mir droht Arrest! Fühlen Sie wenigstens den Schimpf, wenn auch das Unglück nicht Sie zu rühren vermag. Graf. Wir führen nicht einen Namen, folglich kann auf mich kein Schimpf fallen. Wendheim. (steigend.) Uns gebar eine Mutter! Die Irokesen theilen den Vorrath mit Fremden, welche Mangel leiden! und hier, versagt ein Bruder dem andern die nothdürftigste Unterstützung! Graf. Ich sehe gar nicht, wer mich dazu zwingen kann. Doch – damit Sie sehen, daß ich nicht unerbittlich bin: ich weiß, Sie sind 200 Dukaten auf Wechsel schuldig; man droht Ihnen mit Arrest; wenn Sie nun noch heute diese Stadt verlassen wollen, so will ich Ihnen ein anständiges Reisegeld mitgeben.\nWendheim. (tritt erstaunt zurück.) Ist das möglich? Graf.\nDas ist alles, was ich etwa thun könnte. Wendheim. (außer sich.) Ein Bruder den andern aus der Stadt jagen! Ein Bruder den andern zum Betrüger, – zum Landstreicher machen? Fühlst Du wohl, Elender, das Nichtswürdige dieses Vorschlags? Wohl, ich  bleibe hier, ich erwarte mein Schicksal, und verachte Deine Hülfe! Mögen sie mich fortschleppen in Arrest; Tugend und ein reines Gewissen sind meine Begleiter! Dir bleibe Dein Gold und Verachtung!\n\nZwölfter Auftritt. Carl Ruf. Vorige. Carl.\nWohin, Freund? Mit Erlaubniß, Herr Graf.- Ich suche Dich. Wendheim. Folge mir, die Luft ist hier verpestet. Carl.\nThut nichts. Der Herr Graf erlauben mir, Dero Connoissance zu machen. – Du sollst Deinen Spaß erleben. (das letztere bey Seite.)\nWendheim. (bleibt in einiger Entfernung.) Carl. Um Vergebung! ich habe doch die Ehre? Graf. Ich bin der Graf von Balken. Carl. Balken? Der Herr Graf von Balken? Ich habe nicht die Ehre Sie persönlich zu kennen. Graf. (stolz.) Ich bedauere. Carl. Aber von Renommée. Sie nehmens doch nicht ungnädig, daß ich meinen Freund hier, bey Ihnen, aufsuchte? Graf.\nKann es wohl geschehen lassen. Carl.\nDanke für die gnädige Erlaubniß. Wollen Sie auch wissen, warum ich ihn aussuche? Graf. Das geht mich nichts an. Carl. Ich würde gegen die gute Lebensart verfehlen, wenn ich es Ihnen nicht sagte. Sehen Sie: mein Freund hier ist eine Summe auf Wechsel schuldig.\nGraf. So?\nCarl.\n",
+    "text": "Wendheim. Ich bin der Verzweiflung nahe! mir droht Arrest! Fühlen Sie wenigstens den Schimpf, wenn auch das Unglück nicht Sie zu rühren vermag. Graf. Wir führen nicht einen Namen, folglich kann auf mich kein Schimpf fallen. Wendheim. (steigend.) Uns gebar eine Mutter! Die Irokesen theilen den Vorrath mit Fremden, welche Mangel leiden! und hier, versagt ein Bruder dem andern die nothdürftigste Unterstützung! Graf. Ich sehe gar nicht, wer mich dazu zwingen kann. Doch – damit Sie sehen, daß ich nicht unerbittlich bin: ich weiß, Sie sind 200 Dukaten auf Wechsel schuldig; man droht Ihnen mit Arrest; wenn Sie nun noch heute diese Stadt verlassen wollen, so will ich Ihnen ein anständiges Reisegeld mitgeben.\nWendheim. (tritt erstaunt zurück.) Ist das möglich? Graf.\nDas ist alles, was ich etwa thun könnte. Wendheim. (außer sich.) Ein Bruder den andern aus der Stadt jagen! Ein Bruder den andern zum Betrüger, – zum Landstreicher machen? Fühlst Du wohl, Elender, das Nichtswürdige dieses Vorschlags? Wohl, ich  bleibe hier, ich erwarte mein Schicksal, und verachte Deine Hülfe! Mögen sie mich fortschleppen in Arrest; Tugend und ein reines Gewissen sind meine Begleiter! Dir bleibe Dein Gold und Verachtung!\n\nZwölfter Auftritt. Carl Ruf. Vorige. Carl.\nWohin, Freund? Mit Erlaubniß, Herr Graf.- Ich suche Dich. Wendheim. Folge mir, die Luft ist hier verpestet. Carl.\nThut nichts. Der Herr Graf erlauben mir, Dero Connoissance zu machen. – Du sollst Deinen Spaß erleben. (das letztere bey Seite.)\nWendheim. (bleibt in einiger Entfernung.) Carl. Um Vergebung! ich habe doch die Ehre? Graf. Ich bin der Graf von Balken. Carl. Balken? Der Herr Graf von Balken? Ich habe nicht die Ehre Sie persönlich zu kennen. Graf. (stolz.) Ich bedauere. Carl. Aber von Renommée. Sie nehmens doch nicht ungnädig, daß ich meinen Freund hier, bey Ihnen, aufsuchte? Graf.\nKann es wohl geschehen lassen. Carl.\nDanke für die gnädige Erlaubniß. Wollen Sie auch wissen, warum ich ihn aufsuche? Graf. Das geht mich nichts an. Carl. Ich würde gegen die gute Lebensart verfehlen, wenn ich es Ihnen nicht sagte. Sehen Sie: mein Freund hier ist eine Summe auf Wechsel schuldig.\nGraf. So?\nCarl.\n",
     "notes": [
       "Dieser bisher als III/11 geführte Abschnitt enthält auch den Beginn des zwölften Auftritts. Die vorhandene Überschrift wird wieder als Überschrift abgesetzt; die Abschnittskennung bleibt für gespeicherte Belege erhalten."
     ],
@@ -5412,6 +5572,14 @@
         "readingEnd": 1480,
         "before": "g",
         "after": "tz"
+      },
+      {
+        "start": 1966,
+        "end": 1967,
+        "readingStart": 1961,
+        "readingEnd": 1962,
+        "before": "s",
+        "after": "f"
       },
       {
         "start": 2086,
@@ -5699,7 +5867,7 @@
     "summary": "Carl steigt anstelle des Grafen in den Kasten. Die Träger bemerken den falschen Mann und weigern sich zunächst. Carls Drohung scheitert an ihrer Gegendrohung; erst eine bessere Bezahlung bringt sie dazu, ihn trotzdem zu tragen.",
     "text": "Zweyter Auftritt. Carl Ruf. Vorige. Erster Träger. Da kömmt er ja. Carl.\nAha, seyd ihr da, ihr Pagen?\nErster Träger. Ja, Ihr Excellenz. Ists gefällig? Carl.\nNatürlich.\nErster Träger. (öffnet die Thüre.) Carl. (im Hineintreten.)\nIhr wißt doch genau wohin? Zweyter Träger. Ja, ja, sorgen Sie nur nicht. Carl.\nUnd was ihr sagt?\nErster Träger. Es wäre die bewußte Schachmaschine. Carl. (setzt sich und schließt von innen zu.) Gut.\nErster Träger. Du! ist das auch der Rechte? mir deucht, der Graf ist kleiner? Zweyter Träger. Ich meins auch, er ists nicht. Carl.\nNun, macht fort! Erster Träger.\nMit Verlaub; es geht nicht mit rechten Dingen zu. Carl.\nWas habt ihr?\nCarl. (immer noch ohne zu öffnen.) Ich bin der Rechte, macht fort!\nZweyter Träger. Ne, ne! Sie sind der Unrechte; steigen Sie nur wieder raus.\nCarl.\nDen Teufel will ich das; macht fort, ihr Schlingel. Erster Träger. Nicht geschimpft; er ist der Unrechte; und steig er nur in Gutem wieder, heraus, oder wir brauchen Gewalt. Carl. (springt schnell heraus.) Eure Gewalt will ich euch gleich vertreiben! Den Augenblick tragt mich an Ort und Stelle, oder euch soll – (zieht ein Terzerol.) Erster Träger. Ah! was sollen die Dinge? Wenn wir nun sagen ja, und tragen Sie ins Wasser? Carl. (im Schäkerton.) Da habt ihr wieder recht. Diesmal seyd ihr gescheuter als ich. Kommt her, gescheute Kerls; damit ihr sehet, daß ich wenigstens für euch der Rechte bin: was bekommt ihr für den Gang? Zweyter Träger. Einen kleinen Thaler der Mann. Carl. Ein Hundegeld! Hier habt ihr jeder einen Dukaten; wollt ihr mich tragen?\nErster Träger. In Gottes Namen. Carl.\nSchön! ein gut Wort findet eine gute Statt. (er geht hinein und schließt zu; die Träger tragen ihn hurtig ab.)\n",
     "notes": [
-      "Nach „Was habt ihr?“ steht im Ausgangstranskript eine leere Sprecherangabe des ersten Trägers. Sie wird entfernt; eine fehlende Antwort wird nicht erfunden."
+      "Die leere Sprecherstelle nach „Was habt ihr?“ wird im Lauftext weiterhin ausgelassen. Unter „Druckvergleich“ ist die in der Ausgabe von 1826 enthaltene Antwort des Trägers vollständig nachzulesen."
     ],
     "edits": [
       {
@@ -5911,7 +6079,7 @@
   },
   "text-4-6-0": {
     "summary": "Die Träger stellen den Kasten ab. Die Baronin schliesst Julie von aussen ein und öffnet dann den Kasten – heraus kommt überraschend Carl. Er nennt sich selbst eine Schachmaschine, weicht ihren Fragen aus und beginnt, ihr zu schmeicheln.",
-    "text": "Sechster Auftritt. Vorige. Die Träger mit dem Kasten. Carl versteckt. Hernach Herr von Ruf von innen.\nErster Träger. Da bringen wir einen Kasten; wir sollen nur sagen: es wäre die bewußte Schachmaschine. Wir sind doch recht?\nBaroninn.\nJa, ja; setzt nur hierher. (deutet neben Juliens Schlafzimmer.)\nDie Träger. (setzen ihn ab.) Baroninn.\nHier habt ihr noch etwas für eure Mühe. (giebt ihnen ein Stück Geld.)\nErster Träger. Danken schönstens! Die Träger. (gehen ab.) Baroninn.\nJulie, es wird spat, geh' auf Dein Zimmer. Julie. Ich wünsche Ihnen eine sehr ruhige Nacht, gnädige Tante! (geht ab.)\nBaroninn. (verriegelt Juliens Zimmer von außen.) Diese Vorsicht kann nicht schaden. (geht an den Kasten und klopft.) Sind Sie darin?\nCarl. (inwendig.) Ja. Baroninn.\nWollen Sie nicht Luft schöpfen? Carl. (springt schnell heraus.) Gar zu gern! Baroninn. (schreyend.) Ah! -\nWer sind Sie? Carl.\nEine berühmte Schachmaschine, die noch alle ihre Gegner matt gemacht hat. Baroninn. Wie kommen Sie hieher? Carl.\nAn Graf Balkens Stelle. Baroninn.\nAlso kennen Sie den Grafen? Carl.\nWahrhaftig! wir sind die besten Freunde; wie käme ich sonst hieher?\nBaroninn.\nIhre unerwartete Erscheinung bringt mich ganz aus der Fassung,\nCarl.\nDas freut mich! Baroninn.\nIch muß wissen, wer Sie sind? Carl.\nMein Name ist:  Allüberall; «mein Geschäft, dem Frauenzimmer so viel möglich Spaß zu machen, und den Männern den Spaß zu verderben. Baroninn.\nEin sonderbarer Charakter. Carl.\nJa, das Sonderbare ist eben meine Sache.\nBaroninn. Aber es ist doch unschicklich – so spät -: Carl.\nMit dem Schicklichen halt' ich mich nicht auf; – der Zufall war mir günstig; er führt mich schnurgerade zu einem schönen Frauenzimmer. Baroninn.\nDas ist verbindlich! Aber die Decence verbeut doch gleichwohl – Carl.\nWas ich sage, ist wahr. Vor der Wahrheit streicht die Decence die Segel. Ist das Gesicht etwa nicht schön? und doppelt schön, wenn das alles die Natur so geschaffen hat; wie es denn gewiß vorauszusehen ist. Baroninn. (koquettirend.) Sie scherzen. Carl.\nUnd der Wuchs *) – o! der ist vollends zum Bezaubern. Baroninn. (für sich.) Wie angenehm schmeichelnd. Carl.\n",
+    "text": "Sechster Auftritt. Vorige. Die Träger mit dem Kasten. Carl versteckt. Hernach Herr von Ruf von innen.\nErster Träger. Da bringen wir einen Kasten; wir sollen nur sagen: es wäre die bewußte Schachmaschine. Wir sind doch recht?\nBaroninn.\nJa, ja; setzt nur hierher. (deutet neben Juliens Schlafzimmer.)\nDie Träger. (setzen ihn ab.) Baroninn.\nHier habt ihr noch etwas für eure Mühe. (giebt ihnen ein Stück Geld.)\nErster Träger. Danken schönstens! Die Träger. (gehen ab.) Baroninn.\nJulie, es wird spät, geh' auf Dein Zimmer. Julie. Ich wünsche Ihnen eine sehr ruhige Nacht, gnädige Tante! (geht ab.)\nBaroninn. (verriegelt Juliens Zimmer von außen.) Diese Vorsicht kann nicht schaden. (geht an den Kasten und klopft.) Sind Sie darin?\nCarl. (inwendig.) Ja. Baroninn.\nWollen Sie nicht Luft schöpfen? Carl. (springt schnell heraus.) Gar zu gern! Baroninn. (schreyend.) Ah! -\nWer sind Sie? Carl.\nEine berühmte Schachmaschine, die noch alle ihre Gegner matt gemacht hat. Baroninn. Wie kommen Sie hieher? Carl.\nAn Graf Balkens Stelle. Baroninn.\nAlso kennen Sie den Grafen? Carl.\nWahrhaftig! wir sind die besten Freunde; wie käme ich sonst hieher?\nBaroninn.\nIhre unerwartete Erscheinung bringt mich ganz aus der Fassung,\nCarl.\nDas freut mich! Baroninn.\nIch muß wissen, wer Sie sind? Carl.\nMein Name ist:  Allüberall; «mein Geschäft, dem Frauenzimmer so viel möglich Spaß zu machen, und den Männern den Spaß zu verderben. Baroninn.\nEin sonderbarer Charakter. Carl.\nJa, das Sonderbare ist eben meine Sache.\nBaroninn. Aber es ist doch unschicklich – so spät -: Carl.\nMit dem Schicklichen halt' ich mich nicht auf; – der Zufall war mir günstig; er führt mich schnurgerade zu einem schönen Frauenzimmer. Baroninn.\nDas ist verbindlich! Aber die Decence verbeut doch gleichwohl – Carl.\nWas ich sage, ist wahr. Vor der Wahrheit streicht die Decence die Segel. Ist das Gesicht etwa nicht schön? und doppelt schön, wenn das alles die Natur so geschaffen hat; wie es denn gewiß vorauszusetzen ist. Baroninn. (koquettirend.) Sie scherzen. Carl.\nUnd der Wuchs *) – o! der ist vollends zum Bezaubern. Baroninn. (für sich.) Wie angenehm schmeichelnd. Carl.\n",
     "notes": [],
     "edits": [
       {
@@ -5955,6 +6123,14 @@
         "after": ""
       },
       {
+        "start": 496,
+        "end": 497,
+        "readingStart": 493,
+        "readingEnd": 494,
+        "before": "a",
+        "after": "ä"
+      },
+      {
         "start": 827,
         "end": 828,
         "readingStart": 824,
@@ -5979,10 +6155,18 @@
         "after": ""
       },
       {
+        "start": 1967,
+        "end": 1968,
+        "readingStart": 1963,
+        "readingEnd": 1965,
+        "before": "h",
+        "after": "tz"
+      },
+      {
         "start": 2075,
         "end": 2076,
-        "readingStart": 2071,
-        "readingEnd": 2071,
+        "readingStart": 2072,
+        "readingEnd": 2072,
         "before": ":",
         "after": ""
       }
@@ -5990,11 +6174,19 @@
   },
   "text-4-6-1": {
     "summary": "Die Baronin spielt eine Ohnmacht, doch Carl zieht sich in den Kasten zurück. Als Ruf sich nähert, gerät sie in Panik; Carl freut sich über die Aussicht auf noch mehr Aufsehen. Auf ihre Bitte versteckt er sich erneut.",
-    "text": "Ich brenne lichterloh! Holde Göttinn, wollen Sie mich erhören? Baroninn. – Wie kann man so ungestum – so unartig Carl.\nIch kann die Umschweife nicht leiden. Also – Schach der Königinn. (faßt ihre Hand.) Baroninn.\nSie sind so zudringlich – diese Zeit – meine Verlegenheit – ah! (präparirt sich zur Ohnmacht.) Carl.\nWas fehlt Ihnen?\n(Anmerkung zu „Wuchs“ im vorigen Abschnitt: Die satyrische Laune gewinnt um so viel mehr, je entfernter von dieser Schilderung die Schauspielerinn sich zu halten sucht.)\nBaroninn.\nDieser unerwartete Auftritt – ich weiß nicht, es wird mir immer schlimmer – (sinkt mit Koquetterie und fingirter Ohnmacht auf einen Sessel.) Carl.\n(Ohne sie anzurühren, beobachtet sie, lächelt, und wie sie sinkt, läuft er schnell zur Maschine und schließt sich ein.) (Lange Pause.) Baroninn. (sieht sich endlich um.) Wo sind Sie? Carl.\nIm Kasten. Baroninn.\nWas machen Sie da? Carl.\nIch bin geflüchtet. Baroninn. Vor was?\nCarl.\nVor der Ohnmacht. Baroninn.\nAber ist das auch höflich? ein Frauenzimmer das in Ohnmacht fallen will, zu verlassen? Carl.\nEs ist gegen meine Natur. Blut, so viel Sie wollen, kann ich sehen, nur keine Ohnmachten.\nBaroninn.\nAber jetzt bitt' ich, mir genau zu sagen, wer Sie sind, und wie Sie hieher gekommen? Der alte Ruf. (von innen.) Er muß hier seyn. Baroninn.\nGott, wir werden überrascht. Carl.\nVon wem?\nBaroninn.\nIch glaube, von meinem Mann. Carl.\nIn Gottes Namen, ich fürcht' mich gar nicht. Baroninn.\nIch bin des Todes! Carl. Warum?\nBaroninn.\nEr ist so eifersüchtig. Carl. Gut!\nBaroninn.\nEr wird wüthend. Carl.\nHerrlich!\nBaroninn. Er wird sie mißhandeln. Carl.\nGanz vortreflich! Mehr Gelegenheit zu Aufsehen finde ich im Leben nicht. Der alte Ruf. (von innen – näher als zuvor.) Hilft nichts, ich will und muß hinein.\nZugleich. Carl.\nMein Onkel? da giebts noch mehr Spaß. Baroninn. (für sich.)\nDer alte Ruf; das wäre noch ärger. (zu Carl) Ich bitte Sie um alles in der Welt. Carl.\nJa, mein girrendes Täubchen, weil Sie so schön bitten, zieh' ich mich in meinen Käfig zurück. (geht in den Kasten.) Baroninn. (riegelt die Mittelthüre auf.)\n",
+    "text": "Ich brenne lichterloh! Holde Göttinn, wollen Sie mich erhören? Baroninn. – Wie kann man so ungestüm – so unartig Carl.\nIch kann die Umschweife nicht leiden. Also – Schach der Königinn. (faßt ihre Hand.) Baroninn.\nSie sind so zudringlich – diese Zeit – meine Verlegenheit – ah! (präparirt sich zur Ohnmacht.) Carl.\nWas fehlt Ihnen?\n(Anmerkung zu „Wuchs“ im vorigen Abschnitt: Die satyrische Laune gewinnt um so viel mehr, je entfernter von dieser Schilderung die Schauspielerinn sich zu halten sucht.)\nBaroninn.\nDieser unerwartete Auftritt – ich weiß nicht, es wird mir immer schlimmer – (sinkt mit Koquetterie und fingirter Ohnmacht auf einen Sessel.) Carl.\n(Ohne sie anzurühren, beobachtet sie, lächelt, und wie sie sinkt, läuft er schnell zur Maschine und schließt sich ein.) (Lange Pause.) Baroninn. (sieht sich endlich um.) Wo sind Sie? Carl.\nIm Kasten. Baroninn.\nWas machen Sie da? Carl.\nIch bin geflüchtet. Baroninn. Vor was?\nCarl.\nVor der Ohnmacht. Baroninn.\nAber ist das auch höflich? ein Frauenzimmer das in Ohnmacht fallen will, zu verlassen? Carl.\nEs ist gegen meine Natur. Blut, so viel Sie wollen, kann ich sehen, nur keine Ohnmachten.\nBaroninn.\nAber jetzt bitt' ich, mir genau zu sagen, wer Sie sind, und wie Sie hieher gekommen? Der alte Ruf. (von innen.) Er muß hier seyn. Baroninn.\nGott, wir werden überrascht. Carl.\nVon wem?\nBaroninn.\nIch glaube, von meinem Mann. Carl.\nIn Gottes Namen, ich fürcht' mich gar nicht. Baroninn.\nIch bin des Todes! Carl. Warum?\nBaroninn.\nEr ist so eifersüchtig. Carl. Gut!\nBaroninn.\nEr wird wüthend. Carl.\nHerrlich!\nBaroninn. Er wird sie mißhandeln. Carl.\nGanz vortreflich! Mehr Gelegenheit zu Aufsehen finde ich im Leben nicht. Der alte Ruf. (von innen – näher als zuvor.) Hilft nichts, ich will und muß hinein.\nZugleich. Carl.\nMein Onkel? da giebts noch mehr Spaß. Baroninn. (für sich.)\nDer alte Ruf; das wäre noch ärger. (zu Carl) Ich bitte Sie um alles in der Welt. Carl.\nJa, mein girrendes Täubchen, weil Sie so schön bitten, zieh' ich mich in meinen Käfig zurück. (geht in den Kasten.) Baroninn. (riegelt die Mittelthüre auf.)\n",
     "notes": [
-      "Die Schauspieleranmerkung gehört zum „Wuchs“ im vorigen Abschnitt und ist keine Rede Carls. Sie wird ausdrücklich als Anmerkung gekennzeichnet."
+      "Die über S. 99–100 verteilte Schauspieleranmerkung ist im Druck bestätigt und bleibt als Anmerkung vom Dialog getrennt."
     ],
     "edits": [
+      {
+        "start": 97,
+        "end": 98,
+        "readingStart": 97,
+        "readingEnd": 98,
+        "before": "u",
+        "after": "ü"
+      },
       {
         "start": 118,
         "end": 120,
@@ -6143,9 +6335,9 @@
   },
   "text-4-7-0": {
     "summary": "Ruf sucht seinen Neffen und streitet mit der Baronin über dessen Charakter. Als Carl aus dem Kasten ruft, wird Ruf misstrauisch. Die Baronin hält an der Geschichte vom Schachautomaten fest und verlangt Verschwiegenheit gegenüber ihrem Mann.",
-    "text": "Siebenter Auftritt.\nDer alte Ruf. Vorige. Hernach Baron von innen. Baroninn.\nEy, Herr von Ruf, wer wird so spät die Damen überfallen?\nRuf. Ah – ich thue Ihnen nichts zu leid, das glauben Sie mir.\nBaroninn.\nWas suchen Sie denn? Ruf. Meinen Neffen. Baroninn.\nBey mir? Ruf. Das so eigentlich nicht. Baroninn. Wo denn?\nRuf. Bey seiner Braut, oder beym Teufel; ich weiß sonst keinen Platz mehr. Baroninn.\nWie kommen Sie auf die Idee? Ruf. Weil ich ihn seit drey Stunden überall vergebens suchte; hörte, daß er gestern und heute schon einigemal da war, – und fest ent -\nBaroninn.\nAber wie reimt sich das mit der Schilderung von heut?\nRuf. Das weiß ich selbst nicht. Baroninn.\nOb er gleich nicht hier ist; so versichere ich Ihnen doch, daß meine Meinung von ihm die richtigere ist. Ruf.\nWenn ich ihn nur nicht selbst gesprochen hatte! Baroninn.\nWarten Sie's ab, und Sie werden mir recht geben; er ist zuverlässig einer der wildesten ausgelassensten jungen Männer in Europa. Ruf. Ach Gott! wenn das wahr wäre, – er sollte von mir haben was er nur wünschen möchte! Carl. (öffnet ein wenig den Kasten, und ruft:)\nVa!\nRuf. (nach der Seite.) Was war das? Baroninn. Nichts. Ruf. – Ey behüte! eine Stimme wars. Baroninn.\nWarum nicht gar.\nRuf.\nJa; positiv! – und wo ich nicht irre, kam sie aus diesem Kasten. Baroninn.\nSie träumen, Herr von Ruf. Ruf. Nein, nein, nein! der Kasten ist lebendig. Baroninn.\nWas das für Zeug ist! Ruf. Was macht er denn hier? Baroninn.\nDer Kasten? Ruf. Ja, der Kasten ... Baroninn.\nNun, ich wills Ihnen wohl sagen; sie müssen mir aber versprechen, es vor meinem Mann geheim zu halten.\nRuf. So? nun, geschwind. Baroninn.\nHaben Sie nie von dem berühmten Kunstwerk gehört, der Schachmaschine? die dem stärksten Mitspieler abgewinnt?\nRuf.\nDes Herrn von Kempelen? Baroninn.\nJa. Dies ist sie. Sie ist ein Geschenk für meinen Mann. Sie kennen ihn, als einen leidenschaftlichen und starken Schachspieler, der selten einen Gegner findet, der ihm gewachsen wäre; nun will ich ihn durch dieses Kunstwerk überraschen. Ruf. Der wird teufelmäßig überrascht werden! Nicht wahr, die Maschine hat Stahlfedern? Baroninn.\n",
+    "text": "Siebenter Auftritt.\nDer alte Ruf. Vorige. Hernach Baron von innen. Baroninn.\nEy, Herr von Ruf, wer wird so spät die Damen überfallen?\nRuf. Ah – ich thue Ihnen nichts zu leid, das glauben Sie mir.\nBaroninn.\nWas suchen Sie denn? Ruf. Meinen Neffen. Baroninn.\nBey mir? Ruf. Das so eigentlich nicht. Baroninn. Wo denn?\nRuf. Bey seiner Braut, oder beym Teufel; ich weiß sonst keinen Platz mehr. Baroninn.\nWie kommen Sie auf die Idee? Ruf. Weil ich ihn seit drey Stunden überall vergebens suchte; hörte, daß er gestern und heute schon einigemal da war, – und fest ent -\nBaroninn.\nAber wie reimt sich das mit der Schilderung von heut?\nRuf. Das weiß ich selbst nicht. Baroninn.\nOb er gleich nicht hier ist; so versichere ich Ihnen doch, daß meine Meinung von ihm die richtigere ist. Ruf.\nWenn ich ihn nur nicht selbst gesprochen hätte! Baroninn.\nWarten Sie's ab, und Sie werden mir recht geben; er ist zuverlässig einer der wildesten ausgelassensten jungen Männer in Europa. Ruf. Ach Gott! wenn das wahr wäre, – er sollte von mir haben was er nur wünschen möchte! Carl. (öffnet ein wenig den Kasten, und ruft:)\nVa!\nRuf. (nach der Seite.) Was war das? Baroninn. Nichts. Ruf. – Ey behüte! eine Stimme wars. Baroninn.\nWarum nicht gar.\nRuf.\nJa; positiv! – und wo ich nicht irre, kam sie aus diesem Kasten. Baroninn.\nSie träumen, Herr von Ruf. Ruf. Nein, nein, nein! der Kasten ist lebendig. Baroninn.\nWas das für Zeug ist! Ruf. Was macht er denn hier? Baroninn.\nDer Kasten? Ruf. Ja, der Kasten ... Baroninn.\nNun, ich wills Ihnen wohl sagen; sie müssen mir aber versprechen, es vor meinem Mann geheim zu halten.\nRuf. So? nun, geschwind. Baroninn.\nHaben Sie nie von dem berühmten Kunstwerk gehört, der Schachmaschine? die dem stärksten Mitspieler abgewinnt?\nRuf.\nDes Herrn von Kempelen? Baroninn.\nJa. Dies ist sie. Sie ist ein Geschenk für meinen Mann. Sie kennen ihn, als einen leidenschaftlichen und starken Schachspieler, der selten einen Gegner findet, der ihm gewachsen wäre; nun will ich ihn durch dieses Kunstwerk überraschen. Ruf. Der wird teufelmäßig überrascht werden! Nicht wahr, die Maschine hat Stahlfedern? Baroninn.\n",
     "notes": [
-      "Die abgebrochene Wendung „und fest ent –“ bleibt als ungesicherter Wortlaut stehen. Eine Fortsetzung wird nicht ergänzt."
+      "„und fest ent“ steht auch im Druck von 1826, S. 102, als abgebrochene Rede. Keine Ergänzung erfunden."
     ],
     "edits": [
       {
@@ -6227,6 +6419,14 @@
         "readingEnd": 763,
         "before": "s ",
         "after": ""
+      },
+      {
+        "start": 835,
+        "end": 836,
+        "readingStart": 822,
+        "readingEnd": 823,
+        "before": "a",
+        "after": "ä"
       },
       {
         "start": 850,
@@ -6848,9 +7048,9 @@
   },
   "text-4-13-1": {
     "summary": "Der Graf lässt sich verunsichern und geht. Carl wirbt nun um Sophie und deutet sogar ihren Widerspruch als Zustimmung. Ruf erhebt zunächst eigene Ansprüche, gibt dann aber seinen Segen; die anderen gratulieren, während Sophies Haltung weiterhin im scherzhaften Dialog verhandelt wird.",
-    "text": "Das Gedächtniß ist fort. Seine Excellenz müssen doch am Gehirn verletzt seyn. Graf. (greift an Kopf.)\nAm Gehirn? Carl.\nIch rathe Ihnen, gehen Sie gleich nach Hause. Graf.\nNach Hause? oui! Carl.\nUnd lassen Sie sich eine Ader öffnen. Graf. Eine Ader? Carl.\nAber wohl zu merken, am Kopfe! Graf. Am Kopfe? – Bon! (ab.) Baron.\nJetzt bin ich ihn hoffentlich auf ewig los. Ich dächte, wir schieden. Carl.\nHalt! halt! ich bin noch lange nicht fertig. Sie haben meine Braut weggegeben; jetzt schaffen Sie mir auch eine andere. Baron.\nSuchen Sie selbst. Carl.\nGut; wer sucht, wird finden. (zu Sophie.) Nun, wie stehen wir zusammen? Sophie. (launig.) Schlecht! Carl.\nSchlecht? Das freut mich! das heißt: wir werden Mann und Frau. Sophie. Beileibe!\nRuf. Pst, pst! Karl! Carl.\nSie sind eine öffentlich getadelte Schriftstellerinn, an mir läßt die Stadt kein gutes Haar; passen wir nicht herrlich zusammen? Sophie. (lachend.) Von der Seite.\nCarl. Gut, also ists richtig? Sie sinds zufrieden? Sophie. (launig den Kopf schüttelnd.) Ganz und gar nicht. Carl. Versteh' schon; das heißt: herzlich gern. Da hab' ich die Braut; jetzt, Herr Vormund, sagen Sie ja. Ruf.\nHalt, Wildfang, ich thu' Einspruch! es ist mein Mädchen. Carl.\nIhr -? o gehen Sie. Ruf. Sprechen Sie selbst, Fräulein, Sophie. Wahrhaftig! der Herr von Ruf erzeigt mir die Ehre, mich anzubeten. Carl.\nDas thut nichts; das dürfen Sie als Onkel auch. Ruf.\nIch bin ihr Erklärter -\nCarl.\nBlitz! jetzt errathe ich, warum Sie – Onkel nehmen Sie sich in Acht, ich schicke Ihnen sonst wieder den Polizeybedienten von gestern Abend. Ruf. Ja, ich will Dich! – aber ich bin doch wahrlich! bis zum Sterben verliebt – Carl.\nSie habens nicht recht beobachtet; es war Onkelsliebe, zur künftigen Nichte. Komm' her, lieb' Mädchen, küß' ihn einmal. Sophie. (küßt ihn.) Carl.\nSehen Sie wohl den klaren Profit. Das haben Sie jetzt umsonst, und brauchen nicht darum unter dem Fenster zu promeniren. Ruf. Das ist das Kostbarste! aber nimms auch, und meinen Gegensegen dazu. Wendheim. Und meinen herzlichsten Glückwunsch. Julie. (küßt Sophien.) Meine Prophezeihung, liebe Freundinn!\nCarl.\n",
+    "text": "Das Gedächtniß ist fort. Seine Excellenz müssen doch am Gehirn verletzt seyn. Graf. (greift an Kopf.)\nAm Gehirn? Carl.\nIch rathe Ihnen, gehen Sie gleich nach Hause. Graf.\nNach Hause? oui! Carl.\nUnd lassen Sie sich eine Ader öffnen. Graf. Eine Ader? Carl.\nAber wohl zu merken, am Kopfe! Graf. Am Kopfe? – Bon! (ab.) Baron.\nJetzt bin ich ihn hoffentlich auf ewig los. Ich dächte, wir schieden. Carl.\nHalt! halt! ich bin noch lange nicht fertig. Sie haben meine Braut weggegeben; jetzt schaffen Sie mir auch eine andere. Baron.\nSuchen Sie selbst. Carl.\nGut; wer sucht, wird finden. (zu Sophie.) Nun, wie stehen wir zusammen? Sophie. (launig.) Schlecht! Carl.\nSchlecht? Das freut mich! das heißt: wir werden Mann und Frau. Sophie. Beileibe!\nRuf. Pst, pst! Karl! Carl.\nSie sind eine öffentlich getadelte Schriftstellerinn, an mir läßt die Stadt kein gutes Haar; passen wir nicht herrlich zusammen? Sophie. (lachend.) Von der Seite.\nCarl. Gut, also ists richtig? Sie sinds zufrieden? Sophie. (launig den Kopf schüttelnd.) Ganz und gar nicht. Carl. Versteh' schon; das heißt: herzlich gern. Da hab' ich die Braut; jetzt, Herr Vormund, sagen Sie ja. Ruf.\nHalt, Wildfang, ich thu' Einspruch! es ist mein Mädchen. Carl.\nIhr -? o gehen Sie. Ruf. Sprechen Sie selbst, Fräulein, Sophie. Wahrhaftig! der Herr von Ruf erzeigt mir die Ehre, mich anzubeten. Carl.\nDas thut nichts; das dürfen Sie als Onkel auch. Ruf.\nIch bin ihr Erklärter -\nCarl.\nBlitz! jetzt errathe ich, warum Sie – Onkel nehmen Sie sich in Acht, ich schicke Ihnen sonst wieder den Polizeybedienten von gestern Abend. Ruf. Ja, ich will Dich! – aber ich bin doch wahrlich! bis zum Sterben verliebt – Carl.\nSie habens nicht recht beobachtet; es war Onkelsliebe, zur künftigen Nichte. Komm' her, lieb' Mädchen, küß' ihn einmal. Sophie. (küßt ihn.) Carl.\nSehen Sie wohl den klaren Profit. Das haben Sie jetzt umsonst, und brauchen nicht darum unter dem Fenster zu promeniren. Ruf. Das ist das Kostbarste! aber nimms auch, und meinen Segen dazu. Wendheim. Und meinen herzlichsten Glückwunsch. Julie. (küßt Sophien.) Meine Prophezeihung, liebe Freundinn!\nCarl.\n",
     "notes": [
-      "„Gegensegen“ ist möglicherweise beschädigt, lässt sich ohne Druckvergleich aber nicht eindeutig verbessern. Die Zusammenfassung deutet Sophies Nein nicht in eine gesicherte Zustimmung um."
+      "„Gegensegen“ ist nach dem Seitenbild von 1826, S. 115, zu „Segen“ berichtigt."
     ],
     "edits": [
       {
@@ -6948,6 +7148,14 @@
         "readingEnd": 1929,
         "before": "V ",
         "after": ""
+      },
+      {
+        "start": 1997,
+        "end": 2003,
+        "readingStart": 1981,
+        "readingEnd": 1982,
+        "before": "Gegens",
+        "after": "S"
       }
     ]
   },

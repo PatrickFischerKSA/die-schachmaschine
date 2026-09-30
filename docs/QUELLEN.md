@@ -11,7 +11,7 @@ Grundlage für die historische Einordnung von Kempelens um 1770 präsentiertem A
 
 Grundlage: `Die_Schachmaschine_Transkript.docx`, vom Nutzer am 28. September 2026 bereitgestellt. Titelangabe im Dokument: *Die Schachmaschine. Lustspiel in vier Aufzügen. Aus dem Englischen frey bearbeitet von Heinrich Beck*. Rechtmäßige Auflage, Berlin 1798, Johann Friedrich Unger.
 
-Die aus den Dokumentabsätzen extrahierte Textfassung liegt unter [public/sources/beck-1798-transkript.txt](../public/sources/beck-1798-transkript.txt). Sie wird unverändert einschliesslich erkennbarer Textstörungen aufbewahrt. Die DOCX-Metadaten werden nicht veröffentlicht. Das Transkript ist die Arbeitsgrundlage; ein zusätzlicher Abgleich mit einem Faksimile des historischen Drucks wurde nicht vorgenommen. Die Angaben sind daher **am Transkript geprüft**, keine Behauptung einer textkritischen Edition.
+Die aus den Dokumentabsätzen extrahierte Textfassung liegt unter [public/sources/beck-1798-transkript.txt](../public/sources/beck-1798-transkript.txt). Sie wird unverändert einschliesslich erkennbarer Textstörungen aufbewahrt. Die DOCX-Metadaten werden nicht veröffentlicht. Das Transkript bleibt die Arbeitsgrundlage. Alle 79 Abschnitte wurden am 30.09.2026 OCR-gestützt mit dem Wiener Druck von 1826 verglichen; 49 Digitalisatseiten einschliesslich Titel wurden gezielt visuell geprüft. Dies ist keine vollständige diplomatische Kollation und kein Abgleich mit dem Berliner Druck von 1798. Siehe [Druckvergleich](../public/sources/beck-1826-abgleich.md).
 
 ### Fundstellen und Konsequenzen für die Installation
 
